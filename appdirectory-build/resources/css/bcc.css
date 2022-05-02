@@ -901,7 +901,7 @@ button#gotomapview_button>span {
 }
 
 button#gotomapview_button>img {
-    width: 70px;
+    width: 100px;
 }
 
 #settings_button:hover {
