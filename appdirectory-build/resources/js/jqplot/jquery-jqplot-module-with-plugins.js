@@ -1,0 +1,1 @@
+define("jqplot-with-modules",["jquery","jqplot-plugins/jqplot.canvasOverlay","jqplot-plugins/jqplot.selection","jqplot/plugins/jqplot.dateAxisRenderer","jqplot/plugins/jqplot.enhancedLegendRenderer","jqplot/plugins/jqplot.highlighter","jqplot/plugins/jqplot.barRenderer","jqplot/plugins/jqplot.cursor"],function(l){return l.jqplot});
