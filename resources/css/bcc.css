@@ -312,6 +312,8 @@ select#addCountrySelect option:first-child{
 }
 
 fieldset#generateCountriesSelect {
+	background-color: red;
+	background: red;
     max-width: 40em;
 }
 
