@@ -6,7 +6,7 @@ body {
     min-width: 1200px;
     /*background: #BCDFF6;*/
     background: #73b2df;
-    /*background: linear-gradient(180deg, #BCDFF6 0%, #FFFFFF 100%) no-repeat;*/
+    /*background: linear-gradient(180deg, #BCDFF6 0%, red 100%) no-repeat;*/
 
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 0.8em;
@@ -32,13 +32,13 @@ header, div.header, section, div.section, footer, div.footer, nav, div.nav, arti
     font-family: "open_sansregular",Arial,sans-serif;
     font-size: 3.0em;
     /*color: #58595B;*/
-    color: #293241;
+    color: red;
     font-weight: bold;
 }
 
 .tile {
-    background-color: #FFFFFF;
-    box-shadow: 5px 5px 5px #00000029;
+    background-color: red;
+    box-shadow: 5px 5px 5px red;
     border-radius: 0px;
 }
 
@@ -56,7 +56,7 @@ ul#navlist {
 }
 
 #navlist li {
-    box-shadow: 5px 5px 5px #00000029;
+    box-shadow: 5px 5px 5px red;
     border-radius: 0px;
     display: inline-block;
 
@@ -93,7 +93,7 @@ ul#navlist {
     font-family: "open_sansregular",Arial,sans-serif;
     font-weight: bold;
     font-size: 1.5em;
-    color: #5d5e68;
+    color: red;
     border: none;
     background: red;
     position: absolute;
@@ -177,7 +177,7 @@ ul#navlist {
     font-family: "open_sansregular",Arial,sans-serif;
     font-weight: bold;
     font-size: 1.5em;
-    color: #5d5e68;
+    color: red;
     border: none;
     background: red;
     position: absolute;
@@ -198,6 +198,7 @@ select#addCountrySelect option:first-child{
 }
 
 #countriesChartContainer .timerPlayer {
+	background: red
     text-align: center;
 }
 
@@ -280,7 +281,7 @@ select#addCountrySelect option:first-child{
     box-sizing: content-box;
     -moz-box-sizing: content-box;
     border-radius: 0px;
-    border: 1px solid #5d5e68;
+    border: 1px solid red;
 }
 
 .c3-target.c3-focused path.c3-line {
@@ -293,12 +294,12 @@ select#addCountrySelect option:first-child{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #FFFFFF;
+    background-color: red;
     border-radius: 0px;
-    box-shadow: 5px 5px 5px #00000029;
+    box-shadow: 5px 5px 5px red;
     font-weight: bold;
     font-size: 1.3em;
-    color: #5d5e68;
+    color: red;
     z-index: 1000;
     text-align: left;
     /*width: 55%;*/
@@ -306,7 +307,7 @@ select#addCountrySelect option:first-child{
 
 .hiddenPanel h2 {
     margin: 0.5em 0;
-    color: #5d5e68;
+    color: red;
     font-weight: bold;
 }
 
@@ -363,7 +364,7 @@ button.hiddenPanel_bottomButton {
     font-size: 0.9em;
     margin: 20px;
     padding: 5px 10px;
-    border: solid 1px #5d5e68;
+    border: solid 1px red;
     border-radius: 0px;
     min-width: 90px;
 }
@@ -509,7 +510,7 @@ div#timeSlider {
 
 .bottomDiv {
     margin: 30px 0;
-    color: #ffffff;
+    color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -525,7 +526,7 @@ article#countriesChartContainer, .bottomDiv,#upperDiv, #topDiv {
 }
 
 .playerControl + .selected {
-    /*background-color: #FFFFFF !important;*/
+    /*background-color: red !important;*/
     /*background-color: #EE4E23 !important;*/
     border-radius: 0px;
 }
@@ -535,7 +536,7 @@ div#timeSlider {
 }
 
 h2#countrieschart_title {
-    color: #5d5e68;
+    color: red;
     margin-left: 15px;
     margin-bottom: 5px;
     margin-top: 10px;
@@ -543,7 +544,7 @@ h2#countrieschart_title {
 }
 
 #countrieschart_paragraph {
-    color: #5d5e68;
+    color: red;
     font-size: 15px;
     font-weight: bold;
     margin-left: 15px;
@@ -555,7 +556,7 @@ h2#countrieschart_title {
     font-size: 0.9em;
     margin: 5px;
     max-width: 100px;
-    border: solid 1px #5d5e68;
+    border: solid 1px red;
     text-align: center;
     margin-top: 20px;
     box-sizing: border-box;
@@ -563,7 +564,7 @@ h2#countrieschart_title {
 }
 
 .month-picker-month-table .ui-state-hover, .month-picker-month-table .ui-state-focus, .month-picker-month-table .ui-state-active {
-    background: #FFFFFF!important;
+    background: red!important;
 }
 
 #navlist .country thead select, #addCountrySelector select#addCountrySelect,#addCountryIcon select#addCountrySelectButton {
@@ -593,7 +594,7 @@ li#addCountry {
 
 .hover-highlight:hover {
 
-    /*background: #FFFFFF;*/
+    /*background: red;*/
     background: #EE4E23;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -605,7 +606,7 @@ button.settings {
     font-weight: bold;
     font-size: 1.5em;
     /*color: #5D5E66;*/
-    color: #FFFFFF;
+    color: red;
     cursor: pointer;
     border: none;
     background: none;
@@ -646,7 +647,7 @@ button.settings {
 #countriesChart {
     margin-right: 10px;
     border-bottom: solid 2px #AAAAAA;
-    background-color: #FFFFFF;
+    background-color: red;
 }
 
 #countriesChart.c3 svg{
@@ -681,9 +682,9 @@ div#upperDiv .upperDetails {
 
 
 .violet_tile, #bccMap .ui-widget-header.month-picker-header.ui-corner-all {
-    background: #FFFFFF;
+    background: red;
     border: none;
-    box-shadow: 5px 5px 5px #00000029;
+    box-shadow: 5px 5px 5px red;
     border-radius: 0px;
 }
 
@@ -747,7 +748,7 @@ button#gotobccview_button {
 button#gotobccview_button>span {
     font-weight: bold;
     font-size: 1.1em;
-    color: #FFFFFF;
+    color: red;
     cursor: pointer;
 }
 
@@ -881,7 +882,7 @@ a.lng_changer>span {
 
 div.ui-tooltip {
     background-color: transparent;
-    /*box-shadow: 5px 5px 5px #00000029;*/
+    /*box-shadow: 5px 5px 5px red;*/
     box-shadow: none;
     /*border-radius: 10px;*/
     border:none
@@ -889,7 +890,7 @@ div.ui-tooltip {
 
 .lang_tooltip{
     background-color: transparent;
-    box-shadow: 5px 5px 5px #00000029;
+    box-shadow: 5px 5px 5px red;
     border-radius: 0px;
 }
 
@@ -918,7 +919,7 @@ button#gotomapview_button>img {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: space-between;
-    border: 2px solid #FFFFFF;
+    border: 2px solid red;
     border-radius: 0px;
     padding: 7px 10px;
     align-items: center;
@@ -942,7 +943,7 @@ button#gotomapview_button>img {
     left: 266px;
     z-index: 10;
     min-width: 230px;
-    background-color: #ffffff;
+    background-color: red;
     color:#5D5e66;
     font-size: 1.5em;
 }
