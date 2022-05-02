@@ -6,7 +6,7 @@ body {
     min-width: 1200px;
     /*background: #BCDFF6;*/
     background: blue;
-    /*background: linear-gradient(180deg, #BCDFF6 0%, red 100%) no-repeat;*/
+    /*background: linear-gradient(180deg, #BCDFF6 0%, green 100%) no-repeat;*/
 
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 0.8em;
@@ -19,12 +19,12 @@ body {
 header, div.header, section, div.section, footer, div.footer, nav, div.nav, article, div.article {
     margin: 2px;
     padding: 2px;
-	background: red;
+	background: green;
 }
 
 #logoEurostat {
     margin-left: 30px;
-	background: red;
+	background: green;
 }
 #logoEurostat img {
     width: 220px;
@@ -35,13 +35,13 @@ header, div.header, section, div.section, footer, div.footer, nav, div.nav, arti
     font-family: "open_sansregular",Arial,sans-serif;
     font-size: 3.0em;
     /*color: #58595B;*/
-    color: red;
+    color: green;
     font-weight: bold;
 }
 
 .tile {
-    background-color: red;
-    box-shadow: 5px 5px 5px red;
+    background-color: green;
+    box-shadow: 5px 5px 5px green;
     border-radius: 0px;
 }
 
@@ -50,18 +50,18 @@ nav#clocks {
     max-width: 100%;
     padding: 0;
     margin: 0;
-	background: red;
+	background: green;
 }
 
 ul#navlist {
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
-	background: red;
+	background: green;
 }
 
 #navlist li {
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px green;
     border-radius: 0px;
     display: inline-block;
 
@@ -69,11 +69,11 @@ ul#navlist {
     margin-right: 15px;
     margin-bottom: 15px;
     text-align: right;
-	background: red;
+	background: green;
 }
 
 #navlist .country {
-	background-color: red;
+	background-color: green;
     width: 240px;
     height: 300px;
     padding: 0;
@@ -82,13 +82,13 @@ ul#navlist {
 
 
 #navlist .country table {
-	background-color: red;
+	background-color: green;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-    background-color: red;
+    background-color: green;
     border-radius: 10px;
     height: 25px;
     padding: 2px;
@@ -100,9 +100,9 @@ ul#navlist {
     font-family: "open_sansregular",Arial,sans-serif;
     font-weight: bold;
     font-size: 1.5em;
-    color: red;
+    color: green;
     border: none;
-    background: red;
+    background: green;
     position: absolute;
     left: 5%;
     top: 2px;
@@ -113,7 +113,7 @@ ul#navlist {
     position: absolute;
     right: 3px;
     top: 3px;
-	background: red;
+	background: green;
 }
 
 #asideClock {
@@ -127,24 +127,24 @@ ul#navlist {
     font-weight: bold;
     font-size: 1.3em;
     color: #58595B;
-	background: red;
+	background: green;
 }
 
 /*.c3-region.crise1 {fill: #572699;}*/
 /*.c3-region.crise2 {fill: #26008E;}*/
 
 
-.c3-region.crise1 {fill: red;}
-.c3-region.crise2>rect,.c3-region.crise1>rect {fill: red !important;}
-.c3-region.crise2 {fill: red;}
+.c3-region.crise1 {fill: green;}
+.c3-region.crise2>rect,.c3-region.crise1>rect {fill: green !important;}
+.c3-region.crise2 {fill: green;}
 
 #navlist {
     display: inline-block;
-	background: red;
+	background: green;
 }
 
 #addCountrySelector {
-    background-color: red;
+    background-color: green;
     border-radius: 0px 0px 0px 0px;
     height: 27px;
     padding: 2px;
@@ -157,13 +157,13 @@ ul#navlist {
     height: 270px;
     margin-top: 0px;
     position: relative;
-	background: red;
+	background: green;
 }
 
 #verticalIconLine {
     margin: 0;
     padding: 0;
-    background: red;
+    background: green;
     border-radius: 0px;
     width: 90%;
     height: 20%;
@@ -175,7 +175,7 @@ ul#navlist {
 #horizontalIconLine {
     margin: 0;
     padding: 0;
-    background: red;
+    background: green;
     border-radius: 0px;
     width: 20%;
     height: 90%;
@@ -188,9 +188,9 @@ ul#navlist {
     font-family: "open_sansregular",Arial,sans-serif;
     font-weight: bold;
     font-size: 1.5em;
-    color: red;
+    color: green;
     border: none;
-    background: red;
+    background: green;
     position: absolute;
     left: 5%;
     top: 0px;
@@ -200,7 +200,7 @@ ul#navlist {
 
 select#addCountrySelect option:first-child{
     display:none;
-	background: red;
+	background: green;
 }
 
 .timerPlayer img {
@@ -210,7 +210,7 @@ select#addCountrySelect option:first-child{
 }
 
 #countriesChartContainer .timerPlayer {
-	background: red
+	background: green
     text-align: center;
 }
 
@@ -218,20 +218,20 @@ select#addCountrySelect option:first-child{
     font-family: "open_sansregular",Arial,sans-serif;
     font-weight: bold;
     font-size: 1.3em;
-    background: red;
+    background: green;
 }
 
 .currentDate {
     position: relative;
     top: 10px;
-	background: red;
+	background: green;
 }
 
 #currentDate, #currentQuarter {
     font-size: 2em;
     display: inline-block;
     vertical-align: middle;
-	background: red;
+	background: green;
 }
 
 #currentQuarter {
@@ -240,17 +240,17 @@ select#addCountrySelect option:first-child{
     white-space: pre;
     flex-direction: row !important;
     justify-content: flex-start !important;
-	background: red;
+	background: green;
 }
 
 .oneClock {
     text-align: center;
-	background: red;
+	background: green;
 }
 
 #navlist li {
     vertical-align: top;
-	background: red;
+	background: green;
 }
 
 .selectable.selected, .violet input:hover, .violet input:focus, .violet button:hover, .violet button:focus {
@@ -259,7 +259,7 @@ select#addCountrySelect option:first-child{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-	background: red;
+	background: green;
 }
 
 .country.hover-highlight, .country.selectable, #addCountry.hover-highlight, #addCountry.selectable {
@@ -272,7 +272,7 @@ select#addCountrySelect option:first-child{
     box-sizing: content-box;
     -moz-box-sizing: content-box;
     border-radius: 0px;
-	background: red;
+	background: green;
 }
 
 .country.hover-highlight:hover,#addCountry.hover-highlight:hover {
@@ -300,7 +300,7 @@ select#addCountrySelect option:first-child{
     box-sizing: content-box;
     -moz-box-sizing: content-box;
     border-radius: 0px;
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
 .c3-target.c3-focused path.c3-line {
@@ -313,12 +313,12 @@ select#addCountrySelect option:first-child{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: red;
+    background-color: green;
     border-radius: 0px;
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px green;
     font-weight: bold;
     font-size: 1.3em;
-    color: red;
+    color: green;
     z-index: 1000;
     text-align: left;
     /*width: 55%;*/
@@ -326,14 +326,14 @@ select#addCountrySelect option:first-child{
 
 .hiddenPanel h2 {
     margin: 0.5em 0;
-    color: red;
+    color: green;
     font-weight: bold;
-	background: red;
+	background: green;
 }
 
 fieldset#generateCountriesSelect {
-	background-color: red;
-	background: red;
+	background-color: green;
+	background: green;
     max-width: 40em;
 }
 
@@ -352,34 +352,34 @@ fieldset#generateCountriesSelect {
 }
 
 legend#generateCountriesSelectLegend {
-    background: red;
+    background: green;
 }
 
 div#genRCS, #genRange_select_label, #genCustomeRange_selection, #genClockTimeSelect {
     margin: 20px;
-	background: red;
+	background: green;
 }
 
 input#genClockTimeSelect_month_picker {
     margin: 20px;
-	background: red;
+	background: green;
 }
 
 #genRangeselect {
     margin-left: 20px;
-	background: red;
+	background: green;
 }
 
 span.genCSelect {
     margin: 10px;
     font-size: 1.1em;
-	background: red;
+	background: green;
 }
 
 .hiddenPanel select {
     margin: 20px;
     font-size: 1.2em;
-	background: red;
+	background: green;
 }
 
 button#okReportButton, #generate_succes_msg {
