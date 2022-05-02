@@ -67,6 +67,7 @@ ul#navlist {
 }
 
 #navlist .country {
+	background-color: red;
     width: 240px;
     height: 300px;
     padding: 0;
@@ -74,12 +75,13 @@ ul#navlist {
 }
 
 #navlist .country table {
+	background-color: red;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-    background-color: #EAEAEA;
+    background-color: red;
     border-radius: 10px;
     height: 25px;
     padding: 2px;
@@ -93,7 +95,7 @@ ul#navlist {
     font-size: 1.5em;
     color: #5d5e68;
     border: none;
-    background: #EAEAEA;;
+    background: red;
     position: absolute;
     left: 5%;
     top: 2px;
@@ -132,7 +134,7 @@ ul#navlist {
 }
 
 #addCountrySelector {
-    background-color: #EAEAEA;
+    background-color: red;
     border-radius: 0px 0px 0px 0px;
     height: 27px;
     padding: 2px;
@@ -177,7 +179,7 @@ ul#navlist {
     font-size: 1.5em;
     color: #5d5e68;
     border: none;
-    background: #EAEAEA;
+    background: red;
     position: absolute;
     left: 5%;
     top: 0px;
@@ -246,7 +248,7 @@ select#addCountrySelect option:first-child{
     transition: top 0.2s, box-shadow 0.2s;
     top: 0px;
     border: none;
-    background: #F1F2F2;
+    background: yellow;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -259,7 +261,7 @@ select#addCountrySelect option:first-child{
     box-shadow: 5px 4px 3px 0px rgb(72, 69, 69) !important;
 */
     border: none;
-    background: #FFFFFF;
+    background: yellow;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -273,7 +275,7 @@ select#addCountrySelect option:first-child{
         top: 4px !important;
     */
     border: none;
-    background: #FFFFFF;
+    background: yellow;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -565,7 +567,7 @@ h2#countrieschart_title {
 }
 
 #navlist .country thead select, #addCountrySelector select#addCountrySelect,#addCountryIcon select#addCountrySelectButton {
-    color: #000000;
+    color: yellow;
 }
 
 aside#asideClock {
@@ -580,12 +582,12 @@ nav#clocks {
 }
 
 li .country {
-    background: #FFF;
+    background: yellow;
     border-radius: 0px;
 }
 
 li#addCountry {
-    background: #FFF;
+    background: yellow;
     border-radius: 0px;
 }
 
@@ -886,7 +888,7 @@ div.ui-tooltip {
 }
 
 .lang_tooltip{
-    background-color: blue;
+    background-color: transparent;
     box-shadow: 5px 5px 5px #00000029;
     border-radius: 0px;
 }
