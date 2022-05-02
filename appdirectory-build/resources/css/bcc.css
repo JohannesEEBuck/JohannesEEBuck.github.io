@@ -1,0 +1,1042 @@
+html{
+    height: 100%;
+}
+body {
+    min-width: 1200px;
+    
+    background: #73b2df;
+    
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+header, div.header, section, div.section, footer, div.footer, nav, div.nav, article, div.article {
+    margin: 2px;
+    padding: 2px;
+}
+#logoEurostat {
+    margin-left: 30px;
+}
+#logoEurostat img {
+    width: 220px;
+}
+#title h1 {
+    margin: 0px;
+    font-family: "open_sansregular",Arial,sans-serif;
+    font-size: 3.0em;
+    
+    color: #293241;
+    font-weight: bold;
+}
+.tile {
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px #00000029;
+    border-radius: 10px;
+}
+nav#clocks {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+ul#navlist {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#navlist li {
+    box-shadow: 5px 5px 5px #00000029;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+#navlist .country {
+    width: 240px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+#navlist .country table {
+    padding: 0;
+    margin: 0;
+}
+#navlist .country th {
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    height: 25px;
+    padding: 2px;
+    margin: 2px;
+    position: relative;
+}
+#navlist .country thead select {
+    font-family: "open_sansregular",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #5d5e68;
+    border: none;
+    background: #EAEAEA;;
+    position: absolute;
+    left: 5%;
+    top: 2px;
+}
+#navlist .country thead img {
+    width: 20px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+#asideClock {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "open_sansregular",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #58595B;
+}
+.c3-region.crise1 {fill: #DCE9F5;}
+.c3-region.crise2>rect,.c3-region.crise1>rect {fill-opacity: 1.0!important;}
+.c3-region.crise2 {fill: #C7E0F1;}
+#navlist {
+    display: inline-block;
+}
+#addCountrySelector {
+    background-color: #EAEAEA;
+    border-radius: 10px 10px 0px 0px;
+    height: 27px;
+    padding: 2px;
+    margin-bottom: 0px;
+    position: relative;
+}
+#addCountryIcon {
+    width: 240px;
+    height: 270px;
+    margin-top: 0px;
+    position: relative;
+}
+#verticalIconLine {
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+#horizontalIconLine {
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+#addCountrySelector select#addCountrySelect, #addCountryIcon select#addCountrySelectButton {
+    font-family: "open_sansregular",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #5d5e68;
+    border: none;
+    background: #EAEAEA;
+    position: absolute;
+    left: 5%;
+    top: 0px;
+    margin-top: 5px;
+    z-index: 1;
+}
+select#addCountrySelect option:first-child{
+    display:none;
+}
+.timerPlayer img {
+    width: 35px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+#countriesChartContainer .timerPlayer {
+    text-align: center;
+}
+#currentDate, .currentDate, #currentQuarter, .currentQuarter {
+    font-family: "open_sansregular",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #58595B;
+}
+.currentDate {
+    position: relative;
+    top: 10px;
+}
+#currentDate, #currentQuarter {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+#currentQuarter {
+    position: absolute;
+    left: 45%;
+    white-space: pre;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+}
+.oneClock {
+    text-align: center;
+}
+#navlist li {
+    vertical-align: top;
+}
+.selectable.selected, .violet input:hover, .violet input:focus, .violet button:hover, .violet button:focus {
+    box-shadow: none!important;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.country.hover-highlight, .country.selectable, #addCountry.hover-highlight, #addCountry.selectable {
+    position: relative;
+    transition: top 0.2s, box-shadow 0.2s;
+    top: 0px;
+    border: none;
+    background: #F1F2F2;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    border-radius: 10px;
+}
+.country.hover-highlight:hover,#addCountry.hover-highlight:hover {
+    border: none;
+    background: #FFFFFF;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.country.selectable.selected, #addCountry.selectable.selected {
+    
+    border: none;
+    background: #FFFFFF;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    border-radius: 10px;
+    border: 1px solid #5d5e68;
+}
+.c3-target.c3-focused path.c3-line {
+    stroke-width: 3px;
+}
+.hiddenPanel {
+    position: fixed;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #00000029;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #5d5e68;
+    z-index: 1000;
+    text-align: left;
+    
+}
+.hiddenPanel h2 {
+    margin: 0.5em 0;
+    color: #5d5e68;
+    font-weight: bold;
+}
+fieldset#generateCountriesSelect {
+    max-width: 40em;
+}
+#actions a.language-en, a.language-en {
+    background-image: url(../img/EN.png);
+}
+#actions a.language-fr, a.language-fr {
+    background-image: url(../img/FR.png);
+}
+#actions a.language-de, a.language-de {
+    background-image: url(../img/DE.png);
+}
+legend#generateCountriesSelectLegend {
+    background-color: white;
+}
+div#genRCS, #genRange_select_label, #genCustomeRange_selection, #genClockTimeSelect {
+    margin: 20px;
+}
+input#genClockTimeSelect_month_picker {
+    margin: 20px;
+}
+#genRangeselect {
+    margin-left: 20px;
+}
+span.genCSelect {
+    margin: 10px;
+    font-size: 1.1em;
+}
+.hiddenPanel select {
+    margin: 20px;
+    font-size: 1.2em;
+}
+button#okReportButton, #generate_succes_msg {
+    display: none;
+}
+button.hiddenPanel_bottomButton {
+    float: right;
+    font-size: 0.9em;
+    margin: 20px;
+    padding: 5px 10px;
+    border: solid 1px #5d5e68;
+    border-radius: 15px;
+    min-width: 90px;
+}
+.on_loading{
+    display: none;
+}
+.on_script_load{
+    display: none;
+}
+div#loading {text-align: center;}
+div#noJS {
+    text-align: center;
+}
+span#noJs_msg {
+    display: inline-block;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgb(165, 153, 153);
+    background-color: #EAEAEA;
+    padding: 10px;
+    border: solid 2px orange;
+    font-size: 1.5em;
+    margin: 20px;
+}
+span#noJs_msg div.localize_msg {
+    margin: 20px;
+}
+.horizontal_line {
+    position: relative;
+    border-top: solid 2px grey;
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+div#generate_succes_msg {
+    margin: 30px;
+}
+footer .footer_content {
+    display: inline-block;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#actions a, a.lng_changer {
+    width: 60px;
+    display: inline-block;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px;
+    cursor: pointer;
+}
+#actions a.embed {
+    background-image: url(../img/embed.png);
+}
+#actions a.info {
+    background-image: url(../img/info.png);
+}
+#actions a.settings {
+    background-image: url(../img/settings.png);
+}
+#actions a.get_report {
+    background-image: url(../img/pdf.png);
+}
+#actions a.share {
+    background-image: url(../img/share/icon-share.png);
+}
+#actions a.lng_change, a.lng_changer {
+    text-decoration: none;
+}
+a#googleplus img,a#twitter img,a#facebook img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+}
+#actions a.lng_change>span, a.lng_changer>span {
+    display: block;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.7em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #FFF;
+}
+#actions {
+    display: inline-block;
+}
+#actions>a {
+    float: left;
+}
+header#title {
+    display: flex;
+    align-items: center;
+}
+.timerPlayer .playerControl.extended {
+    display: none;
+}
+#timeSlider span.ui-slider-handle.ui-state-default.ui-corner-all {
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 10px 0 10px;
+    border-color: #F26522 transparent transparent transparent;
+}
+div#timeSlider {
+    margin-left: 86px;
+    margin-right: 28px;
+    position: relative;
+    top: -54px;
+    height: 2px;
+}
+.bottomDiv {
+    margin: 30px 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article#countriesChartContainer, .bottomDiv,#upperDiv, #topDiv {
+    text-align: left;
+    padding: 1px;
+}
+.playerControl {
+    cursor: pointer;
+}
+.playerControl + .selected {
+    
+    
+    border-radius: 20px;
+}
+div#timeSlider {
+    cursor: pointer;
+}
+h2#countrieschart_title {
+    color: #5d5e68;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#countrieschart_paragraph {
+    color: #5d5e68;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+#customeRange_selection input {
+    font-size: 0.9em;
+    margin: 5px;
+    max-width: 100px;
+    border: solid 1px #5d5e68;
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.month-picker-month-table .ui-state-hover, .month-picker-month-table .ui-state-focus, .month-picker-month-table .ui-state-active {
+    background: #FFFFFF!important;
+}
+#navlist .country thead select, #addCountrySelector select#addCountrySelect,#addCountryIcon select#addCountrySelectButton {
+    color: #000000;
+}
+aside#asideClock {
+    border-radius: 5px;
+    box-shadow: none;
+}
+nav#clocks {
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: none;
+}
+li .country {
+    background: #FFF;
+    border-radius: 10px;
+}
+li#addCountry {
+    background: #FFF;
+    border-radius: 10px;
+}
+.hover-highlight:hover {
+    
+    background: #EE4E23;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+button.settings {
+    font-family: "open_sansregular",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.violet #currentDate {
+    color: #000000;
+}
+.violet select, .violet button, .violet input {
+    background-color: #C7C7F1;
+    border-radius: 4px;
+    border: solid 1px #FFF;
+}
+.violet .hiddenPanel {
+    box-shadow: none!important;
+    border: 1px solid #999;
+}
+.violet .hiddenPanel h2 {
+    color: #000000;
+}
+.ui-widget-header.month-picker-header.ui-corner-all {
+    
+    border: none;
+}
+.month-picker.ui-widget {
+}
+.c3 svg .tick text {
+    font: 1.5em sans-serif;
+}
+#countriesChart {
+    margin-right: 10px;
+    border-bottom: solid 2px #AAAAAA;
+    background-color: #FFFFFF;
+}
+#countriesChart.c3 svg{
+    overflow: visible!important;
+}
+#seemap_link img {
+    max-width: 90%;
+    max-height: 180px;
+}
+div#upperDiv {
+    padding: 20px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+div#upperDiv .upperDetails {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.settingsIcon {
+    width: 80px;
+}
+.violet_tile, #bccMap .ui-widget-header.month-picker-header.ui-corner-all {
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 5px 5px 5px #00000029;
+    border-radius: 10px;
+}
+#main_content .alt_view {
+    position: absolute;
+    width: 100%;
+}
+#main_content {
+    position: relative;
+}
+#main_content #bcc_view {
+    min-height: 827px;
+}
+.tool-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+button#gotomapview_button {
+    font-family: "open_sansregular",Arial,sans-serif;
+    margin-left: 20px;
+    min-width: 195px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    padding: 5px 15px;
+}
+button#gotobccview_button {
+    font-family: "open_sansregular",Arial,sans-serif;
+    margin-left: 20px;
+    min-width: 195px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    padding: 5px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+button#gotobccview_button>span {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+button#gotobccview_button img {
+    width: 70px;
+}
+div#color_chart_legends {
+    display: inline-block;
+    float: left;
+    font-family: "open_sansregular",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #5d5e66;
+    margin-left: 20px;
+    line-height: 18px;
+    text-align: left;
+}
+#color_chart_legends .legend_color {
+    width: 35px;
+    height: 17px;
+    border: none;
+    margin: 0;
+}
+section#playerClock .next_quarter {
+    width: 40px;
+    height: auto;
+}
+section#playerClock .previous_quarter{
+    width: 40px;
+    height: auto;
+}
+.playerControl.pause {
+    background-image: url(../img/button_black_pause.png);
+    background-size: 43px !important;
+    background-repeat: no-repeat;
+    
+    width: 43px;
+    height: 43px;
+    margin: 0 5px;
+}
+.pause.selected, .pause:hover {
+    background-image: url(../img/button_black_pause_red.png) !important;
+}
+.playerControl.play {
+    background-image: url(../img/button_black_play.png);
+    background-size: 43px !important;
+    background-repeat: no-repeat;
+    
+    width: 43px;
+    height: 43px;
+    margin: 0 5px;
+}
+.play.selected, .play:hover{
+    background-image: url(../img/button_black_play_red.png) !important;
+}
+section#playerClock {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+#chart_details {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#chart_details .chart_first_child > div {
+    
+}
+#chart_details .chart_last_child {
+    margin-top: 60px;
+    justify-content: flex-end;
+}
+#chart_details .chart_first_child {
+    
+}
+#chart_details .help_button {
+    position: relative;
+    
+}
+#chart_details div {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+#color_chart_legends .slowdown .legend_color {
+    background-color: #DCE9F5;
+}
+#color_chart_legends .recession .legend_color {
+    background-color: #C7E0F1;
+}
+a.lng_changer>span {
+    font-size: 1.5em;
+    margin-left: 0.2em;
+    margin-top: 0.5em;
+}
+div.ui-tooltip {
+    background-color: transparent;
+    
+    box-shadow: none;
+    
+    border:none
+}
+.lang_tooltip{
+    background-color: white;
+    box-shadow: 5px 5px 5px #00000029;
+    border-radius: 10px;
+}
+button#gotomapview_button>span {
+    display: inline-block;
+    margin-left: 10px;
+}
+.policy-separator {
+    margin: 0 20px;
+}
+button#gotomapview_button>img {
+    width: 70px;
+}
+#settings_button:hover {
+    background-color: #EE4E23;
+}
+#settings_button {
+    
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 7px 10px;
+    align-items: center;
+}
+#settings_button img {
+    width: 25px;
+    vertical-align: middle;
+    margin: 0 12px 0 5px;
+}
+#settings_button #range_select {
+    position: absolute;
+    display: none;
+}
+#range_select {
+    display: block;
+    position: absolute;
+    top: 153px;
+    left: 266px;
+    z-index: 10;
+    min-width: 230px;
+    background-color: #ffffff;
+    color:#5D5e66;
+    font-size: 1.5em;
+}
+#range_select div {
+    padding: 0 15px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+#range_select div.selected {
+    font-weight: bold;
+}
+#range_select div:before {
+    content: "◦";
+    font-size: 30px;
+    padding-right: 10px;
+}
+#range_select div.selected:before {
+    content: "•" !important;
+}
+div#helpPie {
+    display: inline-block;
+    background: white;
+    border-radius: 10px;
+    font-size: 1.25em;
+    white-space: nowrap;
+    padding: 5px 5px 5px 50px;
+    height: 352px;
+}
+#helpPie .c3-chart-arc text {
+    font-size: 20px;
+}
+.middleDiv>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.upperLabel, .bottomLabel {
+    text-align: center;
+}
+.leftLabel {
+}
+.middleDiv {
+    vertical-align: middle;
+    text-align: justify;
+}
+div#pie {
+    width: 300px;
+    height: 300px;
+}
+.leftbottomLabel {
+    left: 20px;
+}
+.inClockmiddleleftLabel, .inClockmiddlerightLabel {
+    position: absolute;
+}
+.rightbottomLabel {
+    right: 20px;
+}
+.leftbottomLabel, .rightbottomLabel {
+    position: absolute;
+    bottom: 20px;
+}
+.midlemidleDiv {
+    position: relative;
+}
+.inclockLabelsDiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    font-size: 0.65em;
+}
+.inClocktopDiv {
+    height: 50%;
+}
+.inClocktopleftLabel, .inClocktoprightLabel {
+    bottom: 50%;
+    position: absolute;
+    padding-bottom: 30px;
+}
+.inClocktoprightLabel {
+    left: 50%;
+    padding-left: 5px;
+}
+.inclockLabelsDiv .inclockLabel>span {
+    display: inline-block;
+    background: rgba(228, 228, 228, 0.78);;
+    border-radius: 10px;
+    padding: 3px;
+}
+.inClocktopleftLabel {
+    text-align: right;
+    padding-right: 5px;
+    right: 50%;
+}
+.inClockmiddleleftLabel {
+    left: 50%;
+    padding-left: 25px;
+}
+.inClockmiddlerightLabel {
+    text-align: right;
+    right: 50%;
+    padding-right: 25px;
+}
+.inClockmiddleDiv {
+    height: 25%;
+}
+.inClockbottomDiv {
+    height: 25%;
+}
+.inClockbottomleftLabel, .inClockbottomrightLabel {
+    position: absolute;
+    top: 68%;
+}
+.inClockbottomrightLabel {
+    left: 50%;
+    padding-left: 2px;
+}
+.inClockbottomleftLabel {
+    text-align: right;
+    padding-right: 2px;
+    right: 50%;
+}
+.c3-tooltip td.name {
+    white-space: nowrap;
+}
+.c3-tooltip td.value {
+    font-size: 0.6em;
+    text-align: justify;
+    white-space: normal;
+}
+#pie table.c3-tooltip {
+    min-width: 450px;
+    opacity: 0.95;
+}
+.pointlabel {
+    font-family: Georgia, serif;
+}
+#helpPie>h2 {
+    font-size: 1em;
+    margin: 0;
+    padding: 2px;
+    background: #EAEAEA;
+    text-align: center;
+    border-radius: 10px;
+}
+.inclockLabel>span{
+    border: solid 1px #6D6D70;
+}
+.help_button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    background: url(../img/help_icon.png);
+    background-size: contain;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+#help_tp, #helpPie {
+    display: inline-block;
+    vertical-align: middle;
+}
+div#help_tp {
+    max-width: 430px;
+}
+section#clockHelpPanel {
+    min-width: 800px;
+    max-width: 90px;
+}
+label#genFrom_month_picker_label {
+    margin: 20px;
+}
+div#genCustomeRange_selection_info {
+    margin-bottom: 20px;
+}
+#helperContent {
+    display: flex;
+}
+button, .ui-button, .month-picker-year-table .ui-button {
+    border: none;
+    cursor: pointer;
+}
+section#docClock>div {
+    display: block;
+}
+section#docClock h1 {
+    font-size: 1.1em;
+}
+.c3-grid line {
+    stroke: #868383;
+}
+.c3-grid text {
+    fill: #868383;
+}
+textarea#embedCopyCode {
+    width: 400px;
+    height: 60px;
+    resize: none;
+    margin: 10px;
+    border: solid black 1px;
+    background: #f3f3f3;
+}
+section#generatePanel {
+    max-height: 90%;
+    overflow: auto;
+}
+.month-year-input {
+    border: solid 1px #969696;
+    padding: 2px;
+    font-size: 0.9em;
+    max-width: 80px;
+    text-align: center;
+}
+section#settingsPanel {
+    min-width: 300px;
+}
+section#embedPanel {
+    max-width: 600px;
+}
+.c3-axis-y .tick {
+    font-size: 8px;
+}
+#chartHelpPanelDetails{
+    font-weight: normal;
+}
+#chartTurningPoints {
+    margin: 30px 0 5px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.chartInfoText {
+    margin: 0 0 10px 0;
+}
+#docClock.animate {
+    
+}
+.sharetooltip-content {
+    display: block;
+    background: rgb(116, 179, 223) !important;
+    background: linear-gradient(180deg, rgba(116, 179, 223,1) 0%, rgba(116, 179, 223,0.5) 100%) !important;
+}
+@keyframes statisticZoom {
+    0% {
+        transform: scale(1.0)
+    }
+    50% {
+        transform: scale(1.09)
+    }
+    50% {
+        transform: scale(1.09)
+    }
+    100% {
+        transform: scale(1.0)
+    }
+}

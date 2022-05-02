@@ -1,0 +1,248 @@
+body {
+    background: #73b2df;
+    
+    
+    text-align: center;
+    font-family: Verdana,Arial,sans-serif;
+}
+div#controls {
+    display: flex;
+    vertical-align: top;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 0px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+div#vmap_shadow {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    pointer-events: none;
+    -webkit-box-shadow: inset 3px 2px 28px 22px rgba(28,105,206,1);
+    -moz-box-shadow: inset 3px 2px 28px 22px rgba(28,105,206,1);
+    box-shadow: inset 3px 2px 28px 22px rgba(28,105,206,1);
+}
+div#vmap {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+div#vmap_map, #vmap #eu_map.map {
+    border-radius: 10px;
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    
+    
+    background-color: #E6FFFF;
+}
+div#MonthPicker_monthpicker {
+    background: transparent;
+    border: none;
+}
+#sub_picker .ui-button:hover {
+}
+#sub_picker .ui-button {
+    min-height: 25px;
+}
+#colors_legend, #colors_legend ul, #colors_legend ul li, #colors_legend table, #colors_legend table tr, #colors_legend table tr td, #colors_legend .legend_color {
+    pointer-events: none;
+}
+.legend_color {
+    background-color: #aaa;
+    border: solid 1px #3B3B3C;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+    
+    vertical-align: middle;
+    opacity: 0.8;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.growth .legend_color {
+    
+    background-color: #F0CD91;
+    border: solid 2px #000000;
+}
+.slowdown .legend_color {
+    
+    background-color: #E6A532;
+    border: solid 2px #000000;
+}
+.recession .legend_color {
+    
+    background-color: #D76E2D;
+    border: solid 2px #000000;
+}
+.nodata .legend_color {
+    
+    background-color: #7F7F7F;
+    border: solid 2px #000000;
+}
+.out_ue .legend_color {
+    background-color: #e5e5e5;
+    border: none;
+}
+.eu .legend_color {
+    background-color: transparent;
+    
+    border: solid 2px #000000;
+}
+div#colors_legend {
+    position: absolute;
+    bottom: 290px;
+    left: 0px;
+    z-index: 10;
+    color: #3B3B3C;
+    max-width: 180px;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: none;
+    background: none;
+}
+#colors_legend ul,  #colors_legend table{
+    list-style: none;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: rgba(28,104,206,0.4);
+    border-radius: 20px;
+    padding: 0;
+}
+div#ea_clock {
+    margin: 3px;
+    margin-top: 36px;
+}
+#ea_clock #eaClockTitle {
+    padding: 5px;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    color: #222222;
+    font-weight: bold;
+}
+.leaflet-control > div {
+    margin-bottom: 10px;
+}
+#bccMap .map-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.nextImg {
+    width: 15px;
+    margin-top: 4px;
+}
+.previousImg {
+    width: 15px;
+    margin-top: 4px;
+}
+#bccMap .month-picker-next .ui-icon {
+    background: url(../img/button_black_step_forward.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+#bccMap .month-picker-previous .ui-icon {
+    background: url(../img/button_black_step_backward.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+#bccMap .selectable.selected, .hover-highlight:hover {
+    top: 0!important;
+    
+    background: #EE4E23;!important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 40px;
+}
+#mapPlayer.timerPlayer {
+    background: none;
+    box-shadow: none;
+    margin: 10px 3px;
+    padding: 2px;
+    height: 65px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#controls .month-picker-month-table .ui-button {
+    border: none;
+    background: none;
+    background-color: #DCE9F5;
+    box-shadow: 5px 5px 5px #00000029;
+    border-radius: 10px;
+    width: 5em;
+    height: 2em;
+    font-weight: bold;
+    color: #58595B;
+}
+.month-picker-month-table td {
+    background-color: none;
+}
+#controls {
+    font-size: 1.3em;
+}
+#controls .month-picker-year-table .month-picker-title .ui-button {
+    font-size: 1.1em;
+    border: none;
+}
+.info_legend, .country_info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+}
+.country_info {
+    max-width: 300px;
+    text-align: left;
+}
+.country_info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.info_legend {
+    line-height: 18px;
+    color: #555;
+    font-weight: bold;
+    text-align: left;
+    max-width: 320px;
+}
+.info_legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    box-sizing: border-box;
+}
+#map_countryClock {
+    margin-right: 10px;
+    border-right: solid 2px #777777;
+    padding-right: 5px;
+}
+div#ea_clock {
+    position: relative;
+}
+.mapArea {
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #00000029;
+    border-radius: 10px;
+}
