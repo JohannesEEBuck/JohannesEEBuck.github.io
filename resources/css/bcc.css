@@ -5,7 +5,7 @@ html{
 body {
     min-width: 1200px;
     /*background: #BCDFF6;*/
-    background: #73b2df;
+    background: blue;
     /*background: linear-gradient(180deg, #BCDFF6 0%, red 100%) no-repeat;*/
 
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -13,15 +13,18 @@ body {
     text-align: center;
     padding-left: 75px;
     padding-right: 75px;
+	
 }
 
 header, div.header, section, div.section, footer, div.footer, nav, div.nav, article, div.article {
     margin: 2px;
     padding: 2px;
+	background: red;
 }
 
 #logoEurostat {
     margin-left: 30px;
+	background: red;
 }
 #logoEurostat img {
     width: 220px;
@@ -47,12 +50,14 @@ nav#clocks {
     max-width: 100%;
     padding: 0;
     margin: 0;
+	background: red;
 }
 
 ul#navlist {
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
+	background: red;
 }
 
 #navlist li {
@@ -64,6 +69,7 @@ ul#navlist {
     margin-right: 15px;
     margin-bottom: 15px;
     text-align: right;
+	background: red;
 }
 
 #navlist .country {
@@ -73,6 +79,7 @@ ul#navlist {
     padding: 0;
     margin: 0;
 }
+
 
 #navlist .country table {
 	background-color: red;
@@ -106,6 +113,7 @@ ul#navlist {
     position: absolute;
     right: 3px;
     top: 3px;
+	background: red;
 }
 
 #asideClock {
@@ -119,18 +127,20 @@ ul#navlist {
     font-weight: bold;
     font-size: 1.3em;
     color: #58595B;
+	background: red;
 }
 
 /*.c3-region.crise1 {fill: #572699;}*/
 /*.c3-region.crise2 {fill: #26008E;}*/
 
 
-.c3-region.crise1 {fill: #DCE9F5;}
-.c3-region.crise2>rect,.c3-region.crise1>rect {fill-opacity: 1.0!important;}
-.c3-region.crise2 {fill: #C7E0F1;}
+.c3-region.crise1 {fill: red;}
+.c3-region.crise2>rect,.c3-region.crise1>rect {fill: red !important;}
+.c3-region.crise2 {fill: red;}
 
 #navlist {
     display: inline-block;
+	background: red;
 }
 
 #addCountrySelector {
@@ -147,12 +157,13 @@ ul#navlist {
     height: 270px;
     margin-top: 0px;
     position: relative;
+	background: red;
 }
 
 #verticalIconLine {
     margin: 0;
     padding: 0;
-    background-color: #EAEAEA;
+    background: red;
     border-radius: 0px;
     width: 90%;
     height: 20%;
@@ -164,7 +175,7 @@ ul#navlist {
 #horizontalIconLine {
     margin: 0;
     padding: 0;
-    background-color: #EAEAEA;
+    background: red;
     border-radius: 0px;
     width: 20%;
     height: 90%;
@@ -189,6 +200,7 @@ ul#navlist {
 
 select#addCountrySelect option:first-child{
     display:none;
+	background: red;
 }
 
 .timerPlayer img {
@@ -206,18 +218,20 @@ select#addCountrySelect option:first-child{
     font-family: "open_sansregular",Arial,sans-serif;
     font-weight: bold;
     font-size: 1.3em;
-    color: #58595B;
+    background: red;
 }
 
 .currentDate {
     position: relative;
     top: 10px;
+	background: red;
 }
 
 #currentDate, #currentQuarter {
     font-size: 2em;
     display: inline-block;
     vertical-align: middle;
+	background: red;
 }
 
 #currentQuarter {
@@ -226,14 +240,17 @@ select#addCountrySelect option:first-child{
     white-space: pre;
     flex-direction: row !important;
     justify-content: flex-start !important;
+	background: red;
 }
 
 .oneClock {
     text-align: center;
+	background: red;
 }
 
 #navlist li {
     vertical-align: top;
+	background: red;
 }
 
 .selectable.selected, .violet input:hover, .violet input:focus, .violet button:hover, .violet button:focus {
@@ -242,6 +259,7 @@ select#addCountrySelect option:first-child{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+	background: red;
 }
 
 .country.hover-highlight, .country.selectable, #addCountry.hover-highlight, #addCountry.selectable {
@@ -254,6 +272,7 @@ select#addCountrySelect option:first-child{
     box-sizing: content-box;
     -moz-box-sizing: content-box;
     border-radius: 0px;
+	background: red;
 }
 
 .country.hover-highlight:hover,#addCountry.hover-highlight:hover {
@@ -309,6 +328,7 @@ select#addCountrySelect option:first-child{
     margin: 0.5em 0;
     color: red;
     font-weight: bold;
+	background: red;
 }
 
 fieldset#generateCountriesSelect {
@@ -332,33 +352,39 @@ fieldset#generateCountriesSelect {
 }
 
 legend#generateCountriesSelectLegend {
-    background-color: white;
+    background: red;
 }
 
 div#genRCS, #genRange_select_label, #genCustomeRange_selection, #genClockTimeSelect {
     margin: 20px;
+	background: red;
 }
 
 input#genClockTimeSelect_month_picker {
     margin: 20px;
+	background: red;
 }
 
 #genRangeselect {
     margin-left: 20px;
+	background: red;
 }
 
 span.genCSelect {
     margin: 10px;
     font-size: 1.1em;
+	background: red;
 }
 
 .hiddenPanel select {
     margin: 20px;
     font-size: 1.2em;
+	background: red;
 }
 
 button#okReportButton, #generate_succes_msg {
     display: none;
+	background: red;
 }
 
 button.hiddenPanel_bottomButton {
@@ -369,6 +395,7 @@ button.hiddenPanel_bottomButton {
     border: solid 1px red;
     border-radius: 0px;
     min-width: 90px;
+	background: red;
 }
 
 .on_loading{
@@ -383,6 +410,7 @@ div#loading {text-align: center;}
 
 div#noJS {
     text-align: center;
+	background: red;
 }
 
 span#noJs_msg {
@@ -390,15 +418,16 @@ span#noJs_msg {
     max-width: 600px;
     border-radius: 0px;
     box-shadow: 2px 2px 2px 0px rgb(165, 153, 153);
-    background-color: #EAEAEA;
     padding: 10px;
     border: solid 2px orange;
     font-size: 1.5em;
     margin: 20px;
+	background: red;
 }
 
 span#noJs_msg div.localize_msg {
     margin: 20px;
+	background: red;
 }
 
 .horizontal_line {
@@ -407,20 +436,24 @@ span#noJs_msg div.localize_msg {
     margin: 20px;
     margin-left: 15%;
     margin-right: 15%;
+	background: red;
 }
 
 div#generate_succes_msg {
     margin: 30px;
+	background: red;
 }
 
 footer .footer_content {
     display: inline-block;
+	background: red;
 }
 
 footer {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 50px;
+	background: red;
 }
 
 #actions a, a.lng_changer {
@@ -431,6 +464,7 @@ footer {
     background-position: center center;
     background-size: 40px;
     cursor: pointer;
+	background: red;
 }
 
 #actions a.embed {
@@ -473,6 +507,7 @@ a#googleplus img,a#twitter img,a#facebook img {
     font-weight: bolder;
     text-decoration: none;
     color: #c99797;
+	background: red;
 }
 
 #actions {
@@ -486,15 +521,16 @@ a#googleplus img,a#twitter img,a#facebook img {
 header#title {
     display: flex;
     align-items: center;
-
+	background: red;
 }
 
 .timerPlayer .playerControl.extended {
     display: none;
+	background: red;
 }
 
 #timeSlider span.ui-slider-handle.ui-state-default.ui-corner-all {
-    background: transparent;
+    background: red;
     width: 0;
     height: 0;
     border-style: solid;
@@ -508,6 +544,7 @@ div#timeSlider {
     position: relative;
     top: -54px;
     height: 2px;
+	background: red;
 }
 
 .bottomDiv {
@@ -516,11 +553,13 @@ div#timeSlider {
     display: flex;
     align-items: center;
     justify-content: center;
+	background: red;
 }
 
 article#countriesChartContainer, .bottomDiv,#upperDiv, #topDiv {
     text-align: left;
     padding: 1px;
+	background: red;
 }
 
 .playerControl {
@@ -535,6 +574,7 @@ article#countriesChartContainer, .bottomDiv,#upperDiv, #topDiv {
 
 div#timeSlider {
     cursor: pointer;
+	background: red;
 }
 
 h2#countrieschart_title {
@@ -543,6 +583,7 @@ h2#countrieschart_title {
     margin-bottom: 5px;
     margin-top: 10px;
     display: inline-block;
+	background: red;
 }
 
 #countrieschart_paragraph {
@@ -552,6 +593,7 @@ h2#countrieschart_title {
     margin-left: 15px;
     margin-bottom: 10px;
     margin-top: 0;
+	background: red;
 }
 
 #customeRange_selection input {
@@ -563,6 +605,7 @@ h2#countrieschart_title {
     margin-top: 20px;
     box-sizing: border-box;
     border-radius: 0px;
+	background: red;
 }
 
 .month-picker-month-table .ui-state-hover, .month-picker-month-table .ui-state-focus, .month-picker-month-table .ui-state-active {
@@ -571,17 +614,20 @@ h2#countrieschart_title {
 
 #navlist .country thead select, #addCountrySelector select#addCountrySelect,#addCountryIcon select#addCountrySelectButton {
     color: yellow;
+	background: red;
 }
 
 aside#asideClock {
     border-radius: 0px;
     box-shadow: none;
+	background: red;
 }
 
 nav#clocks {
     background: transparent;
     border-radius: 0px;
     box-shadow: none;
+	background: red;
 }
 
 li .country {
@@ -597,8 +643,8 @@ li#addCountry {
 .hover-highlight:hover {
 
     /*background: red;*/
-    background: #EE4E23;
-    box-sizing: border-box;
+	background: red;    
+	box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
@@ -611,39 +657,44 @@ button.settings {
     color: red;
     cursor: pointer;
     border: none;
-    background: none;
+	background: red;
 }
 
 .violet #currentDate {
     color: #000000;
+	background: red;
 }
 
 .violet select, .violet button, .violet input {
-    background-color: #C7C7F1;
     border-radius: 0px;
     border: solid 1px #FFF;
+	background: red;
 }
 
 .violet .hiddenPanel {
     box-shadow: none!important;
     border: 1px solid #999;
+	background: red;
 }
 
 .violet .hiddenPanel h2 {
     color: #000000;
+	background: red;
 }
 
 .ui-widget-header.month-picker-header.ui-corner-all {
     /*background: #434EDA;*/
     border: none;
+	background: red;
 }
 
 .month-picker.ui-widget {
-
+	background: red;
 }
 
 .c3 svg .tick text {
     font: 1.5em sans-serif;
+	background: red;
 }
 
 #countriesChart {
@@ -654,11 +705,13 @@ button.settings {
 
 #countriesChart.c3 svg{
     overflow: visible!important;
+	background: red;
 }
 
 #seemap_link img {
     max-width: 90%;
     max-height: 180px;
+	background: red;
 }
 
 div#upperDiv {
@@ -668,6 +721,7 @@ div#upperDiv {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: space-between;
+	background: red;
 }
 
 div#upperDiv .upperDetails {
@@ -676,10 +730,12 @@ div#upperDiv .upperDetails {
     align-content: center;
     justify-content: space-between;
     align-items: center;
+	background: red;
 }
 
 .settingsIcon {
     width: 80px;
+	background: red;
 }
 
 
@@ -688,20 +744,24 @@ div#upperDiv .upperDetails {
     border: none;
     box-shadow: 5px 5px 5px red;
     border-radius: 0px;
+	background: red;
 }
 
 #main_content .alt_view {
     position: absolute;
     width: 100%;
+	background: blue;
 
 }
 
 #main_content {
     position: relative;
+	background: blue;
 }
 
 #main_content #bcc_view {
     min-height: 827px;
+	background: blue;
 }
 
 .tool-bar {
@@ -710,6 +770,7 @@ div#upperDiv .upperDetails {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+	background: red;
 }
 
 button#gotomapview_button {
@@ -726,6 +787,7 @@ button#gotomapview_button {
     /*border: 2px solid #5D5E66;*/
     /*border-radius: 20px;*/
     padding: 5px 15px;
+	background: red;
 }
 
 button#gotobccview_button {
@@ -745,6 +807,7 @@ button#gotobccview_button {
     position: absolute;
     top: 0;
     left: 0;
+	background: red;
 }
 
 button#gotobccview_button>span {
@@ -752,6 +815,7 @@ button#gotobccview_button>span {
     font-size: 1.1em;
     color: red;
     cursor: pointer;
+	background: red;
 }
 
 
@@ -769,6 +833,7 @@ div#color_chart_legends {
     margin-left: 20px;
     line-height: 18px;
     text-align: left;
+	background: red;
 }
 
 #color_chart_legends .legend_color {
@@ -776,16 +841,19 @@ div#color_chart_legends {
     height: 17px;
     border: none;
     margin: 0;
+	background: red;
 }
 
 section#playerClock .next_quarter {
     width: 40px;
     height: auto;
+	background: red;
 }
 
 section#playerClock .previous_quarter{
     width: 40px;
     height: auto;
+	background: red;
 }
 
 .playerControl.pause {
@@ -796,10 +864,12 @@ section#playerClock .previous_quarter{
     width: 43px;
     height: 43px;
     margin: 0 5px;
+	background: red;
 }
 
 .pause.selected, .pause:hover {
     background-image: url(../img/button_black_pause_red.png) !important;
+	background: red;
 }
 
 .playerControl.play {
@@ -810,10 +880,12 @@ section#playerClock .previous_quarter{
     width: 43px;
     height: 43px;
     margin: 0 5px;
+	background: red;
 }
 
 .play.selected, .play:hover{
     background-image: url(../img/button_black_play_red.png) !important;
+	background: red;
 }
 
 section#playerClock {
@@ -826,6 +898,7 @@ section#playerClock {
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+	background: red;
 }
 
 #chart_details {
@@ -836,24 +909,29 @@ section#playerClock {
     align-content: center;
     justify-content: space-between;
     align-items: center;
+	background: red;
 }
 
 #chart_details .chart_first_child > div {
     /*display: block;*/
+	background: red;
 }
 #chart_details .chart_last_child {
     margin-top: 60px;
     justify-content: flex-end;
+	background: red;
 }
 
 #chart_details .chart_first_child {
     /*margin-right: auto;*/
+	background: red;
 }
 
 
 #chart_details .help_button {
     position: relative;
     /*margin-left: auto;*/
+	background: red;
 }
 
 #chart_details div {
@@ -864,44 +942,47 @@ section#playerClock {
     align-items: flex-start;
     align-content: center;
     flex-wrap: nowrap;
+	background: red;
 }
 
 #color_chart_legends .slowdown .legend_color {
-    background-color: #DCE9F5;
+    background: red;
 }
 
 #color_chart_legends .recession .legend_color {
-    background-color: #C7E0F1;
+	background: red;
 }
 
 a.lng_changer>span {
     font-size: 1.5em;
     margin-left: 0.2em;
     margin-top: 0.5em;
+	background: red;
 }
 
 
 
 div.ui-tooltip {
-    background-color: transparent;
-    /*box-shadow: 5px 5px 5px red;*/
+	background: red;    /*box-shadow: 5px 5px 5px red;*/
     box-shadow: none;
     /*border-radius: 10px;*/
     border:none
 }
 
 .lang_tooltip{
-    background-color: transparent;
+	background: red;
     box-shadow: 5px 5px 5px red;
     border-radius: 0px;
 }
 
 button#gotomapview_button>span {
+	background: red;
     display: inline-block;
     margin-left: 10px;
 }
 
 .policy-separator {
+	background: red;
     margin: 0 20px;
 }
 
@@ -910,7 +991,7 @@ button#gotomapview_button>img {
 }
 
 #settings_button:hover {
-    background-color: #EE4E23;
+	background: red;
 }
 
 #settings_button {
@@ -925,6 +1006,7 @@ button#gotomapview_button>img {
     border-radius: 0px;
     padding: 7px 10px;
     align-items: center;
+	background: red;
 }
 
 #settings_button img {
@@ -936,6 +1018,7 @@ button#gotomapview_button>img {
 #settings_button #range_select {
     position: absolute;
     display: none;
+	background: red;
 }
 
 #range_select {
@@ -948,6 +1031,7 @@ button#gotomapview_button>img {
     background-color: red;
     color:#5D5e66;
     font-size: 1.5em;
+	background: red;
 }
 
 #range_select div {
@@ -959,19 +1043,23 @@ button#gotomapview_button>img {
     justify-content: flex-start;
     flex-wrap: nowrap;
     cursor: pointer;
+	background: red;
 }
 
 #range_select div.selected {
     font-weight: bold;
+	background: red;
 }
 
 #range_select div:before {
     content: "◦";
     font-size: 30px;
     padding-right: 10px;
+	background: red;
 }
 #range_select div.selected:before {
     content: "•" !important;
+	background: red;
 }
 
 div#helpPie {
@@ -982,56 +1070,69 @@ div#helpPie {
     white-space: nowrap;
     padding: 5px 5px 5px 50px;
     height: 352px;
+	background: red;
 }
 
 #helpPie .c3-chart-arc text {
     font-size: 20px;
+	background: red;
 }
 
 .middleDiv>div {
     display: inline-block;
     vertical-align: middle;
+	background: red;
 }
 
 .upperLabel, .bottomLabel {
     text-align: center;
+	background: red;
 }
 
 .leftLabel {
+	background: red;
 }
 
 .middleDiv {
     vertical-align: middle;
     text-align: justify;
+	background: red;
 }
 
 div#pie {
     width: 300px;
     height: 300px;
+	background: red;
 }
 
 .leftbottomLabel {
+	background: red;
     left: 20px;
 }
 
 .inClockmiddleleftLabel, .inClockmiddlerightLabel {
+	background: red;
     position: absolute;
 }
 
 .rightbottomLabel {
+	background: red;
     right: 20px;
 }
 
 .leftbottomLabel, .rightbottomLabel {
+	background: red;
     position: absolute;
     bottom: 20px;
 }
 
 .midlemidleDiv {
+	background: red;
     position: relative;
 }
 
 .inclockLabelsDiv {
+	background: red;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1041,21 +1142,25 @@ div#pie {
 }
 
 .inClocktopDiv {
+	background: red;
     height: 50%;
 }
 
 .inClocktopleftLabel, .inClocktoprightLabel {
+	background: red;
     bottom: 50%;
     position: absolute;
     padding-bottom: 30px;
 }
 
 .inClocktoprightLabel {
+	background: red;
     left: 50%;
     padding-left: 5px;
 }
 
 .inclockLabelsDiv .inclockLabel>span {
+	background: red;
     display: inline-block;
     background: rgba(228, 228, 228, 0.78);;
     border-radius: 0px;
@@ -1063,76 +1168,89 @@ div#pie {
 }
 
 .inClocktopleftLabel {
+	background: red;
     text-align: right;
     padding-right: 5px;
     right: 50%;
 }
 
 .inClockmiddleleftLabel {
+	background: red;
     left: 50%;
     padding-left: 25px;
 }
 
 .inClockmiddlerightLabel {
+	background: red;
     text-align: right;
     right: 50%;
     padding-right: 25px;
 }
 
 .inClockmiddleDiv {
+	background: red;
     height: 25%;
 }
 
 .inClockbottomDiv {
+	background: red;
     height: 25%;
 }
 
 .inClockbottomleftLabel, .inClockbottomrightLabel {
+	background: red;
     position: absolute;
     top: 68%;
 }
 
 .inClockbottomrightLabel {
+	background: red;
     left: 50%;
     padding-left: 2px;
 }
 
 .inClockbottomleftLabel {
+	background: red;
     text-align: right;
     padding-right: 2px;
     right: 50%;
 }
 
 .c3-tooltip td.name {
+	background: red;
     white-space: nowrap;
 }
 
 .c3-tooltip td.value {
+	background: red;
     font-size: 0.6em;
     text-align: justify;
     white-space: normal;
 }
 
 #pie table.c3-tooltip {
+	background: red;
     min-width: 450px;
     opacity: 0.95;
 }
 
 .pointlabel {
+	background: red;
     font-family: Georgia, serif;
 }
 
 #helpPie>h2 {
+	background: red;
     font-size: 1em;
     margin: 0;
     padding: 2px;
-    background: #EAEAEA;
     text-align: center;
     border-radius: 0px;
 }
 
 .inclockLabel>span{
     border: solid 1px #6D6D70;
+	background: red;
 }
 
 .help_button {
@@ -1145,53 +1263,65 @@ div#pie {
     border: none;
     width: 40px;
     height: 40px;
+	background: red;
 }
 
 #help_tp, #helpPie {
     display: inline-block;
     vertical-align: middle;
+	background: red;
 }
 
 div#help_tp {
     max-width: 430px;
+	background: red;
 }
 
 section#clockHelpPanel {
     min-width: 800px;
     max-width: 90px;
+	background: red;
 }
 
 label#genFrom_month_picker_label {
     margin: 20px;
+	background: red;
 }
 
 div#genCustomeRange_selection_info {
     margin-bottom: 20px;
+	background: red;
 }
 
 #helperContent {
     display: flex;
+	background: red;
 }
 
 button, .ui-button, .month-picker-year-table .ui-button {
     border: none;
     cursor: pointer;
+	background: red;
 }
 
 section#docClock>div {
     display: block;
+	background: red;
 }
 
 section#docClock h1 {
     font-size: 1.1em;
+	background: red;
 }
 
 .c3-grid line {
     stroke: #868383;
+	background: red;
 }
 
 .c3-grid text {
     fill: #868383;
+	background: red;
 }
 
 textarea#embedCopyCode {
@@ -1200,12 +1330,13 @@ textarea#embedCopyCode {
     resize: none;
     margin: 10px;
     border: solid black 1px;
-    background: #f3f3f3;
+    background: red;
 }
 
 section#generatePanel {
     max-height: 90%;
     overflow: auto;
+	background: red;
 }
 
 .month-year-input {
@@ -1214,42 +1345,50 @@ section#generatePanel {
     font-size: 0.9em;
     max-width: 80px;
     text-align: center;
+	background: red;
 }
 
 section#settingsPanel {
     min-width: 300px;
+	background: red;
 }
 
 section#embedPanel {
     max-width: 600px;
+	background: red;
 }
 
 .c3-axis-y .tick {
     font-size: 8px;
+	background: red;
 }
 
 #chartHelpPanelDetails{
     font-weight: normal;
+	background: red;
 }
 
 #chartTurningPoints {
     margin: 30px 0 5px 0;
     font-size: 1.2em;
     font-weight: bold;
+	background: red;
 }
 
 .chartInfoText {
     margin: 0 0 10px 0;
+	background: red;
 }
 
 #docClock.animate {
+	background: red;
     /*animation: statisticZoom 500ms;*/
 }
 
 .sharetooltip-content {
     display: block;
     background: rgb(116, 179, 223) !important;
-    background: linear-gradient(180deg, rgba(116, 179, 223,1) 0%, rgba(116, 179, 223,0.5) 100%) !important;
+    background: red !important;
 }
 
 @keyframes statisticZoom {
