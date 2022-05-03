@@ -79,7 +79,7 @@ ul#navlist {
 }
 
 #navlist .country th {
-    background-color: #EAEAEA;
+    background-color: #FFF;
     border-radius: 0px;
     height: 25px;
     padding: 2px;
@@ -93,7 +93,7 @@ ul#navlist {
     font-size: 1.5em;
     color: #5d5e68;
     border: none;
-    background: #EAEAEA;;
+    background: #FFF;;
     position: absolute;
     left: 5%;
     top: 2px;
@@ -132,7 +132,7 @@ ul#navlist {
 }
 
 #addCountrySelector {
-    background-color: #EAEAEA;
+    background-color: #FFF;
     border-radius: 0px 0px 0px 0px;
     height: 27px;
     padding: 2px;
@@ -150,7 +150,7 @@ ul#navlist {
 #verticalIconLine {
     margin: 0;
     padding: 0;
-    background-color: #EAEAEA;
+    background-color: #FFF;
     border-radius: 0px;
     width: 90%;
     height: 20%;
@@ -162,7 +162,7 @@ ul#navlist {
 #horizontalIconLine {
     margin: 0;
     padding: 0;
-    background-color: #EAEAEA;
+    background-color: #FFF;
     border-radius: 0px;
     width: 20%;
     height: 90%;
@@ -177,7 +177,7 @@ ul#navlist {
     font-size: 1.5em;
     color: #5d5e68;
     border: none;
-    background: #EAEAEA;
+    background: #FFF;
     position: absolute;
     left: 5%;
     top: 0px;
@@ -385,7 +385,7 @@ span#noJs_msg {
     max-width: 600px;
     border-radius: 0px;
     box-shadow: 0px 0px 0px 0px rgb(165, 153, 153);
-    background-color: #EAEAEA;
+    background-color: #FFF;
     padding: 10px;
     border: solid 2px orange;
     font-size: 1.5em;
@@ -1123,7 +1123,7 @@ div#pie {
     font-size: 1em;
     margin: 0;
     padding: 2px;
-    background: #EAEAEA;
+    background: #FFF;
     text-align: center;
     border-radius: 0px;
 }
