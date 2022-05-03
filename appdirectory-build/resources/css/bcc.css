@@ -246,7 +246,7 @@ select#addCountrySelect option:first-child{
     transition: top 0.2s, box-shadow 0.2s;
     top: 0px;
     border: none;
-    background: #F1F2F2;
+    background: #FFF;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
