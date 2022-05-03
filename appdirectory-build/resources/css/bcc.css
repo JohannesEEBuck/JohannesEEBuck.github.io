@@ -65,8 +65,8 @@ ul#navlist {
     margin-right: 15px;
     margin-bottom: 15px;
     text-align: right;
-	background-color: yellow;
-	width: 100% !important;
+	background-color: red;
+	width: 500px !important;
 }
 
 #navlist .country {
