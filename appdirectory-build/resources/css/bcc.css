@@ -79,7 +79,7 @@ ul#navlist {
 }
 
 #navlist .country th {
-    background-color: #FFF;
+    background-color: #EAEAEA;
     border-radius: 0px;
     height: 25px;
     padding: 2px;
@@ -93,7 +93,7 @@ ul#navlist {
     font-size: 1.5em;
     color: #5d5e68;
     border: none;
-    background: #FFF;;
+    background: #EAEAEA;;
     position: absolute;
     left: 5%;
     top: 2px;
