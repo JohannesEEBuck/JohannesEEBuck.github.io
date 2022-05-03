@@ -199,7 +199,7 @@ div#ea_clock {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border-radius: 00px;
+    border-radius: 40px;
 }
 
 #mapPlayer.timerPlayer {
