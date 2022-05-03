@@ -54,6 +54,7 @@ ul#navlist {
     margin-top: 0;
     margin-bottom: 0;
 	background-color: #FFFFFF;
+	width: 100%;
 }
 
 #navlist li {
