@@ -966,7 +966,7 @@ button#gotomapview_button>img {
     padding-right: 10px;
 }
 #range_select div.selected:before {
-    content: "•" !important;
+    content: "◦" !important;
 	font-size: 30px;
     padding-right: 10px;
 }
