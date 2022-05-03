@@ -132,7 +132,7 @@ ul#navlist {
 }
 
 #addCountrySelector {
-    background-color: #EAEAEA;
+    background-color: #FFF;
     border-radius: 0px 0px 0px 0px;
     height: 27px;
     padding: 2px;
@@ -150,7 +150,7 @@ ul#navlist {
 #verticalIconLine {
     margin: 0;
     padding: 0;
-    background-color: #EAEAEA;
+    background-color: #FFF;
     border-radius: 0px;
     width: 90%;
     height: 20%;
