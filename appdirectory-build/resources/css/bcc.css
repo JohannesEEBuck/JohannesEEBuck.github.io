@@ -65,24 +65,24 @@ ul#navlist {
     margin-right: 15px;
     margin-bottom: 15px;
     text-align: right;
-	width: 100%;
+	width: 25%;
 }
 
 #navlist .country {
     height: 300px;
-	width: 100vw;
+	width: 23vw;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country table {
-	width: 100vw;
+	width: 23vw;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-	width: 100vw;
+	width: 23vw;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
@@ -101,7 +101,6 @@ ul#navlist {
     position: absolute;
     left: 5%;
     top: 2px;
-	width: 100vw;;
 }
 
 #navlist .country thead img {
