@@ -421,7 +421,7 @@ footer {
 
 
 
-#actions a.lng_changer {
+#actions a, a.lng_changer {
     width: 60px;
     display: inline-block;
     height: 50px;
