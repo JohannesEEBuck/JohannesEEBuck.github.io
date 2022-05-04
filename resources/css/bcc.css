@@ -430,11 +430,9 @@ footer {
 }
 
 #actions a.embed {
-    background-image: url(../img/embed.png);
 }
 
 #actions a.info {
-    background-image: url(../img/info.png);
 }
 
 #actions a.settings {
@@ -446,7 +444,6 @@ footer {
 }
 
 #actions a.share {
-    background-image: url(../img/share/icon-share.png);
 }
 
 #actions a.lng_change, a.lng_changer {
