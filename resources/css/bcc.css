@@ -313,9 +313,8 @@ fieldset#generateCountriesSelect {
     max-width: 40em;
 }
 
-#actions a.language-en, a.language-en {
-	content: '\0000a0';
-
+#actions a.language-en, a.language-en:before {
+	content: '\f2d3';
 }
 
 #actions a.language-fr, a.language-fr {
