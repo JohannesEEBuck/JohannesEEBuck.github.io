@@ -433,10 +433,12 @@ footer {
 
 #actions a.embed {
 	width: fit-content;
+	padding: 10px;
 }
 
 #actions a.info {
 	width: fit-content;
+	padding: 10px;
 }
 
 #actions a.settings {
@@ -445,10 +447,12 @@ footer {
 
 #actions a.get_report {
 	width: fit-content;
+	padding: 10px;
 }
 
 #actions a.share {
 	width: fit-content;
+	padding: 10px;
 }
 
 #actions a.lng_change, a.lng_changer {
