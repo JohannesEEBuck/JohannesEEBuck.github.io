@@ -82,7 +82,7 @@ ul#navlist {
 }
 
 #navlist .country th {
-	width: 23vw;
+	width: 0vw;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
