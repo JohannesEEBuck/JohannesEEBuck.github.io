@@ -430,7 +430,6 @@ footer {
     background-position: center center;
     background-size: 40px;
     cursor: pointer;
-	position:relative; top:30px;
 }
 
 #actions a.embed {
@@ -438,6 +437,7 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
+	position:relative; top:30px;
 }
 
 #actions a.info {
@@ -446,6 +446,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
+	position:relative; top:30px;
 }
 
 #actions a.settings {
@@ -458,6 +459,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
+	position:relative; top:30px;
 }
 
 #actions a.share {
@@ -466,6 +468,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:20px;
+	position:relative; top:30px;
 }
 
 #actions a.lng_change, a.lng_changer {
