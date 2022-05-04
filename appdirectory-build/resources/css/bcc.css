@@ -138,7 +138,6 @@ ul#navlist {
     padding: 2px;
     margin-bottom: 0px;
     position: relative;
-	width: 50% !important;
 }
 
 #addCountryIcon {
@@ -184,7 +183,6 @@ ul#navlist {
     top: 0px;
     margin-top: 5px;
     z-index: 1;
-	width: 50% !important;
 }
 
 select#addCountrySelect option:first-child{
@@ -568,8 +566,6 @@ h2#countrieschart_title {
 
 #navlist .country thead select, #addCountrySelector select#addCountrySelect,#addCountryIcon select#addCountrySelectButton {
     color: #000000;
-	width: 50% !important;
-
 }
 
 aside#asideClock {
