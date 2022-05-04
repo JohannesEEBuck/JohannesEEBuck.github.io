@@ -434,7 +434,7 @@ footer {
 }
 
 #actions a.info {
-    background-image: url(../img/info.png);
+    width: flex;
 }
 
 #actions a.settings {
