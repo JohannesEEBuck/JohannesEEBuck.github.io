@@ -419,7 +419,7 @@ footer {
     margin-bottom: 50px;
 }
 
-#actions a.lng_changer {
+#actions a, a.lng_changer {
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center center;
@@ -427,7 +427,7 @@ footer {
     cursor: pointer;
 }
 
-#actions a {
+#actions a.info {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -439,15 +439,28 @@ footer {
     align-items: center;
 	height: 50px;
 	color: white;
-	text-decoration: none;
 	
 }
 
+#actions a.embed {
+}
+
+#actions a.info {
+
+}
 
 #a:hover {
     background-color: #EE4E23;
 }
 
+#actions a.settings {
+}
+
+#actions a.get_report {
+}
+
+#actions a.share {
+}
 
 #actions a.lng_change, a.lng_changer {
     text-decoration: none;
