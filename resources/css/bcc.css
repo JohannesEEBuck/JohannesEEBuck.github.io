@@ -434,11 +434,15 @@ footer {
 #actions a.embed {
 	width: fit-content;
 	padding: 20px 10px;
+	text-decoration: none;
+	color: white;
 }
 
 #actions a.info {
 	width: fit-content;
 	padding: 20px 10px;
+	text-decoration: none;
+	color: white;
 }
 
 #actions a.settings {
@@ -448,11 +452,15 @@ footer {
 #actions a.get_report {
 	width: fit-content;
 	padding: 20px 10px;
+	text-decoration: none;
+	color: white;
 }
 
 #actions a.share {
 	width: fit-content;
 	padding: 20px 10px;
+	text-decoration: none;
+	color: white;
 }
 
 #actions a.lng_change, a.lng_changer {
