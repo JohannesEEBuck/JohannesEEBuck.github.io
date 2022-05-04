@@ -53,7 +53,8 @@ ul#navlist {
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
-	background: white !important;
+	background: white;
+	width: 100 vw;
 }
 
 #navlist li {
