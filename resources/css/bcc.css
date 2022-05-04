@@ -419,7 +419,7 @@ footer {
     margin-bottom: 50px;
 }
 
-#actions a, a.lng_changer {
+#actions a.lng_changer {
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center center;
