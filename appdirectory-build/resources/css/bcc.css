@@ -429,33 +429,19 @@ footer {
     border-radius: 0px;
     padding: 7px 10px;
     align-items: center;
+	height: 50px;
+	color: white;
 	
 }
 
-#actions a.embed {
-    background-image: url(../img/embed.png);
-}
+
 
 
 #actions a:hover {
     background-color: #EE4E23;
 }
 
-#actions a.settings {
-    background-image: url(../img/settings.png);
-}
 
-#actions a.get_report {
-    background-image: url(../img/pdf.png);
-}
-
-#actions a.share {
-    background-image: url(../img/share/icon-share.png);
-}
-
-#actions a.lng_change, a.lng_changer {
-    text-decoration: none;
-}
 
 a#googleplus img,a#twitter img,a#facebook img {
     height: 50px;
@@ -919,8 +905,8 @@ button#gotomapview_button>img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
     justify-content: space-between;
+    align-content: center;
     border: 2px solid #FFFFFF;
     border-radius: 0px;
     padding: 7px 10px;
