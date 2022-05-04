@@ -315,18 +315,18 @@ fieldset#generateCountriesSelect {
 
 #actions a.language-en, a.language-en:before {
 	content: '\01F1EC \01F1E7';
-	font-size: 3vmin;
+	font-size: 30px;
 
 }
 
 #actions a.language-fr, a.language-fr:before {
     content: '\01F1EB \01F1F7';
-	font-size: 3vmin;
+	font-size: 30px;
 }
 	
 #actions a.language-de, a.language-de:before {
     content: '\01F1E9 \01F1EA';
-	font-size: 3vmin;
+	font-size: 30px;
 }
 
 legend#generateCountriesSelectLegend {
@@ -472,7 +472,7 @@ footer {
 	position:relative; top:25px;
 }
 
-#actions a.lng_change{
+#actions a.lng_change, a.lng_changer {
 	position:relative; top:27px;
     text-decoration: none;
 }
