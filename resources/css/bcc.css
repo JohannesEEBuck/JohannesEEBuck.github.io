@@ -584,12 +584,13 @@ nav#clocks {
 li .country {
     background: #FFF;
     border-radius: 0px;
+	width: 100%;
 }
 
 li#addCountry {
     background: #FFF;
     border-radius: 0px;
-	width: 200%;
+	width: 50%;
 }
 
 .hover-highlight:hover {
