@@ -53,6 +53,7 @@ ul#navlist {
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
+	width: 25%;
 }
 
 #navlist li {
@@ -68,7 +69,6 @@ ul#navlist {
 }
 
 #navlist .country {
-    width: 350px;
     height: 300px;
     padding: 0;
     margin: 0;
