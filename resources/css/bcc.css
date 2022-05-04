@@ -420,9 +420,7 @@ footer {
 }
 
 #actions a, a.lng_changer {
-    width: 60px;
     display: inline-block;
-    height: 50px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 40px;
@@ -434,7 +432,7 @@ footer {
 }
 
 #actions a.info {
-    width: flex;
+
 }
 
 #actions a.settings {
