@@ -419,14 +419,6 @@ footer {
     margin-bottom: 50px;
 }
 
-#actions a {
-    display: inline-block;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 40px;
-    cursor: pointer;
-}
 
 
 #actions a.lng_changer {
@@ -440,9 +432,11 @@ footer {
 }
 
 #actions a.embed {
+	width: flex;
 }
 
 #actions a.info {
+	width: flex;
 }
 
 #actions a.settings {
@@ -454,6 +448,7 @@ footer {
 }
 
 #actions a.share {
+	width: flex;
 }
 
 #actions a.lng_change, a.lng_changer {
