@@ -70,19 +70,19 @@ ul#navlist {
 
 #navlist .country {
     height: 300px;
-	width: 25%;
+	width: 100%;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country table {
-	width: 25%;
+	width: 100%;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-	width: 25%;
+	width: 100%;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
@@ -101,7 +101,7 @@ ul#navlist {
     position: absolute;
     left: 5%;
     top: 2px;
-	width: 25%;
+	width: 100%;
 }
 
 #navlist .country thead img {
