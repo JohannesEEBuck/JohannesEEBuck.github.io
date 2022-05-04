@@ -425,15 +425,14 @@ footer {
     background-position: center center;
     background-size: 40px;
     cursor: pointer;
+	height: 50px;
+    border: 2px solid #FFFFFF;
 }
 
 #actions a.embed {
     background-image: url(../img/embed.png);
 }
 
-#actions a.info {
-
-}
 
 #actions a:hover {
     background-color: #EE4E23;
