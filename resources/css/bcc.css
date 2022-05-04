@@ -54,7 +54,6 @@ ul#navlist {
     margin-top: 0;
     margin-bottom: 0;
 	width: 100vw;
-	margin: 0 auto;
 }
 
 #navlist li {
@@ -65,24 +64,24 @@ ul#navlist {
     margin-right: 15px;
     margin-bottom: 15px;
     text-align: right;
-	width: 23vw;
+	width: 3000px;
 }
 
 #navlist .country {
     height: 300px;
-	width: 23vw;
+	width: 355px;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country table {
-	width: 23vw;
+	width: 355px;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-	width: 23vw;
+	width: 355px;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
@@ -145,7 +144,7 @@ ul#navlist {
 }
 
 #addCountryIcon {
-    width: 23vw;
+    width: 355px;
     height: 270px;
     margin-top: 0px;
     position: relative;
@@ -591,7 +590,7 @@ li .country {
 li#addCountry {
     background: #FFF;
     border-radius: 0px;
-	width: 23vw;
+	width: 355px;
 }
 
 .hover-highlight:hover {
