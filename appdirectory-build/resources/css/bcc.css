@@ -70,19 +70,19 @@ ul#navlist {
 
 #navlist .country {
     height: 300px;
-	width: 0vw;
+	width: 23vw;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country table {
-	width: 0vw;
+	width: 23vw;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-	width: 0vw;
+	width: 23vw;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
@@ -145,7 +145,7 @@ ul#navlist {
 }
 
 #addCountryIcon {
-    width: 24vw;
+    width: 23vw;
     height: 270px;
     margin-top: 0px;
     position: relative;
