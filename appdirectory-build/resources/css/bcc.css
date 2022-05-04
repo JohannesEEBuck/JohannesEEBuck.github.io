@@ -67,7 +67,7 @@ ul#navlist {
 }
 
 #navlist .country {
-    width: 440px;
+    width: 23vw;
     height: 300px;
     padding: 0;
     margin: 0;
@@ -141,7 +141,7 @@ ul#navlist {
 }
 
 #addCountryIcon {
-    width: 440px;
+    width: 23vw;
     height: 270px;
     margin-top: 0px;
     position: relative;
