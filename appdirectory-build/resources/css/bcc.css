@@ -587,7 +587,6 @@ li .country {
 li#addCountry {
     background: #FFF;
     border-radius: 0px;
-	width: 50% !important;
 }
 
 .hover-highlight:hover {
