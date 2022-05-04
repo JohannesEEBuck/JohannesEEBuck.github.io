@@ -318,12 +318,12 @@ fieldset#generateCountriesSelect {
 	font-size: 5vmin;
 }
 
-#actions a.language-fr, a.language-fr {
+#actions a.language-fr, a.language-fr:before {
     content: '\01F1EB \01F1F7';
 	font-size: 5vmin;
 }
 	
-#actions a.language-de, a.language-de {
+#actions a.language-de, a.language-de:before {
     content: '\01F1E9 \01F1EA';
 	font-size: 5vmin;
 }
@@ -437,7 +437,7 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
-	position:relative; top:30px;
+	position:relative; top:27px;
 }
 
 #actions a.info {
@@ -446,7 +446,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
-	position:relative; top:30px;
+	position:relative; top:27px;
 }
 
 #actions a.settings {
@@ -459,7 +459,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
-	position:relative; top:30px;
+	position:relative; top:27px;
 }
 
 #actions a.share {
@@ -468,7 +468,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:20px;
-	position:relative; top:30px;
+	position:relative; top:27px;
 }
 
 #actions a.lng_change, a.lng_changer {
