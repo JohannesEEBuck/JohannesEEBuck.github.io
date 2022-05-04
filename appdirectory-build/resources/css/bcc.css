@@ -436,6 +436,7 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
+	top:20px;
 }
 
 #actions a.info {
@@ -443,6 +444,7 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
+	top:20px;
 }
 
 #actions a.settings {
@@ -454,6 +456,7 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
+	top:20px;
 }
 
 #actions a.share {
@@ -461,6 +464,7 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
+	top:20px;
 }
 
 #actions a.lng_change, a.lng_changer {
