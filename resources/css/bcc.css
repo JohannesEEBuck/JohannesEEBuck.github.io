@@ -67,20 +67,18 @@ ul#navlist {
 }
 
 #navlist .country {
-    width: 200%;
+    width: 240px;
     height: 300px;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country table {
-	width: 200%;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-	width: 200%;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
@@ -99,8 +97,6 @@ ul#navlist {
     position: absolute;
     left: 5%;
     top: 2px;
-	width: 200%;
-
 }
 
 #navlist .country thead img {
@@ -108,7 +104,6 @@ ul#navlist {
     position: absolute;
     right: 3px;
     top: 3px;
-	width: 200%;
 }
 
 #asideClock {
