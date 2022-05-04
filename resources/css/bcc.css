@@ -315,7 +315,7 @@ fieldset#generateCountriesSelect {
 
 #actions a.language-en, a.language-en:before {
 	content: '\01F1EC \01F1E7';
-	height: 50px;
+	font-size: 5vmin;
 }
 
 #actions a.language-fr, a.language-fr {
