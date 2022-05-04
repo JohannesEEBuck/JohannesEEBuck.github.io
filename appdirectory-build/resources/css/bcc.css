@@ -420,13 +420,16 @@ footer {
 }
 
 #actions a, a.lng_changer {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 40px;
-    cursor: pointer;
-	height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
     border: 2px solid #FFFFFF;
+    border-radius: 0px;
+    padding: 7px 10px;
+    align-items: center;
+	
 }
 
 #actions a.embed {
