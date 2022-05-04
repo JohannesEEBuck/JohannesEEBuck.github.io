@@ -315,17 +315,17 @@ fieldset#generateCountriesSelect {
 
 #actions a.language-en, a.language-en:before {
 	content: '\01F1EC \01F1E7';
-	font-size: 3vmin;
+	font-size: 5vmin;
 }
 
 #actions a.language-fr, a.language-fr {
     content: '\01F1EB \01F1F7';
-	font-size: 3vmin;
+	font-size: 5vmin;
 }
 	
 #actions a.language-de, a.language-de {
     content: '\01F1E9 \01F1EA';
-	font-size: 3vmin;
+	font-size: 5vmin;
 }
 
 legend#generateCountriesSelectLegend {
