@@ -444,7 +444,7 @@ footer {
 }
 
 #actions a.get_report {
-    background-image: url(../img/pdf.png);
+	width: fit-content;
 }
 
 #actions a.share {
