@@ -420,33 +420,33 @@ footer {
 }
 
 #actions a, a.lng_changer {
+    width: 60px;
     display: inline-block;
+    height: 50px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 40px;
     cursor: pointer;
 }
 
-
-
 #actions a.embed {
+    background-image: url(../img/embed.png);
 }
 
 #actions a.info {
-
-}
-
-#a:hover {
-    background-color: #EE4E23;
+    background-image: url(../img/info.png);
 }
 
 #actions a.settings {
+    background-image: url(../img/settings.png);
 }
 
 #actions a.get_report {
+    background-image: url(../img/pdf.png);
 }
 
 #actions a.share {
+    background-image: url(../img/share/icon-share.png);
 }
 
 #actions a.lng_change, a.lng_changer {
