@@ -316,7 +316,6 @@ fieldset#generateCountriesSelect {
 #actions a.language-en, a.language-en:before {
 	content: '\01F1EC \01F1E7';
 	font-size: 3vmin;
-	position:relative; top:27px;
 
 }
 
@@ -439,7 +438,7 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
-	position:relative; top:27px;
+	position:relative; top:25px;
 }
 
 #actions a.info {
@@ -448,10 +447,10 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
+	position:relative; top:25px;
 }
 
-#actions a.settings {	position:relative; top:27px;
-
+#actions a.settings {
     background-image: url(../img/settings.png);
 }
 
@@ -461,7 +460,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
-	position:relative; top:27px;
+	position:relative; top:25px;
 }
 
 #actions a.share {
@@ -470,10 +469,11 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:20px;
-	position:relative; top:27px;
+	position:relative; top:25px;
 }
 
 #actions a.lng_change, a.lng_changer {
+	position:relative; top:27px;
     text-decoration: none;
 }
 
