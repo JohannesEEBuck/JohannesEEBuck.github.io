@@ -430,6 +430,7 @@ footer {
     background-position: center center;
     background-size: 40px;
     cursor: pointer;
+	position:relative; top:30px;
 }
 
 #actions a.embed {
@@ -437,7 +438,6 @@ footer {
 	padding: 20px 10px;
 	text-decoration: none;
 	color: white;
-	position:relative; top:20px;
 }
 
 #actions a.info {
