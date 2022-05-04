@@ -427,7 +427,7 @@ footer {
     cursor: pointer;
 }
 
-#actions a.info {
+#actions a.info, a.embed, a.share {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
