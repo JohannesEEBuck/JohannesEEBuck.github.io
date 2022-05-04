@@ -1,8 +1,8 @@
 ﻿{
-	"show_info_label": "Informations sur l'outil",
+	"show_info_label": "Informations à propos de la BCC",
     "remove_country": "Retirer le pays",
     "add_country_button": "Ajouter un pays",
-    "get_report_button": "Générer un document PDF",
+    "get_report_button": "Générer un rapport PDF",
     "gen_report_title": "Génération de rapport PDF",
     "gen_report_countries": "Sélectionnez les pays à inclure dans le document (maximum 6)",
     "gen_report_regions_country": "Choisissez un pays pour lequel vous souhaitez afficher les points de retournement et les périodes de récession/ralentissement sur le graphique",
@@ -78,7 +78,7 @@
     "chart_gdp_gc_description": "exprimée en pourcentage de déviation de la tendance",
     "countries": "Pays",
     
-    "embed_header": "Inclure",
+    "embed_header": "Intégrer BCC au site Web",
     "embed_explanation": "Pour inclure la BCC dans une autre page web, copiez ce code.",
     
     "prev_month": "Mois précédant",

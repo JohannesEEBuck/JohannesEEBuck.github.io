@@ -1,8 +1,8 @@
 ﻿{
-	"show_info_label": "Informations about the Tool",
+	"show_info_label": "Information about the BCC",
     "remove_country": "Remove the country",
     "add_country_button": "Add a country",
-    "get_report_button": "Generate a PDF document",
+    "get_report_button": "Generate a PDF report",
     "gen_report_title": "PDF report generation",
     "gen_report_countries": "Select the countries to include in the document (maximum 6)",
     "gen_report_regions_country": "Select a country to show turning points and recession/slowdown regions on the chart",
@@ -78,7 +78,7 @@
     "chart_gdp_gc_description": "as a percentage of deviation from the trend ",
     "countries": "Countries",
     
-    "embed_header": "Embed",
+    "embed_header": "Embed BCC to Website",
     "embed_explanation": "To embed the BC on another web page, just copy this code.",
     
     "prev_month": "Previous month",

@@ -1,8 +1,8 @@
 ﻿{
-	"show_info_label": "Information zum Tool",
+	"show_info_label": "Informationen zur BCC",
     "remove_country": "Land entfernen",
     "add_country_button": "Land hinzufügen",
-    "get_report_button": "PDF erstellen",
+    "get_report_button": "PDF Bericht erstellen",
     "gen_report_title": "Bericht erstellen",
     "gen_report_countries": "Länder auswählen (maximum 6)",
     "gen_report_regions_country": "Land/Länder auswählen",
@@ -13,7 +13,7 @@
     "cancel_button": "Abbrechen",
     "generation_succes_confirmation_message": "Bericht erstellt",
     "close": "Schließen",
-    "share_button": "Aktie",
+    "share_button": "Teilen",
     
     "select_range": "Zeitraum auswählen",
     "period": "Zeithorizont",
@@ -78,7 +78,7 @@
     "chart_gdp_gc_description": "als Prozentsatz der Abweichung vom Trend",
     "countries": "Länder",
     
-    "embed_header": "BCC woanders einbetten",
+    "embed_header": "BCC auf Webseite einbetten",
     "embed_explanation": "Um diese Seite auf einer anderen Webseite einzubetten, kopieren Sie bitte den nachfolgenden Link.",
     
     "prev_month": "Vorheriger Monat",
