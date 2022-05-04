@@ -196,6 +196,7 @@ select#addCountrySelect option:first-child{
 }
 
 #countriesChartContainer .timerPlayer {
+	width: 50% !important;
     text-align: center;
 }
 
@@ -514,6 +515,7 @@ div#timeSlider {
 }
 
 article#countriesChartContainer, .bottomDiv,#upperDiv, #topDiv {
+	width: 50% !important;
     text-align: left;
     padding: 1px;
 }
