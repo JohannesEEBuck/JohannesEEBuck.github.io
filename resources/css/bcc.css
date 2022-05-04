@@ -432,11 +432,11 @@ footer {
 }
 
 #actions a.embed {
-	width: flex;
+	width: 140px;
 }
 
 #actions a.info {
-	width: flex;
+	width: 140px;
 }
 
 #actions a.settings {
@@ -448,7 +448,7 @@ footer {
 }
 
 #actions a.share {
-	width: flex;
+	width: 140px;
 }
 
 #actions a.lng_change, a.lng_changer {
