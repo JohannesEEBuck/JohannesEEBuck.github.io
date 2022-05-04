@@ -570,7 +570,6 @@ h2#countrieschart_title {
 
 #navlist .country thead select, #addCountrySelector select#addCountrySelect,#addCountryIcon select#addCountrySelectButton {
     color: #000000;
-	width: 10vw;
 }
 
 aside#asideClock {
@@ -592,6 +591,7 @@ li .country {
 li#addCountry {
     background: #FFF;
     border-radius: 0px;
+	width: 10vw;
 }
 
 .hover-highlight:hover {
