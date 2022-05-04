@@ -314,7 +314,8 @@ fieldset#generateCountriesSelect {
 }
 
 #actions a.language-en, a.language-en:before {
-	content: '\f2d3';
+	content: '\01F1EC \01F1E7';
+	height: 50px;
 }
 
 #actions a.language-fr, a.language-fr {
