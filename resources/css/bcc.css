@@ -65,21 +65,24 @@ ul#navlist {
     margin-right: 15px;
     margin-bottom: 15px;
     text-align: right;
-	width: 25%;
+	width: 500px;
 }
 
 #navlist .country {
     height: 300px;
+	width: 500px;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country table {
+	width: 500px;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
+	width: 500px;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
@@ -98,6 +101,7 @@ ul#navlist {
     position: absolute;
     left: 5%;
     top: 2px;
+	width: 500px;
 }
 
 #navlist .country thead img {
