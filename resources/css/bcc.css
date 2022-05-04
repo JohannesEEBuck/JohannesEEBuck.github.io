@@ -570,6 +570,7 @@ h2#countrieschart_title {
 
 #navlist .country thead select, #addCountrySelector select#addCountrySelect,#addCountryIcon select#addCountrySelectButton {
     color: #000000;
+	width: 10vw;
 }
 
 aside#asideClock {
