@@ -59,28 +59,26 @@ ul#navlist {
     box-shadow: 0px 0px 0px #00000029;
     border-radius: 0px;
     display: inline-block;
+
     padding: 0;
     margin-right: 15px;
     margin-bottom: 15px;
     text-align: right;
-	width: 100%;
 }
 
 #navlist .country {
+    width: 240px;
     height: 300px;
-	width: 100%;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country table {
-	width: 100%;
     padding: 0;
     margin: 0;
 }
 
 #navlist .country th {
-	width: 100%;
     background-color: #FFF;
     border-radius: 0px;
     height: 25px;
@@ -143,7 +141,7 @@ ul#navlist {
 }
 
 #addCountryIcon {
-    width: 100%;
+    width: 240px;
     height: 270px;
     margin-top: 0px;
     position: relative;
@@ -584,13 +582,11 @@ nav#clocks {
 li .country {
     background: #FFF;
     border-radius: 0px;
-	width: 100%;
 }
 
 li#addCountry {
     background: #FFF;
     border-radius: 0px;
-	width: 50%;
 }
 
 .hover-highlight:hover {
