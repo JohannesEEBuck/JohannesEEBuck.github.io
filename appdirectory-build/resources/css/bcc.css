@@ -435,6 +435,10 @@ footer {
 
 }
 
+#actions a:hover {
+    background-color: #EE4E23;
+}
+
 #actions a.settings {
     background-image: url(../img/settings.png);
 }
