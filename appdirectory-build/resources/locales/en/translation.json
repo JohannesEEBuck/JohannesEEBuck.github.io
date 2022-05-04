@@ -1,4 +1,5 @@
 ﻿{
+	"show_info_label": "Informations about the Tool",
     "remove_country": "Remove the country",
     "add_country_button": "Add a country",
     "get_report_button": "Generate a PDF document",
