@@ -313,10 +313,9 @@ fieldset#generateCountriesSelect {
     max-width: 40em;
 }
 
-#actions a.language-en, a.language-en:before {
-	content: '\01F1EC \01F1E7';
-	font-size: 30px;
-
+#actions a.language-en, a.language-en {
+	background-image: url(../img/EN2.png);
+    background-size: 43px !important;
 }
 
 #actions a.language-fr, a.language-fr:before {
