@@ -66,7 +66,7 @@ ul#navlist {
 }
 
 #navlist .country {
-    width: 250px;
+    width: 240px;
     height: 300px;
     padding: 0;
     margin: 0;
@@ -140,7 +140,7 @@ ul#navlist {
 }
 
 #addCountryIcon {
-    width: 250px;
+    width: 240px;
     height: 270px;
     margin-top: 0px;
     position: relative;
@@ -840,7 +840,7 @@ section#playerClock .previous_quarter{
     background-size: 43px !important;
     background-repeat: no-repeat;
     /*background-position: 3px 3px;*/
-    width: 50px;
+    width: 55px;
     height: 46px;
     margin: 0 5px;
 }
@@ -854,7 +854,7 @@ section#playerClock .previous_quarter{
     background-size: 43px !important;
     background-repeat: no-repeat;
     /*background-position: 3px 3px;*/
-    width: 50px;
+    width: 55px;
     height: 46px;
     margin: 0 5px;
 }
