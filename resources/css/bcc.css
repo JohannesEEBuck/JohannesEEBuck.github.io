@@ -837,7 +837,7 @@ section#playerClock .previous_quarter{
 
 .playerControl.pause {
     background-image: url(../img/button_black_pause.png);
-    background-size: 43px !important;
+    background-size: 45px !important;
     background-repeat: no-repeat;
     /*background-position: 3px 3px;*/
     width: 43px;
@@ -993,7 +993,7 @@ button#gotomapview_button>img {
     top: 153px;
     left: 266px;
     z-index: 10;
-    min-width: 210px;
+    min-width: 230px;
     background-color: #ffffff;
     color:#5D5e66;
     font-size: 1.5em;
