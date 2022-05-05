@@ -708,8 +708,8 @@ button.settings:hover {
 }
 
 #seemap_link img {
-    width: 100%; 
-	height: auto;
+    max-width: 90%;
+    max-height: 200px;
 }
 
 div#upperDiv {
@@ -1330,6 +1330,7 @@ section#embedPanel {
 .float-child {
   flex-basis: 40%;  
   padding: 1em;
+  align-self: center;
 }
 
 .float-child2 {
