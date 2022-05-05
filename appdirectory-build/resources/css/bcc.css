@@ -318,14 +318,14 @@ fieldset#generateCountriesSelect {
     background-size: 30px !important;
 }
 
-#actions a.language-fr, a.language-fr:before {
+#actions a.language-fr, a.language-fr {
     /*content: '\01F1EB \01F1F7';
 	font-size: 30px;*/
 	background-image: url(../img/FR2.png);
     background-size: 30px !important;
 }
 	
-#actions a.language-de, a.language-de:before {
+#actions a.language-de, a.language-de {
 	background-image: url(../img/DE2.png);
     background-size: 30px !important;
 }
@@ -490,7 +490,7 @@ footer {
 }
 
 #actions a.lng_change, a.lng_changer {
-	position:relative; top:28px; left: 10px;
+	position:relative; top:23px; left: 10px;
     text-decoration: none;
 }
 
@@ -1180,7 +1180,7 @@ div#pie {
     bottom: 5px;
     right: 5px;
     cursor: pointer;
-    background: url(../img/help_icon.png);
+    background: url(../img/help_icon2.png);
     background-size: contain;
     border: none;
     width: 40px;
