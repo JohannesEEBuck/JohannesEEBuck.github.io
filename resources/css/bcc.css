@@ -376,9 +376,6 @@ button.hiddenPanel_bottomButton {
 
 .on_script_load{
     display: none;
-	width: 50%;
-    float: left;
-    padding: 20px;
 }
 
 div#loading {text-align: center;}
@@ -530,10 +527,6 @@ header#title {
 }
 
 .timerPlayer .playerControl.extended {
-    width: 50%;
-    float: left;
-    padding: 20px;
-}  
     display: none;
 }
 

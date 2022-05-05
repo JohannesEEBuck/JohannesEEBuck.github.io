@@ -50,7 +50,7 @@
         <aside id="actions">
             <a class="info" href="javascript:showInfo();" title="Info" data-i18n="[title]show_info_button"><span style="font-size:12pt" data-i18n="show_info_label">Information about the BCC</span></a>
             <a class="share sharetooltip" title="share_button" data-i18n="[title]share_button"><span style="font-size:12pt" data-i18n="share_button">Share</span></a>
-            <a class="embed" href="javascript:showEmbedPanel();" title="Embed" data-i18n="[title]embed_header"><span style="font-size:12pt" data-i18n="embed_header_label">Embed BCC</span></a>
+            <a class="embed" href="javascript:showEmbedPanel();" title="Embed" data-i18n="[title]embed_header"><span style="font-size:12pt" data-i18n="embed_header">Embed BCC</span></a>
             <a class="get_report" href="javascript:showReportGenerator();" title="get report"
                data-i18n="[title]get_report_button"><span style="font-size:12pt" data-i18n="get_report_button">Create PDF Report</span></a>
 			<a class="lng_change lngtooltip language-en" title="change language"
@@ -131,26 +131,26 @@
                     </select>
                 </div>
             </section>
-		</div>
-        <nav id='clocks' class='tile'>
-            <ul id="navlist">
-                <li id="addCountry" class="hover-highlight">
-                    <div id="addCountrySelector">
-                        <select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
-                                onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1);"
-                                onblur="this.size=0;" size="0">
-                            <option value="" selected="selected" data-i18n="add_country_button">Add a country
-                            </option>
-                        </select>
-                    </div>
-                    <div id="addCountryIcon"
-                        onclick="simulateMouseEvent(document.getElementById('addCountrySelect'), 'mousedown');">
-                        <div id="verticalIconLine"></div>
-                        <div id="horizontalIconLine"></div>
-                    </div>
-                </li>
-            </ul>
-        </nav>
+            <nav id='clocks' class='tile'>
+                <ul id="navlist">
+                    <li id="addCountry" class="hover-highlight">
+                        <div id="addCountrySelector">
+                            <select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
+                                    onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1);"
+                                    onblur="this.size=0;" size="0">
+                                <option value="" selected="selected" data-i18n="add_country_button">Add a country
+                                </option>
+                            </select>
+                        </div>
+                        <div id="addCountryIcon"
+                             onclick="simulateMouseEvent(document.getElementById('addCountrySelect'), 'mousedown');">
+                            <div id="verticalIconLine"></div>
+                            <div id="horizontalIconLine"></div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <article class="tile on_script_load" id='countriesChartContainer'>
             <h2 id="countrieschart_title" data-i18n="chart_gdp_gc_title">chart_gdp_gc_title</h2>
             <div id="countriesChart"></div>
