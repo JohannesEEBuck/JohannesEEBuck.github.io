@@ -1310,13 +1310,13 @@ section#embedPanel {
 }
 
 .float-child {
-    width: 37%;
+    width: 35%;
     float: left;
     padding: 20px;
 	background: transparent;
 } 
 .float-child2 {
-    width: 57%;
+    width: 55%;
     float: left;
     padding: 20px;
 	background: transparent;
