@@ -155,61 +155,60 @@
 				</nav>
 			</div>
         </div>
-		<div class="LineContainer">
-			<article class="tile on_script_load" id='countriesChartContainer'>
-				<h2 id="countrieschart_title" data-i18n="chart_gdp_gc_title">chart_gdp_gc_title</h2>
-				<div id="countriesChart"></div>
+		<div>
+        <article class="tile on_script_load" id='countriesChartContainer'>
+            <h2 id="countrieschart_title" data-i18n="chart_gdp_gc_title">chart_gdp_gc_title</h2>
+            <div id="countriesChart"></div>
 
-				<div id='chart_details'>
-					<div class="chart_first_child">
-						<div>
-							<div id="color_chart_legends">
-								<table>
-									<tr class="slowdown">
-										<td>
-											<div class="legend_color"></div>
-										</td>
-										<td><span data-i18n="slowdown">Slowdown</span></td>
-									</tr>
-									<tr class="recession">
-										<td>
-											<div class="legend_color"></div>
-										</td>
-										<td><span data-i18n="recession">Recession</span></td>
-									</tr>
-								</table>
-							</div>
-							<div id='asideClock' class='violet'>
-								<section id='docClock'>
-									<div>
-										Current Cycle Durations
-										<br/>
-										<br/>
-										EA
-										<br/>
-										Slowdown = 13 quarters
-										<br/>
-										Recession = 0 quarters
-										<br/>
-										<br/>
-										FR
-										<br/>
-										Slowdown = 13 quarters
-										<br/>
-										Recession = 0 quarters
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
-					<div id="currentQuarter"></div>
-					<div class="chart_last_child">
-						<button class="help_button" data-i18n="[title]help" title="help"
-								onclick="$('#chartHelpPanel').show(); bcc.cycleClockHelp.pie.flush();"/>
-					</div>
-				</div>
-			</article>
-		</div>
+            <div id='chart_details'>
+                <div class="chart_first_child">
+                    <div>
+                        <div id="color_chart_legends">
+                            <table>
+                                <tr class="slowdown">
+                                    <td>
+                                        <div class="legend_color"></div>
+                                    </td>
+                                    <td><span data-i18n="slowdown">Slowdown</span></td>
+                                </tr>
+                                <tr class="recession">
+                                    <td>
+                                        <div class="legend_color"></div>
+                                    </td>
+                                    <td><span data-i18n="recession">Recession</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id='asideClock' class='violet'>
+                            <section id='docClock'>
+                                <div>
+                                    Current Cycle Durations
+                                    <br/>
+                                    <br/>
+                                    EA
+                                    <br/>
+                                    Slowdown = 13 quarters
+                                    <br/>
+                                    Recession = 0 quarters
+                                    <br/>
+                                    <br/>
+                                    FR
+                                    <br/>
+                                    Slowdown = 13 quarters
+                                    <br/>
+                                    Recession = 0 quarters
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="currentQuarter"></div>
+                <div class="chart_last_child">
+                    <button class="help_button" data-i18n="[title]help" title="help"
+                            onclick="$('#chartHelpPanel').show(); bcc.cycleClockHelp.pie.flush();"/>
+                </div>
+            </div>
+        </article>
         <div class="bottomDiv" class="on_script_load">
             <div>
                 <span data-i18n="[html]cookies_policy"></span>
