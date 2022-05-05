@@ -1314,4 +1314,9 @@ section#embedPanel {
     padding: 20px;
     border: 2px solid red;
 	background: transparent;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 } 
