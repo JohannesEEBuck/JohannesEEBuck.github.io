@@ -375,6 +375,7 @@ button.hiddenPanel_bottomButton {
 }
 
 .on_script_load{
+	background: transparent;
 }
 
 div#loading {text-align: center;}
@@ -1308,8 +1309,9 @@ section#embedPanel {
 }
 
 .float-child {
-    width: 45%;
+    width: 50%;
     float: left;
     padding: 20px;
     border: 2px solid red;
+	background: transparent;
 } 
