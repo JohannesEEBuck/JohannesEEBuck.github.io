@@ -708,7 +708,8 @@ button.settings:hover {
 }
 
 #seemap_link img {
-    height: 1000px !important;
+    max-width: 90%;
+    max-height: 20px;
 }
 
 div#upperDiv {
@@ -1323,13 +1324,12 @@ section#embedPanel {
 }
 
 .parent-float {
-  min-width:0;
 }
 
 .float-child {
-  width: 40%;  
+
 }
 
 .float-child2 {
-  width: 50%;  
+
 }
