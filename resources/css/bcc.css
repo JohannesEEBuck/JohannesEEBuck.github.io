@@ -377,6 +377,7 @@ button.hiddenPanel_bottomButton {
 
 .on_script_load{
     display: none;
+	background: transparent;
 }
 
 
@@ -1315,11 +1316,9 @@ section#embedPanel {
     width: 35%;
     float: left;
     padding: 20px;
-	background: red;
 } 
 .float-child2 {
     float: left;
     padding: 20px;
-	background: red;
 } 
 
