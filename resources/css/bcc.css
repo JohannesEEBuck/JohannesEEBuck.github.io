@@ -1328,9 +1328,13 @@ section#embedPanel {
 }
 
 .float-child {
-  flex: 1; /* additionally, equal width */
-  
+  flex-basis: 40%;  
   padding: 1em;
   border: solid;
 }
 
+.float-child2 {
+  flex-basis: 60%;  
+  padding: 1em;
+  border: solid;
+}
