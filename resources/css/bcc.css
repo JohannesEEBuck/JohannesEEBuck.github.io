@@ -450,6 +450,10 @@ footer {
 	position:relative; top:25px;
 }
 
+#actions a.info:hover {
+    color: #EE4E23;
+}
+
 #actions a.settings {
     background-image: url(../img/settings.png);
 }
