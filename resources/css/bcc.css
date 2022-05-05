@@ -691,6 +691,7 @@ button.settings {
     margin-right: 10px;
     border-bottom: solid 2px #AAAAAA;
     background-color: #FFFFFF;
+	width: 100%;
 }
 
 #countriesChart.c3 svg{
