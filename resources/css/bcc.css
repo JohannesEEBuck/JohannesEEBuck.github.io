@@ -79,7 +79,7 @@ ul#navlist {
 
 #navlist .country th {
     background-color: #FFF;
-    border-radius: 0px;
+    border-radius: 10px;
     height: 25px;
     padding: 2px;
     margin: 2px;
@@ -132,7 +132,7 @@ ul#navlist {
 
 #addCountrySelector {
     background-color: #FFF;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
     height: 27px;
     padding: 2px;
     margin-bottom: 0px;
@@ -250,7 +250,7 @@ select#addCountrySelect option:first-child{
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 .country.hover-highlight:hover,#addCountry.hover-highlight:hover {
@@ -263,7 +263,7 @@ select#addCountrySelect option:first-child{
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -277,7 +277,7 @@ select#addCountrySelect option:first-child{
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -moz-box-sizing: content-box;
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid #5d5e68;
 }
 
@@ -632,12 +632,12 @@ nav#clocks {
 
 li .country {
     background: #FFF;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 li#addCountry {
     background: #FFF;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 .hover-highlight:hover {
