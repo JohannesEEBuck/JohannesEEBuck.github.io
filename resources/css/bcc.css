@@ -578,13 +578,15 @@ div#timeSlider {
 h2#countrieschart_title {
     color: #5d5e68;
     margin-left: 0px;
+	margin-right: 20px;
     margin-bottom: 0px;
     margin-top: 10px;
     display: inline-block;
 	background: #FFF;
 	width: 100%;
-	padding: 15px 5px;
+	padding: 15px 0px;
 	text-align: left;
+
 }
 
 #countrieschart_paragraph {
