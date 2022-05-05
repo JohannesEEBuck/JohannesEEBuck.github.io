@@ -442,7 +442,7 @@ footer {
 }
 
 #actions a.embed:hover {
-    color: #6b6b6b;
+    color: #a5a5a5;
 }
 
 #actions a.info {
@@ -455,7 +455,7 @@ footer {
 }
 
 #actions a.info:hover {
-    color: #6b6b6b;
+    color: #a5a5a5;
 }
 
 #actions a.settings {
@@ -472,7 +472,7 @@ footer {
 }
 
 #actions a.get_report:hover {
-    color: #6b6b6b;
+    color: #a5a5a5;
 }
 
 #actions a.share {
@@ -485,7 +485,7 @@ footer {
 }
 
 #actions a.share:hover {
-    color: #6b6b6b;
+    color: #a5a5a5;
 }
 
 #actions a.lng_change, a.lng_changer {
