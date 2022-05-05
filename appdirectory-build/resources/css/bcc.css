@@ -1323,13 +1323,17 @@ section#embedPanel {
 
 }
 
-.float-child {
-    width: 35%;
-    float: left;
-    padding: 20px;
-} 
-.float-child2 {
-    float: left;
-    padding: 20px;
-} 
+.parent-float {
+  display: flex; /* equal height of the children */
+}
 
+.float-child {
+  flex-basis: 40%;  
+  padding: 1em;
+  align-self: center;
+}
+
+.float-child2 {
+  flex-basis: 60%;  
+  padding: 1em;
+}
