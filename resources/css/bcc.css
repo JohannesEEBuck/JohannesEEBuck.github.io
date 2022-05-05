@@ -473,7 +473,7 @@ footer {
 }
 
 #actions a.lng_change, a.lng_changer {
-	position:relative; top:27px;
+	position:relative; top:25px; left: 5px;
     text-decoration: none;
 }
 
