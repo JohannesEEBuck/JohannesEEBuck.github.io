@@ -313,20 +313,21 @@ fieldset#generateCountriesSelect {
     max-width: 40em;
 }
 
-#actions a.language-en, a.language-en:before {
-	content: '\01F1EC \01F1E7';
-	font-size: 30px;
-
+#actions a.language-en, a.language-en {
+	background-image: url(../img/EN2.png);
+    background-size: 30px !important;
 }
 
 #actions a.language-fr, a.language-fr:before {
-    content: '\01F1EB \01F1F7';
-	font-size: 30px;
+    /*content: '\01F1EB \01F1F7';
+	font-size: 30px;*/
+	background-image: url(../img/FR2.png);
+    background-size: 30px !important;
 }
 	
 #actions a.language-de, a.language-de:before {
-    content: '\01F1E9 \01F1EA';
-	font-size: 30px;
+	background-image: url(../img/DE2.png);
+    background-size: 30px !important;
 }
 
 legend#generateCountriesSelectLegend {
