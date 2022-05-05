@@ -79,61 +79,62 @@
 <div id="main_content">
     <div id="bcc_view" class="alt_view">
         <div id="topDiv" class="on_script_load">
-			<div class="float-child">
-				<div class="tool-bar">
-					<button id="gotomapview_button" class="settings" data-i18n="[title]see_map" title="See on a map"
-							onclick="goToMapView();">
-						<img class="settingsIcon" src="resources/img/map.png" alt="settings"/>
-						<span data-i18n="see_map">See on a map</span>
-					</button>
-				</div>
-				<section id='playerClock' class="timerPlayer">
-					<img class="playerControl previous_quarter selectable"
-						 src="resources/img/button_white_step_backward.png" alt="go to start" title="Go to start"
-						 onclick="bcc.timer.backToStart()" data-i18n="[title]go_to_start;[alt]go_to_start"/>
-					<div class="playerControl pause selectable selected" alt="pause" title="Pause"
-						 onclick="bcc.timer.pause()" data-i18n="[title]pause;[alt]pause"></div>
-					<div class="playerControl play selectable" alt="play" title="Play" onclick="bcc.timer.goForward(true);"
-						 data-i18n="[title]play;[alt]play"></div>
-					<img class="playerControl next_quarter selectable" src="resources/img/button_white_step_forward.png"
-						 alt="go to end" title="Go to end" onclick="bcc.timer.goToEnd()"
-						 data-i18n="[title]go_to_end;[alt]go_to_end"/>
-					<div>
-						<button id="settings_button" class="settings" data-i18n="[title]select_range" title="settings"
-								onclick="toggleClockTimeSelector()">
-							<img class="settingsIcon" src="resources/img/calendar.png" alt="period"
-								 data-i18n="[alt]period"/>
-							<span data-i18n="select_range">Select the time period</span>
+			<div class="parent-float">
+				<div class="float-child">
+					<div class="tool-bar">
+						<button id="gotomapview_button" class="settings" data-i18n="[title]see_map" title="See on a map"
+								onclick="goToMapView();">
+							<img class="settingsIcon" src="resources/img/map.png" alt="settings"/>
+							<span data-i18n="see_map">See on a map</span>
 						</button>
-						<div id="range_select" style="display: none">
-							<div value="5" label="five year" data-i18n="[label]five_year;five_year"
-								 onclick="applyCustomRangeSelection(this, '5');">five year
-							</div>
-							<div value="10" label="ten year" data-i18n="[label]ten_year;ten_year"
-								 onclick="applyCustomRangeSelection(this, '10');">ten year
-							</div>
-							<div value="15" class="selected" label="15 year" data-i18n="[label]15_year;15_year"
-								 onclick="applyCustomRangeSelection(this, '15');">15 year
-							</div>
-							<div value="all" label="all period available"
-								 data-i18n="[label]all_period_available;all_period_available"
-								 onclick="applyCustomRangeSelection(this, 'all');">all period available
-							</div>
-							<div value="custom" label="custom" data-i18n="[label]custom;custom"
-								 onclick="applyCustomRangeSelection(this, 'custom')">custom
-							</div>
-						</div>
-						<select id="range_selector" style="display: none">
-							<option value="5"></option>
-							<option value="10"></option>
-							<option value="15" selected="selected"></option>
-							<option value="all"></option>
-							<option value="custom"></option>
-						</select>
 					</div>
-				</section>
-			</div>
-			<div class= "float-child2">
+					<section id='playerClock' class="timerPlayer">
+						<img class="playerControl previous_quarter selectable"
+							 src="resources/img/button_white_step_backward.png" alt="go to start" title="Go to start"
+							 onclick="bcc.timer.backToStart()" data-i18n="[title]go_to_start;[alt]go_to_start"/>
+						<div class="playerControl pause selectable selected" alt="pause" title="Pause"
+							 onclick="bcc.timer.pause()" data-i18n="[title]pause;[alt]pause"></div>
+						<div class="playerControl play selectable" alt="play" title="Play" onclick="bcc.timer.goForward(true);"
+							 data-i18n="[title]play;[alt]play"></div>
+						<img class="playerControl next_quarter selectable" src="resources/img/button_white_step_forward.png"
+							 alt="go to end" title="Go to end" onclick="bcc.timer.goToEnd()"
+							 data-i18n="[title]go_to_end;[alt]go_to_end"/>
+						<div>
+							<button id="settings_button" class="settings" data-i18n="[title]select_range" title="settings"
+									onclick="toggleClockTimeSelector()">
+								<img class="settingsIcon" src="resources/img/calendar.png" alt="period"
+									 data-i18n="[alt]period"/>
+								<span data-i18n="select_range">Select the time period</span>
+							</button>
+							<div id="range_select" style="display: none">
+								<div value="5" label="five year" data-i18n="[label]five_year;five_year"
+									 onclick="applyCustomRangeSelection(this, '5');">five year
+								</div>
+								<div value="10" label="ten year" data-i18n="[label]ten_year;ten_year"
+									 onclick="applyCustomRangeSelection(this, '10');">ten year
+								</div>
+								<div value="15" class="selected" label="15 year" data-i18n="[label]15_year;15_year"
+									 onclick="applyCustomRangeSelection(this, '15');">15 year
+								</div>
+								<div value="all" label="all period available"
+									 data-i18n="[label]all_period_available;all_period_available"
+									 onclick="applyCustomRangeSelection(this, 'all');">all period available
+								</div>
+								<div value="custom" label="custom" data-i18n="[label]custom;custom"
+									 onclick="applyCustomRangeSelection(this, 'custom')">custom
+								</div>
+							</div>
+							<select id="range_selector" style="display: none">
+								<option value="5"></option>
+								<option value="10"></option>
+								<option value="15" selected="selected"></option>
+								<option value="all"></option>
+								<option value="custom"></option>
+							</select>
+						</div>
+					</section>
+				</div>
+				<div class= "float-child">
 				<nav id='clocks' class='tile'>
 					<ul id="navlist">
 						<li id="addCountry" class="hover-highlight">
@@ -153,6 +154,7 @@
 						</li>
 					</ul>
 				</nav>
+				</div>
 			</div>
         </div>
         <div class="tile on_script_load" id='countriesChartContainer'>
