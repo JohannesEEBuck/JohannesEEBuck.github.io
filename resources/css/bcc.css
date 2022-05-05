@@ -842,7 +842,7 @@ section#playerClock .previous_quarter{
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-    margin: 0 0px;
+    margin: 0 5px;
 }
 
 .pause.selected, .pause:hover {
@@ -856,7 +856,7 @@ section#playerClock .previous_quarter{
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-    margin: 0 0px;
+    margin: 0 5px;
 }
 
 .play.selected, .play:hover{
@@ -991,7 +991,7 @@ button#gotomapview_button>img {
     display: block;
     position: absolute;
     top: 153px;
-    left: 266px;
+    left: 286px;
     z-index: 10;
     min-width: 230px;
     background-color: #ffffff;
