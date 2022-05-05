@@ -660,6 +660,10 @@ button.settings {
     background: none;
 }
 
+button.settings:hover {
+    color: #cfcfcf;
+}
+
 .violet #currentDate {
     color: #000000;
 }
