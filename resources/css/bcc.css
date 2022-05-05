@@ -959,8 +959,8 @@ button#gotomapview_button>span {
 }
 
 button#gotomapview_button>img {
-    height: auto; 
-    width: auto;
+	max-width:100%;
+	max-height:100%;
 }
 
 #settings_button:hover {
