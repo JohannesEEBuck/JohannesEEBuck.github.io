@@ -376,6 +376,7 @@ button.hiddenPanel_bottomButton {
 
 .on_script_load{
     display: none;
+	background: transparent;
 }
 
 div#loading {text-align: center;}
@@ -695,7 +696,7 @@ button.settings {
 
 #seemap_link img {
     max-width: 90%;
-    max-height: 180px;
+    max-height: 200px;
 }
 
 div#upperDiv {
@@ -1307,3 +1308,16 @@ section#embedPanel {
     }
 
 }
+
+.float-child {
+    width: 35%;
+    float: left;
+    padding: 20px;
+	background: transparent;
+} 
+.float-child2 {
+    width: 55%;
+    float: left;
+    padding: 20px;
+	background: transparent;
+} 

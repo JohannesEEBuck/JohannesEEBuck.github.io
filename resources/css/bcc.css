@@ -1321,3 +1321,7 @@ section#embedPanel {
     padding: 20px;
 	background: transparent;
 } 
+
+.LineContainer {
+	background: #FFF;
+} 
