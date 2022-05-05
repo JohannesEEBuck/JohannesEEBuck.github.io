@@ -132,7 +132,7 @@ ul#navlist {
 
 #addCountrySelector {
     background-color: #FFF;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 0px 0px 0px;
     height: 27px;
     padding: 2px;
     margin-bottom: 0px;
@@ -150,7 +150,7 @@ ul#navlist {
     margin: 0;
     padding: 0;
     background-color: #EAEAEA;
-    border-radius: 5px;
+    border-radius: 3px;
     width: 90%;
     height: 20%;
     position: absolute;
@@ -162,7 +162,7 @@ ul#navlist {
     margin: 0;
     padding: 0;
     background-color: #EAEAEA;
-    border-radius: 5px;
+    border-radius: 3px;
     width: 20%;
     height: 90%;
     position: absolute;
@@ -581,7 +581,7 @@ h2#countrieschart_title {
     margin-left: 0px;
 	margin-right: 20px;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: -10px;
     display: inline-block;
 	background: #FFF;
 	width: 100%;
@@ -960,7 +960,7 @@ button#gotomapview_button>span {
 
 button#gotomapview_button>img {
 	height: 100%; 
-	width: 120%; 
+	width: 100%; 
 	object-fit: contain;
 }
 
