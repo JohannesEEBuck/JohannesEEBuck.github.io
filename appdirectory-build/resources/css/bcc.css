@@ -38,8 +38,6 @@ header, div.header, section, div.section, footer, div.footer, nav, div.nav, arti
 
 .tile {
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 0px #00000029;
-    border-radius: 0px;
 }
 
 nav#clocks {
@@ -68,7 +66,7 @@ ul#navlist {
 }
 
 #navlist .country {
-    width: 260px;
+    width: 240px;
     height: 300px;
     padding: 0;
     margin: 0;
@@ -142,7 +140,7 @@ ul#navlist {
 }
 
 #addCountryIcon {
-    width: 260px;
+    width: 240px;
     height: 270px;
     margin-top: 0px;
     position: relative;
@@ -198,6 +196,7 @@ select#addCountrySelect option:first-child{
 
 #countriesChartContainer .timerPlayer {
     text-align: center;
+	background: #FFF;
 }
 
 #currentDate, .currentDate, #currentQuarter, .currentQuarter {
@@ -378,6 +377,7 @@ button.hiddenPanel_bottomButton {
     display: none;
 	background: transparent;
 }
+
 
 div#loading {text-align: center;}
 
@@ -577,10 +577,17 @@ div#timeSlider {
 
 h2#countrieschart_title {
     color: #5d5e68;
-    margin-left: 15px;
-    margin-bottom: 5px;
+	box-sizing: border-box;
+    margin-left: 0px;
+	margin-right: 20px;
+    margin-bottom: 0px;
     margin-top: 10px;
     display: inline-block;
+	background: #FFF;
+	width: 100%;
+	padding: 15px 10px;
+	text-align: left;
+
 }
 
 #countrieschart_paragraph {
@@ -590,6 +597,7 @@ h2#countrieschart_title {
     margin-left: 15px;
     margin-bottom: 10px;
     margin-top: 0;
+	background: #FFF;
 }
 
 #customeRange_selection input {
@@ -652,6 +660,10 @@ button.settings {
     background: none;
 }
 
+button.settings:hover {
+    color: #cfcfcf;
+}
+
 .violet #currentDate {
     color: #000000;
 }
@@ -688,6 +700,7 @@ button.settings {
     margin-right: 10px;
     border-bottom: solid 2px #AAAAAA;
     background-color: #FFFFFF;
+	width: 100%;
 }
 
 #countriesChart.c3 svg{
@@ -831,8 +844,8 @@ section#playerClock .previous_quarter{
     background-size: 43px !important;
     background-repeat: no-repeat;
     /*background-position: 3px 3px;*/
-    width: 43px;
-    height: 43px;
+    width: 58px;
+    height: 46px;
     margin: 0 5px;
 }
 
@@ -845,8 +858,8 @@ section#playerClock .previous_quarter{
     background-size: 43px !important;
     background-repeat: no-repeat;
     /*background-position: 3px 3px;*/
-    width: 43px;
-    height: 43px;
+    width: 58px;
+    height: 46px;
     margin: 0 5px;
 }
 
@@ -874,6 +887,7 @@ section#playerClock {
     align-content: center;
     justify-content: space-between;
     align-items: center;
+	background: #FFF;
 }
 
 #chart_details .chart_first_child > div {
@@ -981,7 +995,7 @@ button#gotomapview_button>img {
     display: block;
     position: absolute;
     top: 153px;
-    left: 266px;
+    left: 286px;
     z-index: 10;
     min-width: 230px;
     background-color: #ffffff;
@@ -1313,11 +1327,9 @@ section#embedPanel {
     width: 35%;
     float: left;
     padding: 20px;
-	background: transparent;
 } 
 .float-child2 {
-    width: 55%;
     float: left;
     padding: 20px;
-	background: transparent;
 } 
+

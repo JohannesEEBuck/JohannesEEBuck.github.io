@@ -1331,5 +1331,6 @@ section#embedPanel {
 .float-child2 {
     float: left;
     padding: 20px;
+	width: 55%;
 } 
 
