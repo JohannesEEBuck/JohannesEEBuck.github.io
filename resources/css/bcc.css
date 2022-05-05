@@ -874,6 +874,7 @@ section#playerClock {
     align-content: center;
     justify-content: space-between;
     align-items: center;
+	background: #FFF;
 }
 
 #chart_details .chart_first_child > div {
