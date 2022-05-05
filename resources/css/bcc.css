@@ -1324,13 +1324,15 @@ section#embedPanel {
 }
 
 .float-child {
-    width: 35%;
+	box-sizing: border-box;
+    width: 40%;
     float: left;
     padding: 20px;
 } 
 .float-child2 {
+	box-sizing: border-box;
     float: left;
     padding: 20px;
-	width: 55%;
+	width: 60%;
 } 
 
