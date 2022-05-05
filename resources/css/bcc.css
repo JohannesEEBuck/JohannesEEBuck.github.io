@@ -584,6 +584,7 @@ h2#countrieschart_title {
 	background: #FFF;
 	width: 100%;
 	padding: 20px 0px;
+	float: left;
 }
 
 #countrieschart_paragraph {
