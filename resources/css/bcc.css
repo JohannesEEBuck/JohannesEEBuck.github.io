@@ -710,6 +710,9 @@ button.settings:hover {
 #seemap_link img {
     max-width: 90%;
     max-height: 200px;
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 div#upperDiv {
