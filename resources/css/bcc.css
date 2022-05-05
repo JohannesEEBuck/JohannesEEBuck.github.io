@@ -1327,7 +1327,7 @@ section#embedPanel {
 
 .parent-float {
   display: flex; /* equal height of the children */
-  justify-content: center;
+  justify-content: center !important;
   align-items: center;
 }
 
