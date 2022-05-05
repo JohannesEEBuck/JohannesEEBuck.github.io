@@ -66,7 +66,7 @@ ul#navlist {
 }
 
 #navlist .country {
-    width: 260px;
+    width: 250px;
     height: 300px;
     padding: 0;
     margin: 0;
@@ -140,7 +140,7 @@ ul#navlist {
 }
 
 #addCountryIcon {
-    width: 260px;
+    width: 250px;
     height: 270px;
     margin-top: 0px;
     position: relative;
@@ -837,12 +837,12 @@ section#playerClock .previous_quarter{
 
 .playerControl.pause {
     background-image: url(../img/button_black_pause.png);
-    background-size: 45px !important;
+    background-size: 43px !important;
     background-repeat: no-repeat;
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-    margin: 0 5px;
+    margin: 0 0px;
 }
 
 .pause.selected, .pause:hover {
@@ -856,7 +856,7 @@ section#playerClock .previous_quarter{
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-    margin: 0 5px;
+    margin: 0 0px;
 }
 
 .play.selected, .play:hover{
