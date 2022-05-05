@@ -56,7 +56,7 @@ ul#navlist {
 
 #navlist li {
     box-shadow: 0px 0px 0px #00000029;
-    border-radius: 0px;
+    border-radius: 10px;
     display: inline-block;
 
     padding: 0;
@@ -79,7 +79,7 @@ ul#navlist {
 
 #navlist .country th {
     background-color: #FFF;
-    border-radius: 0px;
+    border-radius: 10px;
     height: 25px;
     padding: 2px;
     margin: 2px;
@@ -960,7 +960,7 @@ button#gotomapview_button>span {
 
 button#gotomapview_button>img {
 	height: 100%; 
-	width: 100%; 
+	width: 120%; 
 	object-fit: contain;
 }
 
