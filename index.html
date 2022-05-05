@@ -131,26 +131,26 @@
                     </select>
                 </div>
             </section>
-            <nav id='clocks' class='tile'>
-                <ul id="navlist">
-                    <li id="addCountry" class="hover-highlight">
-                        <div id="addCountrySelector">
-                            <select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
-                                    onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1);"
-                                    onblur="this.size=0;" size="0">
-                                <option value="" selected="selected" data-i18n="add_country_button">Add a country
-                                </option>
-                            </select>
-                        </div>
-                        <div id="addCountryIcon"
-                             onclick="simulateMouseEvent(document.getElementById('addCountrySelect'), 'mousedown');">
-                            <div id="verticalIconLine"></div>
-                            <div id="horizontalIconLine"></div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+		</div>
+        <nav id='clocks' class='tile'>
+            <ul id="navlist">
+                <li id="addCountry" class="hover-highlight">
+                    <div id="addCountrySelector">
+                        <select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
+                                onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1);"
+                                onblur="this.size=0;" size="0">
+                            <option value="" selected="selected" data-i18n="add_country_button">Add a country
+                            </option>
+                        </select>
+                    </div>
+                    <div id="addCountryIcon"
+                        onclick="simulateMouseEvent(document.getElementById('addCountrySelect'), 'mousedown');">
+                        <div id="verticalIconLine"></div>
+                        <div id="horizontalIconLine"></div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
         <article class="tile on_script_load" id='countriesChartContainer'>
             <h2 id="countrieschart_title" data-i18n="chart_gdp_gc_title">chart_gdp_gc_title</h2>
             <div id="countriesChart"></div>
