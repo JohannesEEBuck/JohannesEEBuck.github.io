@@ -577,6 +577,8 @@ div#timeSlider {
 
 h2#countrieschart_title {
     color: #5d5e68;
+    margin-left: 0px;
+    margin-bottom: 0px;
     margin-top: 10px;
     display: inline-block;
 	background: #FFF;
