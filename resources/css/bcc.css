@@ -559,7 +559,6 @@ div#timeSlider {
 article#countriesChartContainer, .bottomDiv,#upperDiv, #topDiv {
     text-align: left;
     padding: 1px;
-	background: #FFF;
 }
 
 .playerControl {
@@ -583,6 +582,8 @@ h2#countrieschart_title {
     margin-top: 10px;
     display: inline-block;
 	background: #FFF;
+	width: 100%;
+	padding: 20px;
 }
 
 #countrieschart_paragraph {
