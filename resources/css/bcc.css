@@ -709,7 +709,7 @@ button.settings:hover {
 
 #seemap_link img {
     max-width: 90%;
-    max-height: 200px;
+    max-height: 20px;
 }
 
 div#upperDiv {
@@ -1325,6 +1325,7 @@ section#embedPanel {
 
 .parent-float {
   display: flex; /* equal height of the children */
+  min-width:0;
 }
 
 .float-child {
