@@ -930,7 +930,7 @@ div.ui-tooltip {
     background-color: transparent;
     box-shadow: 0px 0px 0px #00000029;
     border-radius: 0px;
-	position:relative; top:-25px; left: -40px;
+	position:relative; top:-25px;
 }
 
 button#gotomapview_button>span {
