@@ -710,9 +710,6 @@ button.settings:hover {
 #seemap_link img {
     max-width: 90%;
     max-height: 200px;
-	display: inline-block;
-    height: 100%;
-    vertical-align: middle;
 }
 
 div#upperDiv {
@@ -1334,7 +1331,7 @@ section#embedPanel {
   flex-basis: 40%;  
   padding: 1em;
   border: solid;
-  justify-content: center;
+  align-self: center;
 }
 
 .float-child2 {
