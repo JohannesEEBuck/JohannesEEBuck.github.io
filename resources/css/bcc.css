@@ -375,7 +375,7 @@ button.hiddenPanel_bottomButton {
 }
 
 .on_script_load{
-	background: transparent;
+    display: none;	
 }
 
 div#loading {text-align: center;}
