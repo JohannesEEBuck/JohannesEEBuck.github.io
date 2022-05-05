@@ -1312,13 +1312,11 @@ section#embedPanel {
     width: 37%;
     float: left;
     padding: 20px;
-    border: 2px solid red;
 	background: transparent;
 } 
 .float-child2 {
     width: 57%;
     float: left;
     padding: 20px;
-    border: 2px solid red;
 	background: transparent;
 } 
