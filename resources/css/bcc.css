@@ -1334,6 +1334,7 @@ section#embedPanel {
   flex-basis: 40%;  
   padding: 1em;
   border: solid;
+  justify-content: center;
 }
 
 .float-child2 {
