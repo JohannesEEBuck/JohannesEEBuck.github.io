@@ -708,7 +708,7 @@ button.settings:hover {
 }
 
 #seemap_link img {
-    max-height: 2vw;
+    height: 1000px !important;
 }
 
 div#upperDiv {
