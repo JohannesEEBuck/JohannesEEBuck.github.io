@@ -708,8 +708,8 @@ button.settings:hover {
 }
 
 #seemap_link img {
-    max-width: 90%;
-    max-height: 20px;
+    width: 100%; 
+	height: auto;
 }
 
 div#upperDiv {
