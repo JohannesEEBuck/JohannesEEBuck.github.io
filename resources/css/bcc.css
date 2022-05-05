@@ -438,7 +438,7 @@ footer {
 	padding: 20px 15px;
 	text-decoration: none;
 	color: white;
-	position:relative; top:25px;
+	position:relative; top:21px;
 }
 
 #actions a.embed:hover {
@@ -451,7 +451,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
-	position:relative; top:25px;
+	position:relative; top:21px;
 }
 
 #actions a.info:hover {
@@ -468,7 +468,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:60px;
-	position:relative; top:25px;
+	position:relative; top:21px;
 }
 
 #actions a.get_report:hover {
@@ -481,7 +481,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	top:20px;
-	position:relative; top:25px;
+	position:relative; top:21px;
 }
 
 #actions a.share:hover {
@@ -489,7 +489,7 @@ footer {
 }
 
 #actions a.lng_change, a.lng_changer {
-	position:relative; top:32px; left: 7px;
+	position:relative; top:28px; left: 7px;
     text-decoration: none;
 }
 
