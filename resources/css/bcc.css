@@ -709,7 +709,7 @@ button.settings:hover {
 
 #seemap_link img {
     max-width: 90%;
-    max-height: 20px;
+    max-height: 200px;
 }
 
 div#upperDiv {
@@ -959,7 +959,7 @@ button#gotomapview_button>span {
 }
 
 button#gotomapview_button>img {
-    width: 200px;
+    height: 70vh;
 }
 
 #settings_button:hover {
@@ -1324,12 +1324,16 @@ section#embedPanel {
 }
 
 .parent-float {
+  display: flex; /* equal height of the children */
 }
 
 .float-child {
-
+  flex-basis: 40%;  
+  padding: 1em;
+  align-self: center;
 }
 
 .float-child2 {
-
+  flex-basis: 60%;  
+  padding: 1em;
 }
