@@ -1335,8 +1335,7 @@ section#embedPanel {
   align-self: center;
 }
 
-.float-child2 {
-  flex-basis: 60%;  
+.float-child2 { 
   padding: 1em;
   margin: auto;
 
