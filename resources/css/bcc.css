@@ -1332,13 +1332,13 @@ section#embedPanel {
 }
 
 .float-child {
-  flex-basis: 40%;  
+  flex-basis: 38%;  
   padding: 1em;
   align-self: center;
 }
 
 .float-child2 { 
-  max-width: 60%;
+  max-width: 62%;
   align-self: center;
   margin: auto; 
 }
