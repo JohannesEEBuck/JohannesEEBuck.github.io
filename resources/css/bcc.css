@@ -1337,9 +1337,8 @@ section#embedPanel {
 
 .float-child2 {
   flex-basis: 60%;  
-  max-width: 60%;
   padding: 1em;
-  margin-left: auto;
+  margin: auto;
 
   
 }
