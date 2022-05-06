@@ -1336,7 +1336,7 @@ section#embedPanel {
 }
 
 .float-child2 { 
-  padding: 1em;
+  align-self: center;
   margin: auto;
 
   
