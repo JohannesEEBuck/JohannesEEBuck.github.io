@@ -969,6 +969,7 @@ button#gotomapview_button>img {
     background-color: #EE4E23;
 }
 
+
 #settings_button {
     /*width: 269px;*/
     margin-left: 20px;
@@ -1341,3 +1342,8 @@ section#embedPanel {
   align-self: center;
   margin: auto; 
 }
+
+#BackToMainPage:hover {
+	background-color: #EE4E23;
+}
+	
