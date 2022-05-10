@@ -587,7 +587,7 @@ h2#countrieschart_title {
 	width: 100%;
 	padding: 15px 10px;
 	text-align: left;
-	border-radius: 0px 0px 3px 3px;
+	border-radius: 3px 3px 0px 0px;
 	
 
 }
