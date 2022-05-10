@@ -1348,14 +1348,20 @@ section#embedPanel {
 }
 
 
-
-
-
-
-.language_dropdown {
-  position: relative;
-  display: inline-block;
+#actions div.language_dropdown {
+	width: fit-content;
+	padding: 20px 15px;
+	text-decoration: none;
+	color: white;
+	top:60px;
+	position:relative; top:21px;
 }
+
+#actions a.language_dropdown:hover {
+    color: #cfcfcf;
+}
+
+
 
 .dropdown-content {
   display: none;
