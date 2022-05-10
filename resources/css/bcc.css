@@ -705,6 +705,7 @@ button.settings:hover {
     border-bottom: solid 2px #AAAAAA;
     background-color: #FFFFFF;
 	width: 100%;
+	border-radius: 0px 3px 3px 0px;
 }
 
 #countriesChart.c3 svg{
@@ -894,6 +895,7 @@ section#playerClock {
     justify-content: space-between;
     align-items: center;
 	background: #FFF;
+	border-radius: 3px;
 }
 
 #chart_details .chart_first_child > div {
