@@ -11,7 +11,7 @@ div#controls {
     display: flex;
     vertical-align: top;
     margin-right: 50px;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 5px;
     padding-top: 0px;
     flex-direction: column;
@@ -42,7 +42,7 @@ div#vmap {
 }
 
 div#vmap_map, #vmap #eu_map.map {
-    border-radius: 10px;
+    border-radius: 3px;
     position: absolute !important;
     bottom: 0;
     left: 0;
@@ -141,7 +141,7 @@ div#colors_legend {
     font-weight: bold;
     font-size: 1.1em;
     background: rgba(28,104,206,0.4);
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 0;
 }
 
@@ -221,7 +221,7 @@ div#ea_clock {
     background: none;
     background-color: #DCE9F5;
     box-shadow: 5px 5px 5px #00000029;
-    border-radius: 10px;
+    border-radius: 3px;
     width: 5em;
     height: 2em;
     font-weight: bold;
@@ -247,7 +247,7 @@ div#ea_clock {
     background: white;
     background: rgba(255,255,255,0.8);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.16);
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .country_info {
@@ -291,5 +291,5 @@ div#ea_clock {
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 5px 5px 5px #00000029;
-    border-radius: 10px;
+    border-radius: 3px;
 }
