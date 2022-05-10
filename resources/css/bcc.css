@@ -1349,7 +1349,13 @@ section#embedPanel {
 
 
 .dropdown {
-  display: inline-block;
+	display: inline-block;
+	width: fit-content;
+	padding: 20px 15px;
+	text-decoration: none;
+	color: white;
+	top:60px;
+	position:relative; top:21px;
 }
 
 .dropdown-content {
