@@ -1368,14 +1368,14 @@ section#embedPanel {
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: white;
+  padding: 8px 12px;
   text-decoration: none;
   display: block;
   z-index:100;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #cfcfcf;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
