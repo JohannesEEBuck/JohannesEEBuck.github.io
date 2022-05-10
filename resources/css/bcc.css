@@ -1383,3 +1383,7 @@ section#embedPanel {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.dropdown:hover {background-color: #cfcfcf;}
+
+.dropdown-content a:hover {background-color: #cfcfcf;}
