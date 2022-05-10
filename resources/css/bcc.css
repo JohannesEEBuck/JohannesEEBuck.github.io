@@ -738,12 +738,12 @@ div#upperDiv .upperDetails {
     width: 80px;
 }
 
-
+/*Add here the rounded edges for the chart left side, map view*/
 .violet_tile, #bccMap .ui-widget-header.month-picker-header.ui-corner-all {
     background: #FFFFFF;
     border: none;
     box-shadow: 0px 0px 0px #00000029;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #main_content .alt_view {
