@@ -197,6 +197,7 @@ select#addCountrySelect option:first-child{
 #countriesChartContainer .timerPlayer {
     text-align: center;
 	background: #FFF;
+	border-radius: 3px;
 }
 
 #currentDate, .currentDate, #currentQuarter, .currentQuarter {
