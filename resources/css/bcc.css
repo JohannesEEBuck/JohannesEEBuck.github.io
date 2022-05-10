@@ -1367,10 +1367,11 @@ section#embedPanel {
 
 .dropdown-content a {
   color: black;
-  padding: 8px 12px;
+  padding: 20px 50px;
   text-decoration: none;
   display: block;
   z-index:100;
+  text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #cfcfcf;}
