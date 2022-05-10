@@ -1367,11 +1367,10 @@ section#embedPanel {
 
 .dropdown-content a {
   color: black;
-  padding: 10px 30px;
+  padding: 20px 50px;
   text-decoration: none;
   display: block;
   z-index:100;
-  line-height: 10px;
   text-align: center;
 }
 
