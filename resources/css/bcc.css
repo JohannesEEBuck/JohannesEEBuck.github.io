@@ -56,7 +56,7 @@ ul#navlist {
 
 #navlist li {
     box-shadow: 0px 0px 0px #00000029;
-    border-radius: 0px;
+    border-radius: 3px;
     display: inline-block;
 
     padding: 0;
@@ -292,7 +292,7 @@ select#addCountrySelect option:first-child{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFFFFF;
-    border-radius: 0px;
+    border-radius: 3px;
     box-shadow: 0px 0px 0px #00000029;
     font-weight: bold;
     font-size: 1.3em;
@@ -365,7 +365,7 @@ button.hiddenPanel_bottomButton {
     margin: 20px;
     padding: 5px 10px;
     border: solid 1px #5d5e68;
-    border-radius: 0px;
+    border-radius: 3px;
     min-width: 90px;
 }
 
@@ -388,7 +388,7 @@ div#noJS {
 span#noJs_msg {
     display: inline-block;
     max-width: 600px;
-    border-radius: 0px;
+    border-radius: 3px;
     box-shadow: 0px 0px 0px 0px rgb(165, 153, 153);
     background-color: #FFF;
     padding: 10px;
@@ -568,7 +568,7 @@ article#countriesChartContainer, .bottomDiv,#upperDiv, #topDiv {
 .playerControl + .selected {
     /*background-color: #FFFFFF !important;*/
     /*background-color: #EE4E23 !important;*/
-    border-radius: 0px;
+    border-radius: 3px;
 }
 
 div#timeSlider {
@@ -607,7 +607,7 @@ h2#countrieschart_title {
     text-align: center;
     margin-top: 20px;
     box-sizing: border-box;
-    border-radius: 0px;
+    border-radius: 3px;
 }
 
 .month-picker-month-table .ui-state-hover, .month-picker-month-table .ui-state-focus, .month-picker-month-table .ui-state-active {
@@ -619,13 +619,13 @@ h2#countrieschart_title {
 }
 
 aside#asideClock {
-    border-radius: 0px;
+    border-radius: 3px;
     box-shadow: none;
 }
 
 nav#clocks {
     background: transparent;
-    border-radius: 0px;
+    border-radius: 3px;
     box-shadow: none;
 }
 
@@ -669,7 +669,7 @@ button.settings:hover {
 
 .violet select, .violet button, .violet input {
     background-color: #C7C7F1;
-    border-radius: 0px;
+    border-radius: 3px;
     border: solid 1px #FFF;
 }
 
@@ -737,7 +737,7 @@ div#upperDiv .upperDetails {
     background: #FFFFFF;
     border: none;
     box-shadow: 0px 0px 0px #00000029;
-    border-radius: 0px;
+    border-radius: 3px;
 }
 
 #main_content .alt_view {
@@ -774,7 +774,7 @@ button#gotomapview_button {
     justify-content: space-between;
     align-items: center;
     /*border: 2px solid #5D5E66;*/
-    /*border-radius: 0px;*/
+    /*border-radius: 3px;*/
     padding: 5px 15px;
 }
 
@@ -790,7 +790,7 @@ button#gotobccview_button {
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid #5D5E66; */
-    /* border-radius: 0px; */
+    /* border-radius: 3px; */
     padding: 5px 15px;
     position: absolute;
     top: 0;
@@ -939,14 +939,14 @@ div.ui-tooltip {
     background-color: transparent;
     /*box-shadow: 5px 5px 5px #00000029;*/
     box-shadow: none;
-    /*border-radius: 0px;*/
+    /*border-radius: 3px;*/
     border:none
 }
 
 .lang_tooltip{
     background-color: transparent;
     box-shadow: 0px 0px 0px #00000029;
-    border-radius: 0px;
+    border-radius: 3px;
 	position:relative; top:-25px;
 }
 
@@ -979,7 +979,7 @@ button#gotomapview_button>img {
     align-content: center;
     justify-content: space-between;
     border: 2px solid #FFFFFF;
-    border-radius: 0px;
+    border-radius: 3px;
     padding: 7px 10px;
     align-items: center;
 }
@@ -1036,7 +1036,7 @@ button#gotomapview_button>img {
 div#helpPie {
     display: inline-block;
     background: white;
-    border-radius: 0px;
+    border-radius: 3px;
     font-size: 1.25em;
     white-space: nowrap;
     padding: 5px 5px 5px 50px;
@@ -1117,7 +1117,7 @@ div#pie {
 .inclockLabelsDiv .inclockLabel>span {
     display: inline-block;
     background: rgba(228, 228, 228, 0.78);;
-    border-radius: 0px;
+    border-radius: 3px;
     padding: 3px;
 }
 
@@ -1187,7 +1187,7 @@ div#pie {
     padding: 2px;
     background: #FFF;
     text-align: center;
-    border-radius: 0px;
+    border-radius: 3px;
 }
 
 .inclockLabel>span{
