@@ -1352,7 +1352,7 @@ section#embedPanel {
 
 
 
-.dropdown {
+.language_dropdown {
   position: relative;
   display: inline-block;
 }
@@ -1375,6 +1375,6 @@ section#embedPanel {
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.language_dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover  {background-color: #3e8e41;}
+.language_dropdown:hover  {background-color: #3e8e41;}
