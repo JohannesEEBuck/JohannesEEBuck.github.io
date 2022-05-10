@@ -1384,6 +1384,6 @@ section#embedPanel {
   display: block;
 }
 
-.dropdown:hover {background-color: #cfcfcf;}
+.dropdown:hover {color: #cfcfcf;}
 
-.dropdown-content a:hover {background-color: #cfcfcf;}
+.dropdown-content a:hover {color: #cfcfcf;}
