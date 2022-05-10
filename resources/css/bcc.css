@@ -1367,6 +1367,7 @@ section#embedPanel {
 
 .dropdown-content a {
   color: black;
+  padding: -20px 30px;
   text-decoration: none;
   display: block;
   z-index:100;
