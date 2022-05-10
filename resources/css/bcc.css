@@ -1363,7 +1363,6 @@ section#embedPanel {
   position: absolute;
   background-color: #f1f1f1;
   z-index: 100;
-  text-align: center;
 }
 
 .dropdown-content a {
@@ -1372,6 +1371,7 @@ section#embedPanel {
   text-decoration: none;
   display: block;
   z-index:100;
+  line-height: 10px;
   text-align: center;
 }
 
