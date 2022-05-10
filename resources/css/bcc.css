@@ -1349,6 +1349,7 @@ section#embedPanel {
 
 
 #actions div.language_dropdown {
+	display: inline;
 	width: fit-content;
 	padding: 20px 15px;
 	text-decoration: none;
