@@ -1,8 +1,9 @@
 ﻿{
-	"embed_header_label": "Embed BCC",
+	"embed_header_label": "Embed",
 	"show_info_label": "Information",
     "remove_country": "Remove the country",
     "add_country_button": "Add a country",
+	"get_report_label": "PDF",
     "get_report_button": "Generate a PDF report",
     "gen_report_title": "PDF report generation",
     "gen_report_countries": "Select the countries to include in the document (maximum 6)",

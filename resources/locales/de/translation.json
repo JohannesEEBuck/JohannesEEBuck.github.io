@@ -4,6 +4,7 @@
 	"show_info_label": "Information",
     "remove_country": "Land entfernen",
     "add_country_button": "Land hinzufügen",
+	"get_report_label": "PDF",
     "get_report_button": "PDF Bericht erstellen",
     "gen_report_title": "Bericht erstellen",
     "gen_report_countries": "Länder auswählen (maximum 6)",
