@@ -30,9 +30,9 @@ div#vmap_shadow {
         left: -1px;
     */
     pointer-events: none;
-    -webkit-box-shadow: inset 3px 2px 28px 22px rgba(28,105,206,1);
-    -moz-box-shadow: inset 3px 2px 28px 22px rgba(28,105,206,1);
-    box-shadow: inset 3px 2px 28px 22px rgba(28,105,206,1);
+    -webkit-box-shadow: inset 0px 0px 0px 0px rgba(28,105,206,1);
+    -moz-box-shadow: inset 0px 0px 0px 0px rgba(28,105,206,1);
+    box-shadow: inset 0px 0px 0px 0px rgba(28,105,206,1);
 }
 
 div#vmap {
@@ -220,7 +220,7 @@ div#ea_clock {
     border: none;
     background: none;
     background-color: #DCE9F5;
-    box-shadow: 5px 5px 5px #00000029;
+    box-shadow: 0px 0px 0px #00000029;
     border-radius: 3px;
     width: 5em;
     height: 2em;
@@ -246,7 +246,7 @@ div#ea_clock {
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
     background: rgba(255,255,255,0.8);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
     border-radius: 3px;
 }
 
@@ -290,6 +290,6 @@ div#ea_clock {
     position: relative;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 5px 5px 5px #00000029;
+    box-shadow: 0px 0px 0px #00000029;
     border-radius: 3px;
 }
