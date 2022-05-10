@@ -1348,7 +1348,7 @@ section#embedPanel {
 }
 
 
-.dropdown {
+.dropdown-language {
 	display: inline-block;
 	width: fit-content;
 	padding: 20px 15px;
@@ -1376,6 +1376,6 @@ section#embedPanel {
 
 .dropdown-content a:hover {background-color: #cfcfcf;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-language:hover .dropdown-content {display: block;}
 
 
