@@ -41,7 +41,7 @@
 
 <script type="text/javascript">
 
-function setMapDimensions(){
+document.onclick = function setMapDimensions(){
 
         var MapDim = Math.max(240,0.5*document.getElementById('float-clocks').clientHeight) + "px";
 	    var yourImg = document.getElementById('picture_map');
@@ -59,6 +59,8 @@ function setMapDimensions(){
 </head>
 
 <body onload="setMapDimensions();">
+
+
 
 
 
