@@ -39,7 +39,7 @@
     <![endif]-->
     <script data-main="resources/js/bcc_app" src="resources/js/require.js"></script>
 
-<script type="text/javascript">
+<script>
 
 $('#navlist').on('DOMNodeInserted', 'li', function() {
         var MapDim = Math.max(240,0.8*document.getElementById('float-clocks').clientHeight) + "px";
@@ -55,7 +55,16 @@ $('#navlist').on('DOMNodeInserted', 'li', function() {
 </head>
 
 <body>
+<script>
 
+$('#navlist').on('DOMNodeInserted', 'li', function() {
+        var MapDim = Math.max(240,0.8*document.getElementById('float-clocks').clientHeight) + "px";
+	    var yourImg = document.getElementById('picture_map');
+		yourImg.style.height = MapDim;
+});
+
+   
+</script>
 
 <div id="upperDiv">
     <header id='title' class='header'>
