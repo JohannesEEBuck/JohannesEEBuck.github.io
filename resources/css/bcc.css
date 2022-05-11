@@ -1393,3 +1393,9 @@ section#embedPanel {
 .dropdown:hover {color: #cfcfcf;}
 
 .dropdown-content a:hover {color: #404040;}
+
+#picture_map {
+
+background-image: url(../img/EN2.png)
+	
+}
