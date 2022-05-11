@@ -41,12 +41,11 @@
 
 <script type="text/javascript">
 
-function getClientDimensions(){
+function chooseMapDimensions(){
 
-       alert('clientWidth=' + document.getElementById('float-clocks').clientWidth);
-        alert('offsetWidth=' + document.getElementById('float-clocks').offsetWidth);
-        alert('clientHeight=' + document.getElementById('float-clocks').clientHeight);
-        alert('offsetHeight=' + document.getElementById('float-clocks').offsetHeight);
+       var MapDim = Math.max(240,0.5*document.getElementById('float-clocks').clientHeight);
+        alert(MapDim);
+
 
 }
    
