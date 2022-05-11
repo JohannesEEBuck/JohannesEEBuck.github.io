@@ -41,7 +41,7 @@
 
 <script>
 
-$('#navlist').on('DOMNodeInserted', 'li', function() {
+$('#clocks').on('DOMNodeInserted', 'ul', function() {
         var MapDim = Math.max(240,0.8*document.getElementById('float-clocks').clientHeight) + "px";
 	    var yourImg = document.getElementById('picture_map');
 		yourImg.style.height = MapDim;
@@ -55,16 +55,6 @@ $('#navlist').on('DOMNodeInserted', 'li', function() {
 </head>
 
 <body>
-<script>
-
-$('#navlist').on('DOMNodeInserted', 'li', function() {
-        var MapDim = Math.max(240,0.8*document.getElementById('float-clocks').clientHeight) + "px";
-	    var yourImg = document.getElementById('picture_map');
-		yourImg.style.height = MapDim;
-});
-
-   
-</script>
 
 <div id="upperDiv">
     <header id='title' class='header'>
