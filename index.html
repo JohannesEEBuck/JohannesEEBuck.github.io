@@ -41,12 +41,12 @@
 
 <script type="text/javascript">
 
-$("#clocks").on('change', function() {
-
-        var MapDim = Math.max(240,0.5*document.getElementById('float-clocks').clientHeight) + "px";
+$('#navlist').on('DOMNodeInserted', 'li', function() {
+        var MapDim = Math.max(240,0.8*document.getElementById('float-clocks').clientHeight) + "px";
 	    var yourImg = document.getElementById('picture_map');
 		yourImg.style.height = MapDim;
-} );
+});
+
    
 </script> 
 
