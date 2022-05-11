@@ -41,11 +41,11 @@
 
 <script>
 
-$('#clocks').on('DOMNodeInserted', 'ul', function() {
+function resizeMap() {
         var MapDim = Math.max(240,0.8*document.getElementById('float-clocks').clientHeight) + "px";
 	    var yourImg = document.getElementById('picture_map');
 		yourImg.style.height = MapDim;
-});
+}
 
    
 </script> 
@@ -159,7 +159,7 @@ $('#clocks').on('DOMNodeInserted', 'ul', function() {
 						<li id="addCountry" class="hover-highlight">
 							<div id="addCountrySelector">
 								<select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
-										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1);"
+										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1); resizeMap();"
 										onblur="this.size=0;" size="0">
 									<option value="" selected="selected" data-i18n="add_country_button">Add a country
 									</option>
