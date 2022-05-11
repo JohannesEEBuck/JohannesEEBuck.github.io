@@ -39,9 +39,25 @@
     <![endif]-->
     <script data-main="resources/js/bcc_app" src="resources/js/require.js"></script>
 
+<script type="text/javascript">
+
+function getClientDimensions(){
+
+       alert('clientWidth=' + document.getElementById('float-clocks').clientWidth);
+        alert('offsetWidth=' + document.getElementById('float-clocks').offsetWidth);
+        alert('clientHeight=' + document.getElementById('float-clocks').clientHeight);
+        alert('offsetHeight=' + document.getElementById('float-clocks').offsetHeight);
+
+}
+   
+</script> 
+
+
+
+
 </head>
 
-<body>
+<body onload="getClientDimensions();">
 
 
 
