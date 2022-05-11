@@ -973,7 +973,7 @@ button#gotomapview_button>span {
 button#gotomapview_button>img {
 	
 
-	height: max(24px, 0.1*$(".float-child2").height());
+	height: 240px; 
 	width: auto; 
 	/*object-fit: contain;*/
 }
