@@ -529,7 +529,9 @@
 
 <script>
     var yourImg = document.getElementById('picture_map')
-    yourImg.style.height = '10px';
+	var containerHeight = $("#float-child2").height()
+	var pic_height = min(240, 0.5*containerHeight) + "px"
+    yourImg.style.height = pic_height;
 </script>
 
 </html>
