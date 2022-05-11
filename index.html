@@ -43,7 +43,8 @@
 
 function chooseMapDimensions(){
 
-       alert(document.getElementById('float-clocks').clientHeight);
+       var MapDim = Math.max(240,0.5*document.getElementById('float-clocks').clientHeight);
+       alert(MapDim);
 
 
 }
@@ -59,7 +60,7 @@ function chooseMapDimensions(){
 
 
 
-<button onclick="getClientDimensions()">Try it</button>
+<button onclick="chooseMapDimensions()">Try it</button>
 
 
 
