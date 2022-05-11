@@ -530,9 +530,9 @@
 <script>
     var yourImg = document.getElementById('picture_map')
 	var containerHeight = 100
-	var pic_height = containerHeight + "px"
+	var pic_height = max(200,containerHeight) + "px"
     yourImg.style.height = pic_height;
-	document.getElementById("myText").innerHTML = containerHeight;
+	document.getElementById("myText").innerHTML = pic_height;
 </script>
 
 </html>
