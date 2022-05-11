@@ -747,7 +747,7 @@ div#upperDiv .upperDetails {
 }
 
 .violet_tile {
-	    border-radius: 50px;
+	    border-radius: 10px;
 }
 
 #main_content .alt_view {
@@ -972,7 +972,7 @@ button#gotomapview_button>span {
 
 button#gotomapview_button>img {
 	height: 60%; 
-	width: 100%; 
+	width: 80%; 
 	object-fit: contain;
 }
 
