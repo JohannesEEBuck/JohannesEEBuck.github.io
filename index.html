@@ -142,7 +142,7 @@
 						</div>
 					</section>
 				</div>
-				<div class= "float-child2" id="clocks">
+				<div class= "float-child2" id="float-clocks">
 				<nav id='clocks' class='tile'>
 					<ul id="navlist">
 						<li id="addCountry" class="hover-highlight">
@@ -529,7 +529,7 @@
 
 <script>
     var yourImg = document.getElementById('picture_map');
-	var containerHeight = 100;
+	var containerHeight = document.getElementById('float-clocks').scrollHeight;
 	var pic_height = Math.max(240,containerHeight) + "px";
     yourImg.style.height = pic_height;
 	document.getElementById("myText").innerHTML = containerHeight;
