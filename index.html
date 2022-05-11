@@ -166,7 +166,7 @@ $('#navlist').on('DOMNodeInserted', 'li', function() {
 				<div class= "float-child2" id="float-clocks">
 				<nav id='clocks' class='tile'>
 					<ul id="navlist">
-						<li>
+						<li id="addCountry" class="hover-highlight">
 							<div id="addCountrySelector">
 								<select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
 										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1);"
