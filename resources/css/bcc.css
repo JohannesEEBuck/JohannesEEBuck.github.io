@@ -971,9 +971,9 @@ button#gotomapview_button>span {
 }
 
 button#gotomapview_button>img {
-	height: 60%; 
-	width: 80%; 
-	object-fit: contain;
+	height: 200px; 
+	/*width: 80%; 
+	object-fit: contain;*/
 }
 
 #settings_button:hover {
