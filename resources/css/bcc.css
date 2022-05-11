@@ -1393,15 +1393,3 @@ section#embedPanel {
 .dropdown:hover {color: #cfcfcf;}
 
 .dropdown-content a:hover {color: #404040;}
-
-
-
-.settings img.picture_map_hover {
-      opacity: 0;
-      transition: opacity 2.0s;
-
-}
-
-.settings:hover img.picture_map_hover {
-      opacity: 1;
-    }
