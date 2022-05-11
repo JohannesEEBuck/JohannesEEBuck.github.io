@@ -41,7 +41,7 @@
 
 <script type="text/javascript">
 
-function chooseMapDimensions(){
+function setMapDimensions(){
 
        var MapDim = Math.max(240,0.7*document.getElementById('float-clocks').clientHeight);
 	   var yourImg = document.getElementById('picture_map');
@@ -58,11 +58,11 @@ function chooseMapDimensions(){
 
 </head>
 
-<body>
+<body onload="setMapDimensions();">
 
 
 
-<button onclick="chooseMapDimensions()">Try it</button>
+<button onclick="setMapDimensions()">Try it</button>
 
 
 
