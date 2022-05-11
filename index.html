@@ -43,7 +43,9 @@
 
 function chooseMapDimensions(){
 
-       var MapDim = Math.max(240,0.5*document.getElementById('float-clocks').clientHeight);
+       var MapDim = Math.max(240,0.7*document.getElementById('float-clocks').clientHeight);
+	   var yourImg = document.getElementById('picture_map');
+		yourImg.style.height = MapDim;
        alert(MapDim);
 
 
