@@ -1396,12 +1396,16 @@ section#embedPanel {
 
 #picture_map {
 
-background-image: url(../img/map2.png)
-	
+	background-image: url(../img/map2.png);
+	background-repeat: no-repeat;
+	background-size: 300px 100px;	
 }
 
-#picture_map {
+#picture_map:hover {
 
-background-image: url(../img/map2_hover.png)
+	background-image: url(../img/map2_hover.png);
+	background-repeat: no-repeat;
+    background-size: 300px 100px;
+
 	
 }
