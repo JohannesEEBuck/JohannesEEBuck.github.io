@@ -1396,6 +1396,12 @@ section#embedPanel {
 
 #picture_map {
 
-background-image: url(../img/EN2.png)
+background-image: url(../img/map2.png)
+	
+}
+
+#picture_map {
+
+background-image: url(../img/map2_hover.png)
 	
 }
