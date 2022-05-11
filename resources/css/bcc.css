@@ -971,7 +971,7 @@ button#gotomapview_button>span {
 }
 
 button#gotomapview_button>img {
-	height: 200px; 
+	height: 220px; 
 	width: auto; 
 	/*object-fit: contain;*/
 }
