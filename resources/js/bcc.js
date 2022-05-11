@@ -166,6 +166,16 @@ BCC.prototype.switchCountryForSelector = function (selector) {
     }
 }
 
+
+function resizeMap() {
+        var MapDim = Math.max(240,0.8*document.getElementById('float-clocks').clientHeight) + "px";
+	    var yourImg = document.getElementById('picture_map');
+		yourImg.style.height = MapDim;
+}
+
+
+
+
 /**
  * Remove a country from the clocks and his data from the graph, based on a clock identified by a jQuery style selector.
  * @param {string|object} selector - A jQuery style selector used to identify the country/clock to remove.
@@ -192,6 +202,8 @@ BCC.prototype.removeCountry = function (selector) {
         this.updateAsideStats(this.navList.retrieveCountryShownCodes());
     }
     this.chart.reDraw();
+	resizeMap()
+
 }
 
 /**
