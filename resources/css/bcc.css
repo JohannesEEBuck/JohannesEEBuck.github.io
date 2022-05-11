@@ -1394,18 +1394,18 @@ section#embedPanel {
 
 .dropdown-content a:hover {color: #404040;}
 
-#picture_map {
+.settings img.picture_map_hover {
+	position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
 
-	background-image: url(../img/map2.png);
-	background-repeat: no-repeat;
-	background-size: 300px 100px;	
 }
 
-#picture_map:hover {
-
-	background-image: url(../img/map2_hover.png);
-	background-repeat: no-repeat;
-    background-size: 300px 100px;
-
-	
-}
+.settings:hover img.picture_map_hover {
+      opacity: 1;
+    }
