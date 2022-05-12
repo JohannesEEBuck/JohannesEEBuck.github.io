@@ -886,7 +886,6 @@ section#playerClock {
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-	width:105%;
 }
 
 #chart_details {
@@ -987,7 +986,7 @@ button#gotomapview_button>img {
     margin-left: 20px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     border: 2px solid #FFFFFF;
