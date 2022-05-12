@@ -852,7 +852,7 @@ section#playerClock .previous_quarter{
     background-image: url(../img/button_black_pause.png);
     background-size: 43px !important;
     background-repeat: no-repeat;
-    /*background-position: 3px 3px;*/
+    background-position: 3px 3px;
     width: 43px;
     height: 43px;
     margin: 5 15px;
@@ -867,7 +867,7 @@ section#playerClock .previous_quarter{
     background-image: url(../img/button_black_play.png);
     background-size: 43px !important;
     background-repeat: no-repeat;
-    /*background-position: 3px 3px;*/
+    background-position: 3px 3px;
     width: 43px;
     height: 43px;
     margin: 5px 15px;
