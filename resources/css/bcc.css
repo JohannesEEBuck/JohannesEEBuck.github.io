@@ -855,7 +855,7 @@ section#playerClock .previous_quarter{
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-	float: left;
+	background-position: left;
 
 }
 
@@ -874,7 +874,7 @@ section#playerClock .previous_quarter{
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-	float: left;
+	background-position: left;
 	
 
 }
