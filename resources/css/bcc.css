@@ -856,7 +856,6 @@ section#playerClock .previous_quarter{
     width: 43px;
     height: 43px;
     margin: 0 5px;
-	padding: 0px 5px 0px 0px;
 }
 
 .pause.selected, .pause:hover {
@@ -871,7 +870,6 @@ section#playerClock .previous_quarter{
     width: 43px;
     height: 43px;
     margin: 0px 5px;
-	padding: 0px 5px 0px 0px;
 }
 
 .play.selected, .play:hover{
