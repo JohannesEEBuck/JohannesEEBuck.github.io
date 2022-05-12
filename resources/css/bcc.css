@@ -986,7 +986,7 @@ button#gotomapview_button>img {
     margin-left: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     align-content: center;
     justify-content: space-between;
     border: 2px solid #FFFFFF;
