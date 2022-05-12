@@ -852,15 +852,12 @@ section#playerClock .previous_quarter{
     background-image: url(../img/button_black_pause.png);
     background-size: 43px !important;
     background-repeat: no-repeat;
+	background-position: left;
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-	background-position: left;
+    margin: 0 5px;
 
-}
-
-.spacing {
-    width: 10px;
 }
 
 .pause.selected, .pause:hover {
@@ -871,11 +868,11 @@ section#playerClock .previous_quarter{
     background-image: url(../img/button_black_play.png);
     background-size: 43px !important;
     background-repeat: no-repeat;
+	background-position: left;
     /*background-position: 3px 3px;*/
     width: 43px;
     height: 43px;
-	background-position: left;
-	
+    margin: 0px 5px;
 
 }
 
