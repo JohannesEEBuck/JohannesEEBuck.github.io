@@ -168,7 +168,7 @@ BCC.prototype.switchCountryForSelector = function (selector) {
 
 
 function resizeMap() {
-        var MapDim = Math.max(240,0.5*document.getElementById('float-clocks').clientHeight) + "px";
+        var MapDim = Math.max(240,Math.min(400,0.5*document.getElementById('float-clocks').clientHeight)) + "px";
 	    var yourImg = document.getElementById('picture_map');
 		yourImg.style.height = MapDim;
 }
