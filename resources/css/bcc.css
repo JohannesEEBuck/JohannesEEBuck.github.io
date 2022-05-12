@@ -841,11 +841,13 @@ div#color_chart_legends {
 section#playerClock .next_quarter {
     height: 40px;
     width: auto;
+	margin-left: 15px ;
 }
 
 section#playerClock .previous_quarter{
     height: 40px;
     width: auto;
+	margin-right: 15px;
 }
 
 .playerControl.pause {
