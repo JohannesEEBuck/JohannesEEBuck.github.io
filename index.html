@@ -54,6 +54,8 @@ function hover(element) {
 function unhover(element) {
   element.setAttribute('src', 'resources/img/map2.png');
 }
+var pic = new Image();
+pic.src="resources/img/map2_hover.png";
 
    
 </script> 
@@ -70,7 +72,7 @@ function unhover(element) {
         <h1>Business Cycle Clock</h1>
     </header>
     <div class="upperDetails">
-        <aside id="actions">
+        <aside id="actions"> 
             <a class="info" href="javascript:showInfo();" title="Info" data-i18n="[title]show_info_button"><span style="font-size:12pt" data-i18n="show_info_label">Information</span></a>
             <a class="share sharetooltip" title="share_button" data-i18n="[title]share_button"><span style="font-size:12pt" data-i18n="share_button">Share</span></a>
             <a class="embed" href="javascript:showEmbedPanel();" title="Embed" data-i18n="[title]embed_header"><span style="font-size:12pt" data-i18n="embed_header_label">Embed</span></a>
