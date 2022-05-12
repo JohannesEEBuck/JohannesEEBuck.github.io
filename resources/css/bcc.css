@@ -880,14 +880,15 @@ section#playerClock .previous_quarter{
 
 section#playerClock {
     margin-top: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+	overflow: auto;
 }
 
 #chart_details {
