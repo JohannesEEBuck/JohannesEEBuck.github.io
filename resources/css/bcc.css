@@ -995,6 +995,7 @@ button#gotomapview_button>img {
     border-radius: 3px;
     padding: 7px 10px;
     align-items: center;
+	max-width: 40%;
 }
 
 #settings_button img {
