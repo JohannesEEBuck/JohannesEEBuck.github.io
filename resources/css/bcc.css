@@ -858,6 +858,10 @@ section#playerClock .previous_quarter{
 
 }
 
+.spacing {
+    width: 10px;
+}
+
 .pause.selected, .pause:hover {
     background-image: url(../img/button_black_pause_red.png) !important;
 }
