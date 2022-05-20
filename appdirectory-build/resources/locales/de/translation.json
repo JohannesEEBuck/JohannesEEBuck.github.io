@@ -1,9 +1,11 @@
 ﻿{
 	
+	"current_language": "Deutsch",
 	"embed_header_label": "BCC einbetten",
 	"show_info_label": "Information",
     "remove_country": "Land entfernen",
     "add_country_button": "Land hinzufügen",
+	"get_report_label": "PDF",
     "get_report_button": "PDF Bericht erstellen",
     "gen_report_title": "Bericht erstellen",
     "gen_report_countries": "Länder auswählen (maximum 6)",
@@ -19,10 +21,10 @@
     
     "select_range": "Zeitraum auswählen",
     "period": "Zeithorizont",
-    "five_year": "Letze 5 Jahre",
-    "ten_year": "Letze 10 Jahre",
-    "15_year": "Letze 15 Jahre",
-    "all_period_available": "Alle verfügbaren Perioden anzeigen",
+    "five_year": "5 Jahre",
+    "ten_year": "10 Jahre",
+    "15_year": "15 Jahre",
+    "all_period_available": "Alle verfügbaren Daten anzeigen",
     "custom": "Anpassen",
     "customize_title": "Anpassen",
     "customeRange_selection_info": "Auswahl der Monate",

@@ -1,8 +1,10 @@
 ﻿{
-	"embed_header_label": "Intégrer BCC",
+	"current_language": "Français",
+	"embed_header_label": "Intégrer",
 	"show_info_label": "Information",
     "remove_country": "Retirer le pays",
     "add_country_button": "Ajouter un pays",
+	"get_report_label": "PDF",
     "get_report_button": "Générer un rapport PDF",
     "gen_report_title": "Génération de rapport PDF",
     "gen_report_countries": "Sélectionnez les pays à inclure dans le document (maximum 6)",

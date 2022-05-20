@@ -166,14 +166,11 @@ BCC.prototype.switchCountryForSelector = function (selector) {
     }
 }
 
-
 function resizeMap() {
         var MapDim = Math.max(240,Math.min(400,0.5*document.getElementById('float-clocks').clientHeight)) + "px";
 	    var yourImg = document.getElementById('picture_map');
 		yourImg.style.height = MapDim;
 }
-
-
 
 
 /**
@@ -203,7 +200,6 @@ BCC.prototype.removeCountry = function (selector) {
     }
     this.chart.reDraw();
 	resizeMap()
-
 }
 
 /**
@@ -673,30 +669,32 @@ BCC.prototype.updateAsideStats = function(countryCodes, pos) {
         }
         var tp = this.findPreviousTP(countryCodes[i],quarterDate);
         if(tp&&quarterDate.getTime()){
-            statsHtml+= '<span data-i18n="for">' + $.i18n.t("for") + "</span>: " + this.dataSetInfo[countryCodes[i]].description;
-            var distanceFromCurrent;
-            if(haveTP(tp,'D')){
-                distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'D').date), quarterDate)/3)+1;
-                statsHtml+= '<br/><span data-i18n="expansion">'+$.i18n.t("expansion")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
-            }else if(haveTP(tp,'C')){
-                distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'C').date), quarterDate)/3)+1;
-                statsHtml+= '<br/><span data-i18n="recovery">'+$.i18n.t("recovery")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
-            }else if(haveTP(tp,'β')){
-                distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'β').date), quarterDate)/3)+1;
-                var previousTP = this.findPreviousTP(countryCodes[i],quarterDate, true);
-                if(previousTP && haveTP(previousTP,"B")){
-                    statsHtml+= '<br/><span data-i18n="recession">'+$.i18n.t("recession")+'</span>: ' + Math.floor(monthDiff(getQuarterEndDate(getTP(previousTP,'B').date), quarterDate)/3) + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
-                }
-            }else if(haveTP(tp,'B')){
-                distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'B').date), quarterDate)/3)+1;
-                statsHtml+= '<br/><span data-i18n="recession">'+$.i18n.t("recession")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
-            }else if(haveTP(tp,'A')){
-                distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'A').date), quarterDate)/3)+1;
-                statsHtml+= '<br/><span data-i18n="slowdown">'+$.i18n.t("slowdown")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
-            }else if(haveTP(tp,'α')){
-                distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'α').date), quarterDate)/3)+1;
-                statsHtml+= '<br/><span data-i18n="deceleration">'+$.i18n.t("deceleration")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
-            }
+            statsHtml+= '<span data-i18n="for">' + $.i18n.t("for") + '</span>: <span data-i18n="country:'+ countryCodes[i] +'">' + $.i18n.t(countryCodes[i], {'ns': 'country'}) + '</span>';
+
+            // Growth per Quarter
+            // var distanceFromCurrent;
+            // if(haveTP(tp,'D')){
+            //     distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'D').date), quarterDate)/3)+1;
+            //     statsHtml+= '<br/><span data-i18n="expansion">'+$.i18n.t("expansion")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
+            // }else if(haveTP(tp,'C')){
+            //     distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'C').date), quarterDate)/3)+1;
+            //     statsHtml+= '<br/><span data-i18n="recovery">'+$.i18n.t("recovery")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
+            // }else if(haveTP(tp,'β')){
+            //     distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'β').date), quarterDate)/3)+1;
+            //     var previousTP = this.findPreviousTP(countryCodes[i],quarterDate, true);
+            //     if(previousTP && haveTP(previousTP,"B")){
+            //         statsHtml+= '<br/><span data-i18n="recession">'+$.i18n.t("recession")+'</span>: ' + Math.floor(monthDiff(getQuarterEndDate(getTP(previousTP,'B').date), quarterDate)/3) + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
+            //     }
+            // }else if(haveTP(tp,'B')){
+            //     distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'B').date), quarterDate)/3)+1;
+            //     statsHtml+= '<br/><span data-i18n="recession">'+$.i18n.t("recession")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
+            // }else if(haveTP(tp,'A')){
+            //     distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'A').date), quarterDate)/3)+1;
+            //     statsHtml+= '<br/><span data-i18n="slowdown">'+$.i18n.t("slowdown")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
+            // }else if(haveTP(tp,'α')){
+            //     distanceFromCurrent = Math.floor(monthDiff(getQuarterEndDate(getTP(tp,'α').date), quarterDate)/3)+1;
+            //     statsHtml+= '<br/><span data-i18n="deceleration">'+$.i18n.t("deceleration")+'</span>: ' + distanceFromCurrent + ' <span data-i18n="quarters">'+$.i18n.t("quarters")+'</span>';
+            // }
             tp = this.findPreviousABCD_TP(countryCodes[i],quarterDate)
             // if(tp){
             //     var value;
