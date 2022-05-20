@@ -1348,8 +1348,7 @@ section#embedPanel {
   display: flex; /* equal height of the children */
 }
 
-.float-child {
-  flex-basis: 38%;  
+.float-child {  
   align-self: center;
   margin: auto;
 }
