@@ -57,6 +57,11 @@ function unhover(element) {
 var pic = new Image();
 pic.src="resources/img/map2_hover.png";
 
+function resizefloat() {
+		var f = $("#float-clocks").width() / $('#float-clocks').parent().width() * 100;
+		alert(f);    
+}
+
    
 </script> 
 
@@ -110,7 +115,7 @@ pic.src="resources/img/map2_hover.png";
     <div id="bcc_view" class="alt_view">
         <div id="topDiv" class="on_script_load">
 			<div class="parent-float">
-				<div class="float-child">
+				<div class="float-child" id="float-container">
 					<div class="tool-bar">
 						<button id="gotomapview_button" class="settings" data-i18n="[title]see_map" title="See on a map"
 								onclick="goToMapView();" onmouseover="hover(picture_map);" onmouseout="unhover(picture_map);">
@@ -170,7 +175,7 @@ pic.src="resources/img/map2_hover.png";
 						<li id="addCountry" class="hover-highlight">
 							<div id="addCountrySelector">
 								<select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
-										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1); resizeMap();"
+										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1); resizeMap(); resizefloat();"
 										onblur="this.size=0;" size="0">
 									<option value="" selected="selected" data-i18n="add_country_button">Add a country
 									</option>
