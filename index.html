@@ -57,10 +57,6 @@ function unhover(element) {
 var pic = new Image();
 pic.src="resources/img/map2_hover.png";
 
-function resizefloat() {
-		var f = Math.min(50, (100-$("#float-clocks").width() / $('#float-clocks').parent().width() * 100)) + "%";
-		alert(f);
-		$("#float-container").width() = f;
 }
 
    
@@ -176,7 +172,7 @@ function resizefloat() {
 						<li id="addCountry" class="hover-highlight">
 							<div id="addCountrySelector">
 								<select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
-										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1); resizeMap(); resizefloat();"
+										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1); resizeMap();"
 										onblur="this.size=0;" size="0">
 									<option value="" selected="selected" data-i18n="add_country_button">Add a country
 									</option>
