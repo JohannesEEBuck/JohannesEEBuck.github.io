@@ -24,7 +24,7 @@
 }
 
 #howToUse_details img, #features_details img {
-    max-height: 30px;
+    max-height: 250px;
     border: solid 1px;
     margin: 5px;
 }
