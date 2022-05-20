@@ -32,7 +32,7 @@ header, div.header, section, div.section, footer, div.footer, nav, div.nav, arti
     font-family: "open_sansregular",Arial,sans-serif;
     font-size: 3.0em;
     /*color: #58595B;*/
-    color: #FFFFFF; /*#293241;*/
+    color: #293241;
     font-weight: bold;
 }
 
@@ -1348,9 +1348,10 @@ section#embedPanel {
   display: flex; /* equal height of the children */
 }
 
-.float-child {  
+.float-child {
+  flex-basis: 38%;  
+  padding: 1em;
   align-self: center;
-  margin: auto;
 }
 
 .float-child2 { 
