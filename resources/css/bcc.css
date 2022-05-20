@@ -32,7 +32,7 @@ header, div.header, section, div.section, footer, div.footer, nav, div.nav, arti
     font-family: "open_sansregular",Arial,sans-serif;
     font-size: 3.0em;
     /*color: #58595B;*/
-    color: #293241;
+    color: #FFFFFF; /*#293241;*/
     font-weight: bold;
 }
 
