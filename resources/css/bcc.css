@@ -1350,8 +1350,8 @@ section#embedPanel {
 
 .float-child {
   flex-basis: 38%;  
-  padding: 1em;
   align-self: center;
+  margin: auto;
 }
 
 .float-child2 { 
