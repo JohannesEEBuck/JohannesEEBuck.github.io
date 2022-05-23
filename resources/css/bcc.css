@@ -1324,8 +1324,7 @@ section#embedPanel {
 
 .sharetooltip-content {
     display: block;
-    background: rgb(116, 179, 223) !important;
-    background: linear-gradient(180deg, rgba(116, 179, 223,1) 0%, rgba(116, 179, 223,0.5) 100%) !important;
+    background: #004494 !important;
 }
 
 @keyframes statisticZoom {
