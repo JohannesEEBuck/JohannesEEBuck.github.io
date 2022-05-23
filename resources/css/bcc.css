@@ -951,7 +951,7 @@ a.lng_changer>span {
 
 
 div.ui-tooltip {
-    background-color: transparent;
+    background-color: red;
     /*box-shadow: 5px 5px 5px #00000029;*/
     box-shadow: none;
     /*border-radius: 3px;*/
@@ -1324,7 +1324,8 @@ section#embedPanel {
 
 .sharetooltip-content {
     display: block;
-    background: #004494 !important;
+    background: rgb(116, 179, 223) !important;
+    background: linear-gradient(180deg, rgba(116, 179, 223,1) 0%, rgba(116, 179, 223,0.5) 100%) !important;
 }
 
 @keyframes statisticZoom {
