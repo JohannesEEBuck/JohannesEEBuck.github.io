@@ -142,17 +142,17 @@ pic.src="resources/img/map2_hover.png";
 									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, '5');">five year
 								</div>
 								<div value="10" label="ten year" data-i18n="[label]ten_year;ten_year"
-									 onclick="applyCustomRangeSelection(this, '10');">ten year
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, '10');">ten year
 								</div>
 								<div value="15" class="selected" label="15 year" data-i18n="[label]15_year;15_year"
-									 onclick="applyCustomRangeSelection(this, '15');">15 year
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, '15');">15 year
 								</div>
 								<div value="all" label="all period available"
 									 data-i18n="[label]all_period_available;all_period_available"
-									 onclick="applyCustomRangeSelection(this, 'all');">all period available
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, 'all');">all period available
 								</div>
 								<div value="custom" label="custom" data-i18n="[label]custom;custom"
-									 onclick="applyCustomRangeSelection(this, 'custom')">custom
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, 'custom')">custom
 								</div>
 							</div>
 							<select id="range_selector" style="display: none">
