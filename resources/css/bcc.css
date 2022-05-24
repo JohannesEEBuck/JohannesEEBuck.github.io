@@ -497,8 +497,8 @@ footer {
 }
 
 a#googleplus img,a#twitter img,a#facebook img {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     cursor: pointer;
     position: relative;
     top: -2px;
@@ -1323,6 +1323,7 @@ section#embedPanel {
 }
 
 .sharetooltip-content {
+    display: block;
     background: #004494 !important;
     /*background: linear-gradient(180deg, rgba(116, 179, 223,1) 0%, rgba(116, 179, 223,0.5) 100%) !important;*/
 }
@@ -1397,6 +1398,13 @@ section#embedPanel {
 .dropdown-content a:hover {color: #707070;}
 
 #actions a#facebook {
+	width: fit-content;
+	padding: 20px 15px;
+	top:60px;
+	position:relative; top:21px;
+}
+
+#actions a#twitter {
 	width: fit-content;
 	padding: 20px 15px;
 	top:60px;
