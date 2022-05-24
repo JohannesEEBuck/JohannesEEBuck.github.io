@@ -32,7 +32,7 @@ header, div.header, section, div.section, footer, div.footer, nav, div.nav, arti
     font-family: "open_sansregular",Arial,sans-serif;
     font-size: 3.0em;
     /*color: #58595B;*/
-    color: #293241;
+    color: #FFFFFF; /*#293241;*/
     font-weight: bold;
 }
 
@@ -497,8 +497,8 @@ footer {
 }
 
 a#googleplus img,a#twitter img,a#facebook img {
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     cursor: pointer;
     position: relative;
     top: -2px;
@@ -951,7 +951,7 @@ a.lng_changer>span {
 
 
 div.ui-tooltip {
-    background-color: transparent;
+    background-color: #004494;
     /*box-shadow: 5px 5px 5px #00000029;*/
     box-shadow: none;
     /*border-radius: 3px;*/
@@ -1324,8 +1324,8 @@ section#embedPanel {
 
 .sharetooltip-content {
     display: block;
-    background: rgb(116, 179, 223) !important;
-    background: linear-gradient(180deg, rgba(116, 179, 223,1) 0%, rgba(116, 179, 223,0.5) 100%) !important;
+    background: #004494 !important;
+    /*background: linear-gradient(180deg, rgba(116, 179, 223,1) 0%, rgba(116, 179, 223,0.5) 100%) !important;*/
 }
 
 @keyframes statisticZoom {
@@ -1348,10 +1348,9 @@ section#embedPanel {
   display: flex; /* equal height of the children */
 }
 
-.float-child {
-  flex-basis: 38%;  
-  padding: 1em;
+.float-child {  
   align-self: center;
+  margin: auto;
 }
 
 .float-child2 { 
@@ -1397,3 +1396,17 @@ section#embedPanel {
 .dropdown:hover {color: #cfcfcf;}
 
 .dropdown-content a:hover {color: #707070;}
+
+#actions2 a#facebook {
+	width: fit-content;
+	padding: 20px 15px;
+	top:60px;
+	position:relative; top:0px;
+}
+
+#actions2 a#twitter {
+	width: fit-content;
+	padding: 20px 15px;
+	top:60px;
+	position:relative; top:0px;
+}
