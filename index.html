@@ -54,8 +54,6 @@ function hover(element) {
 function unhover(element) {
   element.setAttribute('src', 'resources/img/map2.png');
 }
-var pic = new Image();
-pic.src="resources/img/map2_hover.png";
 
 function hoverfb(element) {
   element.setAttribute('src', 'resources/img/share/bt_fb_hover.png');
@@ -64,8 +62,23 @@ function hoverfb(element) {
 function unhoverfb(element) {
   element.setAttribute('src', 'resources/img/share/bt_fb.svg');
 }
+
+function hovertwitter(element) {
+  element.setAttribute('src', 'resources/img/share/bt_twitter_hover.png');
+}
+
+function unhovertwitter(element) {
+  element.setAttribute('src', 'resources/img/share/bt_twitter.svg');
+}
+
+var pic = new Image();
+pic.src="resources/img/map2_hover.png";
+
 var pic2 = new Image();
 pic2.src="resources/img/share/bt_fb_hover.png";
+
+var pic3 = new Image();
+pic3.src="resources/img/share/bt_twitter_hover.png";
 
 
    
@@ -98,8 +111,8 @@ pic2.src="resources/img/share/bt_fb_hover.png";
 			</span>
         </aside>
 		<aside id="actions2"> 
-		<a id="facebook" onclick="return fbs_click();"><img src="resources/img/share/bt_fb.svg" alt="facebook"></a>
-		<a id="twitter" onclick="return twitter_click();" onmouseover="hoverfb(twitter_logo);" onmouseout="unhoverfb(twitter_logo);"><img src="resources/img/share/bt_twitter.svg" alt="twitter" id="twitter_logo"></a>
+		<a id="facebook" onclick="return fbs_click();"  onmouseover="hoverfb(fb_logo);" onmouseout="unhoverfb(fb_logo);"><img src="resources/img/share/bt_fb.svg" alt="facebook" id="fb_logo"></a>
+		<a id="twitter" onclick="return twitter_click();" onmouseover="hovertwitter(twitter_logo);" onmouseout="unhovertwitter(twitter_logo);"><img src="resources/img/share/bt_twitter.svg" alt="twitter" id="twitter_logo"></a>
         <a id="logoEurostat" href="http://ec.europa.eu/eurostat/" title="Eurostat" target="_blank">
             <img src="resources/img/logo.png" alt="eurostat logo"/>
         </a>
