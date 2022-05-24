@@ -99,7 +99,7 @@ pic2.src="resources/img/share/bt_fb_hover.png";
         </aside>
 		<aside id="actions2"> 
 		<a id="facebook" onclick="return fbs_click();"><img src="resources/img/share/bt_fb.svg" alt="facebook"></a>
-		<a id="twitter" onclick="return twitter_click();" onmouseover="hoverfb(twitter);" onmouseout="unhoverfb(twitter);"><img src="resources/img/share/bt_twitter.svg" alt="twitter"></a>
+		<a id="twitter" onclick="return twitter_click();" onmouseover="hoverfb(twitter_logo);" onmouseout="unhoverfb(twitter_logo);"><img src="resources/img/share/bt_twitter.svg" alt="twitter" id="twitter_logo"></a>
         <a id="logoEurostat" href="http://ec.europa.eu/eurostat/" title="Eurostat" target="_blank">
             <img src="resources/img/logo.png" alt="eurostat logo"/>
         </a>
@@ -128,7 +128,7 @@ pic2.src="resources/img/share/bt_fb_hover.png";
 				<div class="float-child" id="float-container">
 					<div class="tool-bar">
 						<button id="gotomapview_button" class="settings" data-i18n="[title]see_map" title="See on a map"
-								onclick="goToMapView();" onmouseover="hoverfb(picture_map);" onmouseout="unhoverfb(picture_map);">
+								onclick="goToMapView();" onmouseover="hover(picture_map);" onmouseout="unhover(picture_map);">
 							<img class="settingsIcon" src="resources/img/map2.png" alt="settings" id="picture_map"/>
 							<span data-i18n="see_map">See on a map</span>
 						</button>
