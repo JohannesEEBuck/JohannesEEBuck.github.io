@@ -1395,3 +1395,10 @@ section#embedPanel {
 .dropdown:hover {color: #cfcfcf;}
 
 .dropdown-content a:hover {color: #707070;}
+
+#actions a#facebook {
+	width: fit-content;
+	padding: 20px 15px;
+	top:60px;
+	position:relative; top:21px;
+}
