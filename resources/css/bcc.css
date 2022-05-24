@@ -1368,7 +1368,6 @@ section#embedPanel {
 
 .dropdown {
   position: relative;
-  display: inline-block;
   	padding: 20px 15px;
 	text-decoration: none;
 	color: white;
