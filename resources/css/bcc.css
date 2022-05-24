@@ -1401,7 +1401,7 @@ section#embedPanel {
 	width: fit-content;
 	padding: 20px 15px;
 	top:60px;
-	position:relative; top:21px;
+	position:relative;
 }
 
 #actions2 a#twitter {
