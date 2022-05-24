@@ -57,6 +57,16 @@ function unhover(element) {
 var pic = new Image();
 pic.src="resources/img/map2_hover.png";
 
+function hoverfb(element) {
+  element.setAttribute('src', 'resources/img/share/bt_fb_hover.png');
+}
+
+function unhoverfb(element) {
+  element.setAttribute('src', 'resources/img/share/bt_fb.svg');
+}
+var pic = new Image();
+pic.src="resources/img/map2_hover.png";
+
 
    
 </script> 
@@ -89,7 +99,7 @@ pic.src="resources/img/map2_hover.png";
         </aside>
 		<aside id="actions2"> 
 		<a id="facebook" onclick="return fbs_click();"><img src="resources/img/share/bt_fb.svg" alt="facebook"></a>
-		<a id="twitter" onclick="return twitter_click();"><img src="resources/img/share/bt_twitter.svg" alt="twitter"></a>
+		<a id="twitter" onclick="return twitter_click();" onmouseover="hoverfb(twitter);" onmouseout="unhoverfb(twitter);"><img src="resources/img/share/bt_twitter.svg" alt="twitter"></a>
         <a id="logoEurostat" href="http://ec.europa.eu/eurostat/" title="Eurostat" target="_blank">
             <img src="resources/img/logo.png" alt="eurostat logo"/>
         </a>
