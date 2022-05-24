@@ -1401,12 +1401,12 @@ section#embedPanel {
 	width: fit-content;
 	padding: 20px 15px;
 	top:60px;
-	position:relative;
+	position:relative; top:30px;
 }
 
 #actions2 a#twitter {
 	width: fit-content;
 	padding: 20px 15px;
 	top:60px;
-	position:relative; top:21px;
+	position:relative; top:30px;
 }
