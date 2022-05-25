@@ -437,7 +437,7 @@ footer {
 }
 
 #actions a.embed {
-	width: fit-content;
+	width: auto;
 	padding: 20px 15px;
 	text-decoration: none;
 	color: white;
@@ -449,7 +449,7 @@ footer {
 }
 
 #actions a.info {
-	width: fit-content;
+	width: auto;
 	padding: 20px 15px;
 	text-decoration: none;
 	color: white;
@@ -466,7 +466,7 @@ footer {
 }
 
 #actions a.get_report {
-	width: fit-content;
+	width: auto;
 	padding: 20px 15px;
 	text-decoration: none;
 	color: white;
@@ -479,7 +479,7 @@ footer {
 }
 
 #actions a.share {
-	width: fit-content;
+	width: auto;
 	padding: 20px 15px;
 	text-decoration: none;
 	color: white;
@@ -1398,14 +1398,14 @@ section#embedPanel {
 .dropdown-content a:hover {color: #707070;}
 
 #actions2 a#facebook {
-	width: fit-content;
+	width: auto;
 	padding: 20px 15px;
 	top:60px;
 	position:relative; top:0px;
 }
 
 #actions2 a#twitter {
-	width: fit-content;
+	width: auto;
 	padding: 20px 15px;
 	top:60px;
 	position:relative; top:0px;
