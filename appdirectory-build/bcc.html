@@ -39,26 +39,84 @@
     <![endif]-->
     <script data-main="resources/js/bcc_app" src="resources/js/require.js"></script>
 
+<script>
+
+function resizeMap() {
+        var MapDim = Math.max(240,Math.min(400,0.5*document.getElementById('float-clocks').clientHeight)) + "px";
+	    var yourImg = document.getElementById('picture_map');
+		yourImg.style.height = MapDim;
+}
+
+function hover(element) {
+  element.setAttribute('src', 'resources/img/map2_hover.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'resources/img/map2.png');
+}
+
+function hoverfb(element) {
+  element.setAttribute('src', 'resources/img/share/bt_fb_hover.svg');
+}
+
+function unhoverfb(element) {
+  element.setAttribute('src', 'resources/img/share/bt_fb.svg');
+}
+
+function hovertwitter(element) {
+  element.setAttribute('src', 'resources/img/share/bt_twitter_hover.svg');
+}
+
+function unhovertwitter(element) {
+  element.setAttribute('src', 'resources/img/share/bt_twitter.svg');
+}
+
+var pic = new Image();
+pic.src="resources/img/map2_hover.png";
+
+var pic2 = new Image();
+pic2.src="resources/img/share/bt_fb_hover.svg";
+
+var pic3 = new Image();
+pic3.src="resources/img/share/bt_twitter_hover.svg";
+
+
+   
+</script> 
+
+
+
 </head>
 
 <body>
+
+
 <div id="upperDiv">
     <header id='title' class='header'>
         <h1>Business Cycle Clock</h1>
     </header>
     <div class="upperDetails">
-        <aside id="actions">
-            <a class="info" href="javascript:showInfo();" title="Info" data-i18n="[title]show_info_button"></a>
-            <a class="lng_change lngtooltip language-en" title="change language"
-               data-i18n="[title]change_language_button"></a>
-            <a class="share sharetooltip" title="share_button" data-i18n="[title]share_button"></a>
-            <a class="embed" href="javascript:showEmbedPanel();" title="Embed" data-i18n="[title]embed_header"></a>
+        <aside id="actions"> 
+            <a class="info" href="javascript:showInfo();" title="Info" data-i18n="[title]show_info_button"><span style="font-size:12pt" data-i18n="show_info_label">Information</span></a>
+            <!--<a class="share sharetooltip" title="share_button" data-i18n="[title]share_button"><span style="font-size:12pt" data-i18n="share_button">Share</span></a>-->
+            <a class="embed" href="javascript:showEmbedPanel();" title="Embed" data-i18n="[title]embed_header"><span style="font-size:12pt" data-i18n="embed_header_label">Embed</span></a>
             <a class="get_report" href="javascript:showReportGenerator();" title="get report"
-               data-i18n="[title]get_report_button"></a>
+               data-i18n="[title]get_report_button"><span style="font-size:12pt" data-i18n="get_report_label">PDF</span></a>
+			<span class="dropdown" style="font-size:12pt"> <span data-i18n="current_language">English</span>
+			  <div class="dropdown-content">
+				<a href="javascript:changeLanguage('en');" style="font-size:12pt">English</a>
+				<a href="javascript:changeLanguage('fr');" style="font-size:12pt">Français</a>
+				<a href="javascript:changeLanguage('de');" style="font-size:12pt">Deutsch</a>
+			  </div>
+			</span>
         </aside>
+		<aside id="actions2"> 
+		<a id="facebook" onclick="return fbs_click();"  onmouseover="hoverfb(fb_logo);" onmouseout="unhoverfb(fb_logo);"><img src="resources/img/share/bt_fb.svg" alt="facebook" id="fb_logo"></a>
+		<a id="twitter" onclick="return twitter_click();" onmouseover="hovertwitter(twitter_logo);" onmouseout="unhovertwitter(twitter_logo);"><img src="resources/img/share/bt_twitter.svg" alt="twitter" id="twitter_logo"></a>
         <a id="logoEurostat" href="http://ec.europa.eu/eurostat/" title="Eurostat" target="_blank">
             <img src="resources/img/logo.png" alt="eurostat logo"/>
         </a>
+		</aside> 
     </div>
 </div>
 <div id="noJS" class="pre_loading">
@@ -74,84 +132,90 @@
 </div>
 <script type="application/javascript">
     document.getElementById('noJS').style.display = 'none';
-    document.getElementById('loading').style.display = 'block';
+    document.getElementById('loading').style.display = 'block';  
 </script>
 <div id="main_content">
     <div id="bcc_view" class="alt_view">
         <div id="topDiv" class="on_script_load">
-            <div class="tool-bar">
-                <button id="gotomapview_button" class="settings" data-i18n="[title]see_map" title="See on a map"
-                        onclick="goToMapView();">
-                    <img class="settingsIcon" src="resources/img/map.png" alt="settings"/>
-                    <span data-i18n="see_map">See on a map</span>
-                </button>
-            </div>
-            <section id='playerClock' class="timerPlayer">
-                <img class="playerControl previous_quarter selectable"
-                     src="resources/img/button_white_step_backward.png" alt="go to start" title="Go to start"
-                     onclick="bcc.timer.backToStart()" data-i18n="[title]go_to_start;[alt]go_to_start"/>
-                <div class="playerControl pause selectable selected" alt="pause" title="Pause"
-                     onclick="bcc.timer.pause()" data-i18n="[title]pause;[alt]pause"></div>
-                <div class="playerControl play selectable" alt="play" title="Play" onclick="bcc.timer.goForward(true);"
-                     data-i18n="[title]play;[alt]play"></div>
-                <img class="playerControl next_quarter selectable" src="resources/img/button_white_step_forward.png"
-                     alt="go to end" title="Go to end" onclick="bcc.timer.goToEnd()"
-                     data-i18n="[title]go_to_end;[alt]go_to_end"/>
-                <div>
-                    <button id="settings_button" class="settings" data-i18n="[title]select_range" title="settings"
-                            onclick="toggleClockTimeSelector()">
-                        <img class="settingsIcon" src="resources/img/calendar.png" alt="period"
-                             data-i18n="[alt]period"/>
-                        <span data-i18n="select_range">Select the time period</span>
-                    </button>
-                    <div id="range_select" style="display: none">
-                        <div value="5" label="five year" data-i18n="[label]five_year;five_year"
-                             onclick="applyCustomRangeSelection(this, '5');">five year
-                        </div>
-                        <div value="10" label="ten year" data-i18n="[label]ten_year;ten_year"
-                             onclick="applyCustomRangeSelection(this, '10');">ten year
-                        </div>
-                        <div value="15" class="selected" label="15 year" data-i18n="[label]15_year;15_year"
-                             onclick="applyCustomRangeSelection(this, '15');">15 year
-                        </div>
-                        <div value="all" label="all period available"
-                             data-i18n="[label]all_period_available;all_period_available"
-                             onclick="applyCustomRangeSelection(this, 'all');">all period available
-                        </div>
-                        <div value="custom" label="custom" data-i18n="[label]custom;custom"
-                             onclick="applyCustomRangeSelection(this, 'custom')">custom
-                        </div>
-                    </div>
-                    <select id="range_selector" style="display: none">
-                        <option value="5"></option>
-                        <option value="10"></option>
-                        <option value="15" selected="selected"></option>
-                        <option value="all"></option>
-                        <option value="custom"></option>
-                    </select>
-                </div>
-            </section>
-            <nav id='clocks' class='tile'>
-                <ul id="navlist">
-                    <li id="addCountry" class="hover-highlight">
-                        <div id="addCountrySelector">
-                            <select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
-                                    onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1);"
-                                    onblur="this.size=0;" size="0">
-                                <option value="" selected="selected" data-i18n="add_country_button">Add a country
-                                </option>
-                            </select>
-                        </div>
-                        <div id="addCountryIcon"
-                             onclick="simulateMouseEvent(document.getElementById('addCountrySelect'), 'mousedown');">
-                            <div id="verticalIconLine"></div>
-                            <div id="horizontalIconLine"></div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
+			<div class="parent-float">
+				<div class="float-child" id="float-container">
+					<div class="tool-bar">
+						<button id="gotomapview_button" class="settings" data-i18n="[title]see_map" title="See on a map"
+								onclick="goToMapView();" onmouseover="hover(picture_map);" onmouseout="unhover(picture_map);">
+							<img class="settingsIcon" src="resources/img/map2.png" alt="settings" id="picture_map"/>
+							<span data-i18n="see_map">See on a map</span>
+						</button>
+					</div>
+					<section id='playerClock' class="timerPlayer">
+						<img class="playerControl previous_quarter selectable"
+							 src="resources/img/button_white_step_backward.png" alt="go to start" title="Go to start"
+							 onclick="bcc.timer.backToStart()" data-i18n="[title]go_to_start;[alt]go_to_start"/>
+						<div class="playerControl pause selectable selected" alt="pause" title="Pause"
+							 onclick="bcc.timer.pause()" data-i18n="[title]pause;[alt]pause"></div>
+						<div class="playerControl play selectable" alt="play" title="Play" onclick="bcc.timer.goForward(true);"
+							 data-i18n="[title]play;[alt]play"></div>
+						<img class="playerControl next_quarter selectable" src="resources/img/button_white_step_forward.png"
+							 alt="go to end" title="Go to end" onclick="bcc.timer.goToEnd()"
+							 data-i18n="[title]go_to_end;[alt]go_to_end"/>
+						<div>
+							<button id="settings_button" class="settings" data-i18n="[title]select_range" title="settings"
+									onclick="toggleClockTimeSelector()">
+								<img class="settingsIcon" src="resources/img/calendar.png" alt="period"
+									 data-i18n="[alt]period"/>
+								<span data-i18n="select_range">Select the time period</span>
+							</button>
+							<div id="range_select" style="display: none">
+								<div value="5" label="five year" data-i18n="[label]five_year;five_year"
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, '5');">five year
+								</div>
+								<div value="10" label="ten year" data-i18n="[label]ten_year;ten_year"
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, '10');">ten year
+								</div>
+								<div value="15" class="selected" label="15 year" data-i18n="[label]15_year;15_year"
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, '15');">15 year
+								</div>
+								<div value="all" label="all period available"
+									 data-i18n="[label]all_period_available;all_period_available"
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, 'all');">all period available
+								</div>
+								<div value="custom" label="custom" data-i18n="[label]custom;custom"
+									 onclick="toggleClockTimeSelector(); applyCustomRangeSelection(this, 'custom')">custom
+								</div>
+							</div>
+							<select id="range_selector" style="display: none">
+								<option value="5"></option>
+								<option value="10"></option>
+								<option value="15" selected="selected"></option>
+								<option value="all"></option>
+								<option value="custom"></option>
+							</select>
+						</div>
+					</section>
+				</div>
+				<div class= "float-child2" id="float-clocks">
+				<nav id='clocks' class='tile'>
+					<ul id="navlist">
+						<li id="addCountry" class="hover-highlight">
+							<div id="addCountrySelector">
+								<select id="addCountrySelect" onmousedown="if(this.options.length>11){this.size=15;}"
+										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1); resizeMap();"
+										onblur="this.size=0;" size="0">
+									<option value="" selected="selected" data-i18n="add_country_button">Add a country
+									</option>
+								</select>
+							</div>
+							<div id="addCountryIcon"
+								 onclick="simulateMouseEvent(document.getElementById('addCountrySelect'), 'mousedown');">
+								<div id="verticalIconLine"></div>
+								<div id="horizontalIconLine"></div>
+							</div>
+						</li>
+					</ul>
+				</nav>
+				</div>
+			</div>
         </div>
-        <article class="tile on_script_load" id='countriesChartContainer'>
+        <div class="tile on_script_load" id='countriesChartContainer'>
             <h2 id="countrieschart_title" data-i18n="chart_gdp_gc_title">chart_gdp_gc_title</h2>
             <div id="countriesChart"></div>
 
@@ -203,7 +267,7 @@
                             onclick="$('#chartHelpPanel').show(); bcc.cycleClockHelp.pie.flush();"/>
                 </div>
             </div>
-        </article>
+        </div>
         <div class="bottomDiv" class="on_script_load">
             <div>
                 <span data-i18n="[html]cookies_policy"></span>
@@ -220,7 +284,7 @@
             <button id="gotobccview_button" class="settings" data-i18n="[title]see_chat_clocks"
                     title="See chart and clocks" onclick="goToBCCView();">
                 <img class="settingsIcon" src="resources/img/chart_icon.png" alt="chart"/>
-                <span data-i18n="see_chat_clocks">See chart and clocks</span>
+                <span data-i18n="see_chat_clocks" id="BackToMainPage">See chart and clocks</span>
             </button>
             <div id="controls" class="on_script_load">
                 <div id="mapPlayer" class="violet_tile"></div>
