@@ -253,7 +253,6 @@ div#ea_clock {
 .country_info {
     max-width: 300px;
     text-align: left;
-	z-index:-5;
 }
 
 .country_info h4 {
