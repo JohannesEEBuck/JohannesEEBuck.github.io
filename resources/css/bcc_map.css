@@ -280,6 +280,7 @@ div#ea_clock {
     margin-right: 10px;
     border-right: solid 2px #777777;
     padding-right: 5px;
+	z-index: -1;
 }
 
 div#ea_clock {
