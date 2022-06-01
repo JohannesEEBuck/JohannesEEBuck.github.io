@@ -80,7 +80,7 @@ div#MonthPicker_monthpicker {
     margin: 5px;
     /*    border-radius: 30px;*/
     vertical-align: middle;
-    opacity: 1;
+    opacity: 0.8;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -253,6 +253,7 @@ div#ea_clock {
 .country_info {
     max-width: 300px;
     text-align: left;
+	z-index:-5;
 }
 
 .country_info h4 {
@@ -280,7 +281,6 @@ div#ea_clock {
     margin-right: 10px;
     border-right: solid 2px #777777;
     padding-right: 5px;
-	z-index: -1;
 }
 
 div#ea_clock {
