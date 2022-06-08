@@ -197,7 +197,7 @@ pic3.src="resources/img/share/bt_twitter_hover.svg";
 					<ul id="navlist">
 						<li id="addCountry" class="hover-highlight">
 							<div id="addCountrySelector">
-								<select id="addCountrySelect" onclick="if(this.options.length>11){this.size=15;}"
+								<select id="addCountrySelect" onpointerdown="if(this.options.length>11){this.size=15;}"
 										onchange="addCountry(this.value); setTimeout(function(){this.size=0;}.bind(this),1); resizeMap();"
 										onblur="this.size=0;" size="0">
 									<option value="" selected="selected" data-i18n="add_country_button">Add a country
