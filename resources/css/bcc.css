@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    /*min-width: 1200px;*/
+    min-width: 1200px;
     /*background: #BCDFF6;*/
     background: #4073AF; /*206ca2 73b2df  206ca2*/
     /*background: linear-gradient(180deg, #BCDFF6 0%, #FFFFFF 100%) no-repeat;*/
@@ -1409,10 +1409,4 @@ section#embedPanel {
 	padding: 20px 15px;
 	top:60px;
 	position:relative; top:0px;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: green;
-  }
 }
