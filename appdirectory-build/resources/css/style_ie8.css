@@ -1,7 +1,0 @@
-.jqplot-canvasOverlay-label {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    top:20px!important;
-}
-.playerControl.fastforward, .playerControl.fastbackward {
-    display: none;
-}
